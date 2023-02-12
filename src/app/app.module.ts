@@ -16,7 +16,7 @@ import { RecoverAchievementsComponent } from './components/recover-achievements/
     RecoverAchievementsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,

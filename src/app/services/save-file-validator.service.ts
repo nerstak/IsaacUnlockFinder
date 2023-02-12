@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
-import {IsaacSaveFile} from "../types/IsaacSaveFile";
 import {KaitaiStream} from "kaitai-struct";
+import IsaacSaveFile from "../lib/IsaacSaveFile";
 
 @Injectable({
   providedIn: 'root'

@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Output} from '@angular/core';
 import {SaveFileValidatorService} from "../../services/save-file-validator.service";
-import {AchievementsChunk} from "../../types/IsaacSaveFile";
+import {AchievementsChunk} from "../../lib/IsaacSaveFile";
 
 @Component({
   selector: 'app-uploader',

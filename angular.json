@@ -18,7 +18,7 @@
               "path": "./custom-webpack.config.js",
               "replaceDuplicatePlugins": true
             },
-            "outputPath": "dist/isaac-unlock-finder",
+            "outputPath": "dist/IsaacUnlockFinder/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -98,6 +98,59 @@
             ],
             "scripts": []
           }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/IsaacUnlockFinder/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media"
+            },
+            "development": {
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false,
+              "vendorChunk": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "IsaacUnlockFinder:build:development",
+              "serverTarget": "IsaacUnlockFinder:server:development"
+            },
+            "production": {
+              "browserTarget": "IsaacUnlockFinder:build:production",
+              "serverTarget": "IsaacUnlockFinder:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "IsaacUnlockFinder:build:production",
+              "serverTarget": "IsaacUnlockFinder:server:production"
+            },
+            "development": {
+              "browserTarget": "IsaacUnlockFinder:build:development",
+              "serverTarget": "IsaacUnlockFinder:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

@@ -24,14 +24,15 @@
       "ES2022",
       "dom"
     ],
-//    "paths": {
-//      "zlib": [ "./node_modules/browserify-zlib" ]
-//    }
+    "typeRoots": [
+      "./src/app/types",
+      "node_modules/@@types"
+    ],
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
 }
