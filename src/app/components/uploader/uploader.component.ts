@@ -25,8 +25,8 @@ export class UploaderComponent {
       reader.onload = (e: any) => {
         try {
           const save = this.saveFileValidator.verify(e.target);
-          this.achievementsEmitter.emit((save.chunks[1].body as AchievementsChunk).achievements)
-          console.log("DONE");
+          const achievements = (save.chunks[ChunkType.ACHIEVEMENTS - 1].body as AchievementsChunk).achievements;
+          this.achievementsEmitter.emit(achievements)
         } catch (err) {
           const errTxt = err as string;
           console.log(err);
