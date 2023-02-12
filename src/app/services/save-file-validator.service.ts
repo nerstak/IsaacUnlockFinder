@@ -1,4 +1,6 @@
 import {Injectable} from '@angular/core';
+import {IsaacSaveFile} from "../types/IsaacSaveFile";
+import {KaitaiStream} from "kaitai-struct";
 
 @Injectable({
   providedIn: 'root'
@@ -8,16 +10,16 @@ import {Injectable} from '@angular/core';
  * Check out this link for the original source code: https://github.com/Zamiell/isaac-save-viewer/blob/f073d8f2599284ff7c465f1565f44840dc5f8c3d/src/readFile.ts
  */
 export class SaveFileValidatorService {
-  HEADER_LENGTH = 16;
+  protected HEADER_LENGTH = 16;
 
 
   // Run files are ones that contain data for a run that has been exited mid-way through.
   // e.g. gamestate1.dat
-  REBIRTH_RUN_HEADER = "ISAACNG_GSR0018";
-  AFTERBIRTH_RUN_HEADER = "ISAACNG_GSR0034";
-  AFTERBIRTH_PLUS_RUN_HEADER = "ISAACNG_GSR0065";
-  REPENTANCE_RUN_HEADER = "ISAACNG_GSR0142";
-  RUN_HEADERS = new Set([
+  protected REBIRTH_RUN_HEADER = "ISAACNG_GSR0018";
+  protected AFTERBIRTH_RUN_HEADER = "ISAACNG_GSR0034";
+  protected AFTERBIRTH_PLUS_RUN_HEADER = "ISAACNG_GSR0065";
+  protected REPENTANCE_RUN_HEADER = "ISAACNG_GSR0142";
+  protected RUN_HEADERS = new Set([
     this.REBIRTH_RUN_HEADER,
     this.AFTERBIRTH_RUN_HEADER,
     this.AFTERBIRTH_PLUS_RUN_HEADER,
@@ -26,14 +28,14 @@ export class SaveFileValidatorService {
 
   // Persistent files are ones that contain data for the entire save file.
   // e.g. persistentgamedata1.dat
-  REBIRTH_PERSISTENT_HEADER = "ISAACNGSAVE06R";
-  AFTERBIRTH_PERSISTENT_HEADER = "ISAACNGSAVE08R";
-  AFTERBIRTH_PLUS_AND_REPENTANCE_PERSISTENT_HEADER = "ISAACNGSAVE09R";
+  protected REBIRTH_PERSISTENT_HEADER = "ISAACNGSAVE06R";
+  protected AFTERBIRTH_PERSISTENT_HEADER = "ISAACNGSAVE08R";
+  protected AFTERBIRTH_PLUS_AND_REPENTANCE_PERSISTENT_HEADER = "ISAACNGSAVE09R";
 
 
   // Afterbirth+ actually has 403 achievements, but the size of the array is 404 because there is no
   // 0th achievement.
-  NUM_AFTERBIRTH_PLUS_ACHIEVEMENTS = 404;
+  protected NUM_AFTERBIRTH_PLUS_ACHIEVEMENTS = 404;
 
   constructor() {
   }
@@ -44,7 +46,7 @@ export class SaveFileValidatorService {
    */
   verify(fr: FileReader): IsaacSaveFile {
     const arrayBuffer: string | ArrayBuffer | null = fr.result;
-    if (arrayBuffer === null || typeof arrayBuffer === "string") {
+    if (arrayBuffer == undefined || typeof arrayBuffer === "string") {
       throw new Error("The file array buffer was an unknown type.");
     }
 
@@ -68,7 +70,7 @@ export class SaveFileValidatorService {
    *
    * @param arrayBuffer
    */
-  verifyHeader(arrayBuffer: ArrayBuffer) {
+  protected verifyHeader(arrayBuffer: ArrayBuffer) {
     const headerBytes = arrayBuffer.slice(0, this.HEADER_LENGTH);
     const header = this.arrayBufferToString(headerBytes);
 
@@ -97,7 +99,7 @@ export class SaveFileValidatorService {
    * Convert an ArrayBuffer to string
    * @param arrayBuffer ArrayBuffer to convert
    */
-  arrayBufferToString(arrayBuffer: ArrayBuffer) {
+  protected arrayBufferToString(arrayBuffer: ArrayBuffer) {
     const textDecoder = new TextDecoder("utf-8");
     const string = textDecoder.decode(arrayBuffer).trim();
     return this.removeNullCharacters(string).trim();
@@ -107,7 +109,7 @@ export class SaveFileValidatorService {
    * Remove Null Characters in a string
    * @param string String to clean
    */
-  removeNullCharacters(string: string) {
+  protected removeNullCharacters(string: string) {
     return string.replace("\0", "");
   }
 
@@ -119,7 +121,7 @@ export class SaveFileValidatorService {
    *
    * @param isaacSaveFile
    */
-  verifyNotAfterbirthPlus(isaacSaveFile: IsaacSaveFile) {
+  protected verifyNotAfterbirthPlus(isaacSaveFile: IsaacSaveFile) {
     // eslint-disable-next-line isaacscript/strict-enums
     const chunk = isaacSaveFile.chunks[ChunkType.ACHIEVEMENTS - 1];
     if (chunk === undefined) {
@@ -135,7 +137,7 @@ export class SaveFileValidatorService {
    * Throw customized error
    * @param gameType Recognized save file game
    */
-  errorWrongGameType(gameType: string) {
+  protected errorWrongGameType(gameType: string) {
     throw new Error(
       `That is a save file for <i>The Binding of Isaac: ${gameType}</i>.<br />This site only supports save files for <i>The Binding of Isaac: Repentance</i>.`,
     );

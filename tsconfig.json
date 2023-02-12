@@ -2,6 +2,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "allowJs": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -22,7 +23,10 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+//    "paths": {
+//      "zlib": [ "./node_modules/browserify-zlib" ]
+//    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

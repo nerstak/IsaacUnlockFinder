@@ -7,11 +7,13 @@ import { UploaderComponent } from './components/uploader/uploader.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from "@angular/material/card";
 import {MatButtonModule} from "@angular/material/button";
+import { RecoverAchievementsComponent } from './components/recover-achievements/recover-achievements.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UploaderComponent
+    UploaderComponent,
+    RecoverAchievementsComponent
   ],
   imports: [
     BrowserModule,

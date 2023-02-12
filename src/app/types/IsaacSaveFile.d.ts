@@ -1,3 +1,5 @@
+import {KaitaiStream} from "kaitai-struct";
+
 declare class IsaacSaveFile {
   header: SaveHeader;
   chunks: Chunk[];
