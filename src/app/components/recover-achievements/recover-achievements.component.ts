@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 
 @Component({
   selector: 'app-recover-achievements',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./recover-achievements.component.css']
 })
 export class RecoverAchievementsComponent {
+  @Output()
+  achievementsEmitter = new EventEmitter<number[]>();
+
+  update(achievements: number[]) {
+    this.achievementsEmitter.emit(achievements);
+  }
 
 }
