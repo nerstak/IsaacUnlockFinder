@@ -9,6 +9,8 @@ import {MatCardModule} from "@angular/material/card";
 import {MatButtonModule} from "@angular/material/button";
 import { RecoverAchievementsComponent } from './components/recover-achievements/recover-achievements.component';
 import { AchievementsAnalysisComponent } from './components/achievements-analysis/achievements-analysis.component';
+import {MatDividerModule} from "@angular/material/divider";
+import {MatToolbarModule} from "@angular/material/toolbar";
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { AchievementsAnalysisComponent } from './components/achievements-analysi
     AchievementsAnalysisComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    BrowserModule.withServerTransition({appId: 'serverApp'}),
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDividerModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

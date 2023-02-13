@@ -1,1 +1,29 @@
-<app-recover-achievements (achievementsEmitter)="analyze($event)"></app-recover-achievements>
+<div class="bg-[#673ab7] w-screen grow flex flex-col items-center justify-evenly">
+  <mat-toolbar color="primary">
+    <span>Isaac Unlock Finder</span>
+  </mat-toolbar>
+
+  <div *ngIf="!loaded" class="h-screen grow flex items-center justify-evenly ">
+    <app-recover-achievements  (achievementsEmitter)="analyze($event)"></app-recover-achievements>
+  </div>
+
+  <div *ngIf="loaded" class="flex flex-col justify-around gap-2">
+    <mat-card *ngFor="let u of unlockables">
+      <mat-card-header>
+        <mat-card-title>
+          {{u.Id}} - {{u.Name}}
+        </mat-card-title>
+        <mat-card-subtitle>
+          {{u.Description}}
+        </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        {{u.UnlockMethod}}
+        <mat-divider *ngIf="u.Link"></mat-divider>
+      </mat-card-content>
+      <mat-card-actions align="end">
+        <a mat-button *ngIf="u.Link" href="https://bindingofisaacrebirth.fandom.com/wiki/{{u.Link}}">Wiki Page</a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
