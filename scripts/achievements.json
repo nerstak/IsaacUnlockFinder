@@ -6,12 +6,12 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Have 7 or more Red Heart Containers at one time",
 		"RequiredForAchievements": [
+			"50",
 			"71",
 			"109",
 			"168",
 			"20",
-			"45",
-			"50"
+			"45"
 		]
 	},
 	{
@@ -21,12 +21,12 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Hold 55 Coins at one time",
 		"RequiredForAchievements": [
-			"51",
-			"75",
-			"110",
 			"171",
 			"21",
-			"46"
+			"46",
+			"51",
+			"75",
+			"110"
 		]
 	},
 	{
@@ -52,39 +52,39 @@
 		"Description": "Chapter 4 - The Womb unlocked.",
 		"UnlockMethod": "Defeat Mom",
 		"RequiredForAchievements": [
-			"40",
-			"9",
-			"105",
-			"133",
-			"168",
-			"110",
-			"114",
-			"112",
-			"169",
-			"177",
 			"18",
-			"88",
-			"81",
-			"157",
-			"83",
+			"172",
+			"130",
+			"133",
+			"115",
+			"43",
 			"70",
 			"167",
-			"127",
-			"3",
-			"117",
-			"130",
-			"173",
-			"45",
-			"109",
 			"46",
-			"175",
+			"157",
+			"9",
+			"3",
+			"114",
+			"177",
+			"127",
+			"173",
+			"109",
+			"168",
+			"110",
 			"15",
-			"43",
-			"44",
 			"171",
-			"56",
-			"115",
-			"172"
+			"105",
+			"40",
+			"88",
+			"45",
+			"44",
+			"83",
+			"112",
+			"117",
+			"175",
+			"81",
+			"169",
+			"56"
 		]
 	},
 	{
@@ -94,41 +94,41 @@
 		"Description": "The horsemen are loose.",
 		"UnlockMethod": "Defeat Mom",
 		"RequiredForAchievements": [
-			"88",
-			"81",
 			"43",
-			"167",
+			"45",
+			"110",
+			"172",
+			"7",
+			"109",
+			"46",
+			"171",
+			"44",
+			"9",
+			"127",
+			"173",
+			"114",
+			"112",
+			"177",
+			"18",
+			"372",
+			"81",
 			"169",
 			"117",
 			"40",
-			"15",
-			"127",
-			"112",
-			"70",
-			"44",
-			"157",
-			"177",
-			"18",
-			"3",
-			"130",
-			"45",
+			"167",
 			"168",
-			"114",
 			"105",
-			"172",
-			"7",
-			"171",
-			"56",
-			"83",
-			"133",
 			"175",
+			"157",
+			"130",
+			"133",
+			"88",
+			"70",
+			"56",
 			"115",
-			"372",
-			"9",
-			"173",
-			"109",
-			"46",
-			"110"
+			"83",
+			"15",
+			"3"
 		]
 	},
 	{
@@ -138,41 +138,41 @@
 		"Description": "Unlocked a new item. (Also unlocks the Ball of Bandages)",
 		"UnlockMethod": "Defeat Mom",
 		"RequiredForAchievements": [
-			"130",
-			"168",
-			"169",
-			"133",
-			"70",
-			"127",
-			"81",
-			"157",
-			"115",
-			"105",
-			"117",
-			"40",
-			"88",
-			"109",
-			"171",
-			"172",
-			"83",
-			"144",
-			"175",
-			"167",
-			"114",
-			"173",
-			"43",
-			"9",
-			"56",
-			"177",
-			"46",
-			"3",
 			"19",
-			"45",
-			"110",
-			"44",
-			"112",
+			"46",
 			"18",
-			"15"
+			"15",
+			"144",
+			"81",
+			"70",
+			"9",
+			"110",
+			"114",
+			"45",
+			"171",
+			"44",
+			"177",
+			"43",
+			"109",
+			"172",
+			"175",
+			"88",
+			"169",
+			"56",
+			"173",
+			"112",
+			"105",
+			"133",
+			"40",
+			"83",
+			"127",
+			"117",
+			"130",
+			"167",
+			"168",
+			"3",
+			"157",
+			"115"
 		]
 	},
 	{
@@ -188,7 +188,7 @@
 		"Link": "Transcendence",
 		"Name": "A Noose",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 3 times",
+		"UnlockMethod": "Defeat Mom's Heart 3 times",
 		"RequiredForAchievements": [
 			"139"
 		]
@@ -206,7 +206,7 @@
 		"Link": "A_Quarter",
 		"Name": "A Quarter",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 8 times",
+		"UnlockMethod": "Defeat Mom's Heart 8 times",
 		"RequiredForAchievements": [
 			"11",
 			"162"
@@ -217,7 +217,7 @@
 		"Link": "Dr._Fetus",
 		"Name": "A Fetus in a Jar",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 9 times",
+		"UnlockMethod": "Defeat Mom's Heart 9 times",
 		"RequiredForAchievements": [
 			"32"
 		]
@@ -233,19 +233,19 @@
 	{
 		"Id": "13",
 		"Link": "Monstro%27s_Tooth",
-		"Name": "Monstro\u0026#39;s Tooth",
+		"Name": "Monstro's Tooth",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Beat Chapter 1",
 		"RequiredForAchievements": [
+			"86",
 			"14",
-			"37",
-			"86"
+			"37"
 		]
 	},
 	{
 		"Id": "14",
 		"Link": "Little_Chubby",
-		"Name": "Lil\u0026#39; Chubby",
+		"Name": "Lil' Chubby",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Beat Chapter 2",
 		"RequiredForAchievements": [
@@ -257,7 +257,7 @@
 	{
 		"Id": "15",
 		"Link": "Loki%27s_Horns",
-		"Name": "Loki\u0026#39;s Horns",
+		"Name": "Loki's Horns",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Lokii",
 		"RequiredForAchievements": [
@@ -299,7 +299,7 @@
 		"Link": "Super_Bandage",
 		"Name": "A Bandage",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Make a Super Bandage Girl by picking up 4 copies of Ball of Bandages in one run; see Unlocking Super Meat Boy \u0026amp; Super Bandage Girl",
+		"UnlockMethod": "Make a Super Bandage Girl by picking up 4 copies of Ball of Bandages in one run; see Unlocking Super Meat Boy \u0026 Super Bandage Girl",
 		"RequiredForAchievements": null
 	},
 	{
@@ -363,7 +363,7 @@
 		"Link": "The_Halo",
 		"Name": "A Halo",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Defeat Mom, Mom\u0026#39;s Heart, or It Lives! using The Bible",
+		"UnlockMethod": "Defeat Mom, Mom's Heart, or It Lives! using The Bible",
 		"RequiredForAchievements": null
 	},
 	{
@@ -395,7 +395,7 @@
 		"Link": "The_Parasite",
 		"Name": "The Parasite",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Pick up any 2 of the following items in a single run: Bob\u0026#39;s Rotten Head, Dead Cat, Cricket\u0026#39;s Head, and Tammy\u0026#39;s Head ( Any 2 items that have the \u0026#39;dead\u0026#39; item tag)",
+		"UnlockMethod": "Pick up any 2 of the following items in a single run: Bob's Rotten Head, Dead Cat, Cricket's Head, and Tammy's Head ( Any 2 items that have the 'dead' item tag)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -403,16 +403,16 @@
 		"Link": "%3F%3F%3F_(Character)",
 		"Name": "???",
 		"Description": "Unlocked a new character.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 10 times",
+		"UnlockMethod": "Defeat Mom's Heart 10 times",
 		"RequiredForAchievements": [
-			"174",
-			"34",
 			"160",
 			"29",
 			"48",
 			"73",
 			"113",
-			"114"
+			"114",
+			"174",
+			"34"
 		]
 	},
 	{
@@ -420,7 +420,7 @@
 		"Link": "",
 		"Name": "Everything Is Terrible!!!",
 		"Description": "The game just got harder!",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 5 times",
+		"UnlockMethod": "Defeat Mom's Heart 5 times",
 		"RequiredForAchievements": [
 			"140"
 		]
@@ -429,14 +429,14 @@
 		"Id": "34",
 		"Link": "It_Lives",
 		"Name": "It Lives!",
-		"Description": "Your future\u0026#39;s past waits.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 11 times",
+		"Description": "Your future's past waits.",
+		"UnlockMethod": "Defeat Mom's Heart 11 times",
 		"RequiredForAchievements": null
 	},
 	{
 		"Id": "35",
 		"Link": "Mom%27s_Contacts",
-		"Name": "Mom\u0026#39;s Contact",
+		"Name": "Mom's Contact",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Obtain three Yes Mother? items in one run",
 		"RequiredForAchievements": null
@@ -476,7 +476,7 @@
 	{
 		"Id": "40",
 		"Link": "",
-		"Name": "Mama\u0026#39;s Boy",
+		"Name": "Mama's Boy",
 		"Description": "Beat womb without taking damage.",
 		"UnlockMethod": "Beat Chapter 4 without taking damage",
 		"RequiredForAchievements": null
@@ -494,21 +494,21 @@
 		"Link": "Eve",
 		"Name": "Eve",
 		"Description": "Unlocked a new character.",
-		"UnlockMethod": "Don\u0026#39;t pick up any Hearts for 2 floors in a row",
+		"UnlockMethod": "Don't pick up any Hearts for 2 floors in a row",
 		"RequiredForAchievements": [
+			"44",
+			"53",
+			"76",
 			"157",
 			"111",
 			"112",
-			"169",
-			"44",
-			"53",
-			"76"
+			"169"
 		]
 	},
 	{
 		"Id": "43",
 		"Link": "Mom%27s_Knife",
-		"Name": "Mom\u0026#39;s Knife",
+		"Name": "Mom's Knife",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Satan as Isaac",
 		"RequiredForAchievements": null
@@ -624,25 +624,25 @@
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Isaac 5 times",
 		"RequiredForAchievements": [
-			"77.1",
-			"55",
-			"131",
-			"68",
 			"128",
+			"77.1",
+			"53",
+			"131",
+			"113",
+			"157",
+			"55",
+			"118",
+			"68",
+			"49",
 			"50",
 			"75",
-			"118",
-			"123",
-			"49",
-			"113",
-			"53",
-			"157"
+			"123"
 		]
 	},
 	{
 		"Id": "58",
 		"Link": "Dad%27s_Key",
-		"Name": "Dad\u0026#39;s Key",
+		"Name": "Dad's Key",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Pick up both Key Pieces from the Angels in one run",
 		"RequiredForAchievements": null
@@ -688,7 +688,7 @@
 		"Link": "SMB_Super_Fan",
 		"Name": "SMB Super Fan",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Complete It\u0026#39;s in the Cards (challenge #14)",
+		"UnlockMethod": "Complete It's in the Cards (challenge #14)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -702,7 +702,7 @@
 	{
 		"Id": "65",
 		"Link": "Guppy%27s_Hair_Ball",
-		"Name": "Guppy\u0026#39;s Hairball",
+		"Name": "Guppy's Hairball",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Become Guppy",
 		"RequiredForAchievements": null
@@ -722,12 +722,12 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Complete 2 floors in a row without taking damage",
 		"RequiredForAchievements": [
-			"55",
 			"56",
 			"74",
 			"115",
 			"177",
-			"54"
+			"54",
+			"55"
 		]
 	},
 	{
@@ -749,7 +749,7 @@
 	{
 		"Id": "70",
 		"Link": "Isaac%27s_Head",
-		"Name": "Isaac\u0026#39;s Head",
+		"Name": "Isaac's Head",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete the Boss Rush as Isaac",
 		"RequiredForAchievements": null
@@ -757,7 +757,7 @@
 	{
 		"Id": "71",
 		"Link": "Maggy%27s_Faith",
-		"Name": "Maggy\u0026#39;s Faith",
+		"Name": "Maggy's Faith",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat The Lamb as Magdalene",
 		"RequiredForAchievements": null
@@ -765,7 +765,7 @@
 	{
 		"Id": "72",
 		"Link": "Judas%27_Tongue",
-		"Name": "Judas\u0026#39; Tongue",
+		"Name": "Judas' Tongue",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Satan as Judas",
 		"RequiredForAchievements": null
@@ -773,7 +773,7 @@
 	{
 		"Id": "73",
 		"Link": "%3F%3F%3F%27s_Soul",
-		"Name": "???\u0026#39;s Soul",
+		"Name": "???'s Soul",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat The Lamb as ???",
 		"RequiredForAchievements": null
@@ -781,7 +781,7 @@
 	{
 		"Id": "74",
 		"Link": "Samson%27s_Lock",
-		"Name": "Samson\u0026#39;s Lock",
+		"Name": "Samson's Lock",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat The Lamb as Samson",
 		"RequiredForAchievements": null
@@ -789,7 +789,7 @@
 	{
 		"Id": "75",
 		"Link": "Cain%27s_Eye",
-		"Name": "Cain\u0026#39;s Eye",
+		"Name": "Cain's Eye",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat ??? as Cain",
 		"RequiredForAchievements": null
@@ -797,7 +797,7 @@
 	{
 		"Id": "76",
 		"Link": "Eve%27s_Bird_Foot",
-		"Name": "Eve\u0026#39;s Bird Foot",
+		"Name": "Eve's Bird Foot",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Isaac as Eve",
 		"RequiredForAchievements": null
@@ -817,12 +817,12 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Make 3 Deals with the Devil in one run",
 		"RequiredForAchievements": [
-			"9",
-			"47",
-			"127",
 			"128",
 			"126",
-			"173"
+			"173",
+			"9",
+			"47",
+			"127"
 		]
 	},
 	{
@@ -832,12 +832,12 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Have 4 or more Soul Hearts at one time",
 		"RequiredForAchievements": [
-			"118",
-			"119",
 			"172",
 			"105",
 			"116",
-			"117"
+			"117",
+			"118",
+			"119"
 		]
 	},
 	{
@@ -847,25 +847,25 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Complete Chapter 4",
 		"RequiredForAchievements": [
+			"271",
+			"126",
 			"107",
-			"124",
-			"125",
+			"76",
+			"122",
 			"176",
+			"106",
+			"21",
+			"116",
+			"121",
+			"57",
+			"281",
 			"150",
 			"20",
 			"129",
-			"121",
-			"122",
-			"271",
-			"126",
-			"21",
-			"116",
+			"54",
 			"123",
-			"57",
-			"281",
-			"106",
-			"76",
-			"54"
+			"124",
+			"125"
 		]
 	},
 	{
@@ -873,15 +873,15 @@
 		"Link": "The_Lost",
 		"Name": "The Lost",
 		"Description": "Unlocked a new character.",
-		"UnlockMethod": " It\u0026#39;s complicated Die in a Sacrifice Room while holding Missing Poster",
+		"UnlockMethod": " It's complicated Die in a Sacrifice Room while holding Missing Poster",
 		"RequiredForAchievements": [
-			"130",
-			"131",
-			"132",
 			"133",
 			"156",
 			"175",
-			"129"
+			"129",
+			"130",
+			"131",
+			"132"
 		]
 	},
 	{
@@ -1047,7 +1047,7 @@
 	{
 		"Id": "103",
 		"Link": "Death%27s_Touch",
-		"Name": "Death\u0026#39;s Touch",
+		"Name": "Death's Touch",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete Waka Waka (challenge #17)",
 		"RequiredForAchievements": null
@@ -1071,7 +1071,7 @@
 	{
 		"Id": "106",
 		"Link": "Isaac%27s_Tears",
-		"Name": "Isaac\u0026#39;s Tears",
+		"Name": "Isaac's Tears",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Isaac as Isaac",
 		"RequiredForAchievements": null
@@ -1087,7 +1087,7 @@
 	{
 		"Id": "108",
 		"Link": "Judas%27_Shadow",
-		"Name": "Judas\u0026#39; Shadow",
+		"Name": "Judas' Shadow",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete the Boss Rush as Judas",
 		"RequiredForAchievements": null
@@ -1095,7 +1095,7 @@
 	{
 		"Id": "109",
 		"Link": "Maggy%27s_Bow",
-		"Name": "Maggy\u0026#39;s Bow",
+		"Name": "Maggy's Bow",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete the Boss Rush as Magdalene",
 		"RequiredForAchievements": null
@@ -1103,7 +1103,7 @@
 	{
 		"Id": "110",
 		"Link": "Cain%27s_Other_Eye",
-		"Name": "Cain\u0026#39;s Other Eye",
+		"Name": "Cain's Other Eye",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete the Boss Rush as Cain",
 		"RequiredForAchievements": null
@@ -1119,7 +1119,7 @@
 	{
 		"Id": "112",
 		"Link": "Eve%27s_Mascara",
-		"Name": "Eve\u0026#39;s Mascara",
+		"Name": "Eve's Mascara",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete the Boss Rush as Eve",
 		"RequiredForAchievements": null
@@ -1135,7 +1135,7 @@
 	{
 		"Id": "114",
 		"Link": "%3F%3F%3F%27s_Only_Friend",
-		"Name": "???\u0026#39;s Only Friend",
+		"Name": "???'s Only Friend",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete the Boss Rush as ???",
 		"RequiredForAchievements": null
@@ -1143,7 +1143,7 @@
 	{
 		"Id": "115",
 		"Link": "Samson%27s_Chains",
-		"Name": "Samson\u0026#39;s Chains",
+		"Name": "Samson's Chains",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete the Boss Rush as Samson",
 		"RequiredForAchievements": null
@@ -1151,7 +1151,7 @@
 	{
 		"Id": "116",
 		"Link": "Lazarus%27_Rags",
-		"Name": "Lazarus\u0026#39; Rags",
+		"Name": "Lazarus' Rags",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Isaac as Lazarus",
 		"RequiredForAchievements": null
@@ -1175,7 +1175,7 @@
 	{
 		"Id": "119",
 		"Link": "Pandora%27s_Box",
-		"Name": "Pandora\u0026#39;s Box",
+		"Name": "Pandora's Box",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat The Lamb as Lazarus",
 		"RequiredForAchievements": null
@@ -1239,7 +1239,7 @@
 	{
 		"Id": "127",
 		"Link": "Daemon%27s_Tail",
-		"Name": "Daemon\u0026#39;s Tail",
+		"Name": "Daemon's Tail",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Satan as Azazel",
 		"RequiredForAchievements": null
@@ -1255,7 +1255,7 @@
 	{
 		"Id": "129",
 		"Link": "Isaac%27s_Heart",
-		"Name": "Isaac\u0026#39;s Heart",
+		"Name": "Isaac's Heart",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Isaac as The Lost",
 		"RequiredForAchievements": null
@@ -1305,7 +1305,7 @@
 	{
 		"Id": "135",
 		"Link": "There%27s_Options",
-		"Name": "There\u0026#39;s Options",
+		"Name": "There's Options",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Donate 50 Coins to the Donation Machine",
 		"RequiredForAchievements": [
@@ -1345,7 +1345,7 @@
 		"Link": "Wire_Coat_Hanger",
 		"Name": "Wire Coat Hanger",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 4 times",
+		"UnlockMethod": "Defeat Mom's Heart 4 times",
 		"RequiredForAchievements": [
 			"33"
 		]
@@ -1355,7 +1355,7 @@
 		"Link": "Ipecac",
 		"Name": "Ipecac",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 6 times",
+		"UnlockMethod": "Defeat Mom's Heart 6 times",
 		"RequiredForAchievements": [
 			"141"
 		]
@@ -1365,7 +1365,7 @@
 		"Link": "Experimental_Treatment",
 		"Name": "Experimental Treatment",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 7 times",
+		"UnlockMethod": "Defeat Mom's Heart 7 times",
 		"RequiredForAchievements": [
 			"10"
 		]
@@ -1394,7 +1394,7 @@
 		"Link": "Cube_of_Meat",
 		"Name": "Super Meat Boy",
 		"Description": "Built him out of meat cubes.",
-		"UnlockMethod": "Make a Super Meat Boy by picking up 4 copies of Cube of Meat in one run; see Unlocking Super Meat Boy \u0026amp; Super Bandage Girl",
+		"UnlockMethod": "Make a Super Meat Boy by picking up 4 copies of Cube of Meat in one run; see Unlocking Super Meat Boy \u0026 Super Bandage Girl",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1410,7 +1410,7 @@
 		"Link": "Little_Baggy",
 		"Name": "Little Baggy",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Pick up any 2 of the following items in a single run: Roid Rage, The Virus, Growth Hormones, Experimental Treatment, and Speed Ball ( Any 2 items that have the \u0026#39;syringe\u0026#39; item tag)",
+		"UnlockMethod": "Pick up any 2 of the following items in a single run: Roid Rage, The Virus, Growth Hormones, Experimental Treatment, and Speed Ball ( Any 2 items that have the 'syringe' item tag)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1444,7 +1444,7 @@
 		"Link": "Rubber_Cement",
 		"Name": "Rubber Cement",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 2 times",
+		"UnlockMethod": "Defeat Mom's Heart 2 times",
 		"RequiredForAchievements": [
 			"8",
 			"159"
@@ -1511,7 +1511,7 @@
 		"Link": "Darkness_Falls",
 		"Name": "Darkness Falls",
 		"Description": "Unlocked Challenge #4.",
-		"UnlockMethod": " Defeat Mom\u0026#39;s Heart 11 times Defeat Satan and ??? as Eve",
+		"UnlockMethod": " Defeat Mom's Heart 11 times Defeat Satan and ??? as Eve",
 		"RequiredForAchievements": [
 			"92"
 		]
@@ -1531,7 +1531,7 @@
 		"Link": "Solar_System",
 		"Name": "Solar System",
 		"Description": "Unlocked Challenge #6.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 3 times",
+		"UnlockMethod": "Defeat Mom's Heart 3 times",
 		"RequiredForAchievements": [
 			"94",
 			"139"
@@ -1542,7 +1542,7 @@
 		"Link": "Suicide_King_(Challenge)",
 		"Name": "Suicide King",
 		"Description": "Unlocked Challenge #7.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 11 times",
+		"UnlockMethod": "Defeat Mom's Heart 11 times",
 		"RequiredForAchievements": [
 			"120"
 		]
@@ -1562,10 +1562,10 @@
 		"Link": "Demo_Man",
 		"Name": "Demo Man",
 		"Description": "Unlocked Challenge #9.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 9 times",
+		"UnlockMethod": "Defeat Mom's Heart 9 times",
 		"RequiredForAchievements": [
-			"32",
-			"97"
+			"97",
+			"32"
 		]
 	},
 	{
@@ -1605,40 +1605,40 @@
 		"Description": "Unlocked Challenge #20.",
 		"UnlockMethod": "Defeat Mom",
 		"RequiredForAchievements": [
-			"109",
-			"15",
-			"88",
-			"9",
-			"127",
-			"173",
 			"157",
-			"169",
-			"177",
-			"171",
-			"56",
-			"155",
-			"175",
-			"70",
-			"168",
-			"44",
-			"46",
-			"110",
-			"18",
-			"83",
-			"43",
-			"45",
-			"172",
-			"133",
-			"81",
-			"167",
-			"3",
-			"105",
-			"40",
-			"170",
-			"112",
-			"95",
+			"127",
 			"117",
-			"130"
+			"130",
+			"56",
+			"95",
+			"173",
+			"46",
+			"3",
+			"170",
+			"44",
+			"43",
+			"172",
+			"70",
+			"110",
+			"105",
+			"155",
+			"133",
+			"18",
+			"88",
+			"81",
+			"9",
+			"171",
+			"112",
+			"175",
+			"40",
+			"83",
+			"167",
+			"109",
+			"177",
+			"15",
+			"45",
+			"168",
+			"169"
 		]
 	},
 	{
@@ -1646,7 +1646,7 @@
 		"Link": "Babies",
 		"Name": "Lost Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as Isaac",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Isaac",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1654,7 +1654,7 @@
 		"Link": "Babies",
 		"Name": "Cute Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as Magdalene",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Magdalene",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1662,7 +1662,7 @@
 		"Link": "Babies",
 		"Name": "Crow Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as Eve",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Eve",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1670,7 +1670,7 @@
 		"Link": "Babies",
 		"Name": "Shadow Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as Judas",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Judas",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1678,7 +1678,7 @@
 		"Link": "Babies",
 		"Name": "Glass Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as Cain",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Cain",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1686,7 +1686,7 @@
 		"Link": "Babies",
 		"Name": "Wrapped Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": " Defeat Mom\u0026#39;s Heart on Hard mode as Azazel Defeat Mom\u0026#39;s Heart on Hard mode as Lazarus",
+		"UnlockMethod": " Defeat Mom's Heart on Hard mode as Azazel Defeat Mom's Heart on Hard mode as Lazarus",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1694,7 +1694,7 @@
 		"Link": "Babies",
 		"Name": "Begotten Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": " Defeat Mom\u0026#39;s Heart on Hard mode as Lazarus Defeat Mom\u0026#39;s Heart on Hard mode as Azazel",
+		"UnlockMethod": " Defeat Mom's Heart on Hard mode as Lazarus Defeat Mom's Heart on Hard mode as Azazel",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1702,7 +1702,7 @@
 		"Link": "Babies",
 		"Name": "Dead Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as ???",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as ???",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1710,7 +1710,7 @@
 		"Link": "Babies",
 		"Name": "-0- Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as The Lost",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as The Lost",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1718,7 +1718,7 @@
 		"Link": "Babies",
 		"Name": "Glitch Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as Eden",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Eden",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1726,7 +1726,7 @@
 		"Link": "Babies",
 		"Name": "Fighting Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as Samson",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Samson",
 		"RequiredForAchievements": null
 	},
 	{
@@ -1772,7 +1772,7 @@
 	{
 		"Id": "183",
 		"Link": "",
-		"Name": " Fate\u0026#39;s Reward",
+		"Name": " Fate's Reward",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Hush as ???",
 		"RequiredForAchievements": null
@@ -1812,7 +1812,7 @@
 	{
 		"Id": "188",
 		"Link": "",
-		"Name": " Eden\u0026#39;s Blessing",
+		"Name": " Eden's Blessing",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Hush as Eden",
 		"RequiredForAchievements": null
@@ -1844,7 +1844,7 @@
 	{
 		"Id": "192",
 		"Link": "",
-		"Name": " Lil\u0026#39; Chest",
+		"Name": " Lil' Chest",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Ultra Greed as Isaac",
 		"RequiredForAchievements": null
@@ -1988,7 +1988,7 @@
 	{
 		"Id": "210",
 		"Link": "",
-		"Name": " Lil\u0026#39; Baby",
+		"Name": " Lil' Baby",
 		"Description": "Unlocked a new co-player baby.",
 		"UnlockMethod": "Defeat Mega Satan as Eve",
 		"RequiredForAchievements": null
@@ -2068,7 +2068,7 @@
 	{
 		"Id": "220",
 		"Link": "",
-		"Name": " Serpent\u0026#39;s Kiss",
+		"Name": " Serpent's Kiss",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Satan as Lilith",
 		"RequiredForAchievements": null
@@ -2094,7 +2094,7 @@
 		"Link": "",
 		"Name": " Goat Head Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as Lilith",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Lilith",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2166,7 +2166,7 @@
 		"Link": "",
 		"Name": " Kidney Stone",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": " Complete The Guardian (challenge #30) Complete Onan\u0026#39;s Streak (challenge #29)",
+		"UnlockMethod": " Complete The Guardian (challenge #30) Complete Onan's Streak (challenge #29)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2174,7 +2174,7 @@
 		"Link": "",
 		"Name": " Blank Rune",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": " Complete Onan\u0026#39;s Streak (challenge #29) Complete The Guardian (challenge #30)",
+		"UnlockMethod": " Complete Onan's Streak (challenge #29) Complete The Guardian (challenge #30)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2182,7 +2182,7 @@
 		"Link": "",
 		"Name": " Blue Womb",
 		"Description": "Unlocked a hidden chapter.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 10 times",
+		"UnlockMethod": "Defeat Mom's Heart 10 times",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2238,7 +2238,7 @@
 		"Link": "",
 		"Name": " Super Greed Baby",
 		"Description": "Unlocked a new co-player baby.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart on Hard mode as Keeper",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Keeper",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2446,7 +2446,7 @@
 		"Link": "",
 		"Name": " Blue Bomber",
 		"Description": "Unlocked Challenge #23.",
-		"UnlockMethod": "Destroy 10 Tinted Rocks and defeat Mom\u0026#39;s Heart 11 times",
+		"UnlockMethod": "Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2494,7 +2494,7 @@
 	{
 		"Id": "273",
 		"Link": "",
-		"Name": " Onan\u0026#39;s Streak",
+		"Name": " Onan's Streak",
 		"Description": "Unlocked Challenge #29.",
 		"UnlockMethod": " Defeat Mom Unlock Judas and It Lives.",
 		"RequiredForAchievements": null
@@ -2544,7 +2544,7 @@
 		"Link": "",
 		"Name": " Pokey Mans",
 		"Description": "Unlocked a new challenge.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 11 times",
+		"UnlockMethod": "Defeat Mom's Heart 11 times",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2624,7 +2624,7 @@
 	{
 		"Id": "289",
 		"Link": "",
-		"Name": " Eden\u0026#39;s Soul",
+		"Name": " Eden's Soul",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Delirium as Eden",
 		"RequiredForAchievements": null
@@ -2632,7 +2632,7 @@
 	{
 		"Id": "290",
 		"Link": "",
-		"Name": " Dark Prince\u0026#39;s Crown",
+		"Name": " Dark Prince's Crown",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Delirium as Azazel",
 		"RequiredForAchievements": null
@@ -2768,7 +2768,7 @@
 	{
 		"Id": "307",
 		"Link": "",
-		"Name": " Dad\u0026#39;s Lost Coin",
+		"Name": " Dad's Lost Coin",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Ultra Greedier as The Lost",
 		"RequiredForAchievements": null
@@ -2858,7 +2858,7 @@
 		"Link": "",
 		"Name": " Smelter",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart or It Lives! on Hard mode as Apollyon",
+		"UnlockMethod": "Defeat Mom's Heart or It Lives! on Hard mode as Apollyon",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2896,9 +2896,9 @@
 	{
 		"Id": "323",
 		"Link": "",
-		"Name": " 5 Nights at Mom\u0026#39;s",
+		"Name": " 5 Nights at Mom's",
 		"Description": "Unlocked super special rocks.",
-		"UnlockMethod": "Get a 5-win streak ( 3-win streak), using a different character each time (Mega Satan victories do not count if the Void portal doesn\u0026#39;t spawn)",
+		"UnlockMethod": "Get a 5-win streak ( 3-win streak), using a different character each time (Mega Satan victories do not count if the Void portal doesn't spawn)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2906,7 +2906,7 @@
 		"Link": "",
 		"Name": " Sin collector",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Collect every entry in the Bestiary (bugged v190 - Mobs that don\u0026#39;t exist in the bestiary are being counted. This allows Sin Collector to be unlocked without a complete bestiary)",
+		"UnlockMethod": "Collect every entry in the Bestiary (bugged v190 - Mobs that don't exist in the bestiary are being counted. This allows Sin Collector to be unlocked without a complete bestiary)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2914,7 +2914,7 @@
 		"Link": "",
 		"Name": " Dedication",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Participate in 31 Daily Challenges (they don\u0026#39;t have to be consecutive; it will still count if Isaac dies in the first room)",
+		"UnlockMethod": "Participate in 31 Daily Challenges (they don't have to be consecutive; it will still count if Isaac dies in the first room)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -2928,7 +2928,7 @@
 	{
 		"Id": "327",
 		"Link": "",
-		"Name": " It\u0026#39;s the Key",
+		"Name": " It's the Key",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat The Lamb without taking Hearts, Coins, or Bombs through the entire run",
 		"RequiredForAchievements": null
@@ -2992,7 +2992,7 @@
 	{
 		"Id": "335",
 		"Link": "",
-		"Name": " Greed\u0026#39;s Gullet",
+		"Name": " Greed's Gullet",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete Pong (challenge #35)",
 		"RequiredForAchievements": null
@@ -3002,7 +3002,7 @@
 		"Link": "",
 		"Name": " The Marathon",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Get a 5-win streak in the Daily Challenges (they don\u0026#39;t have to be consecutive days, only the runs you play are counted)",
+		"UnlockMethod": "Get a 5-win streak in the Daily Challenges (they don't have to be consecutive days, only the runs you play are counted)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3050,7 +3050,7 @@
 		"Link": "",
 		"Name": " Burning Basement",
 		"Description": "Alt stage to the basement.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 11 times",
+		"UnlockMethod": "Defeat Mom's Heart 11 times",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3180,7 +3180,7 @@
 		"Link": "",
 		"Name": " Hairpin",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Recharge using Lil\u0026#39; Batteries 20 times",
+		"UnlockMethod": "Recharge using Lil' Batteries 20 times",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3204,7 +3204,7 @@
 		"Link": "",
 		"Name": " Huge Growth",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Increase in size 5 times in a single run via Magic Mushroom, \u0026#34;One makes you larger\u0026#34; pills, XI - Strength, etc.",
+		"UnlockMethod": "Increase in size 5 times in a single run via Magic Mushroom, \"One makes you larger\" pills, XI - Strength, etc.",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3244,7 +3244,7 @@
 		"Link": "",
 		"Name": " Moving Box",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Use Pandora\u0026#39;s Box in Dark Room",
+		"UnlockMethod": "Use Pandora's Box in Dark Room",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3252,7 +3252,7 @@
 		"Link": "",
 		"Name": " Jumper Cables",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Pick up any 2 of the following items/trinkets in a single run: 9 Volt, The Battery, Car Battery, AAA Battery, and Watch Battery ( Any 2 items that have the \u0026#39;battery\u0026#39; item tag)",
+		"UnlockMethod": "Pick up any 2 of the following items/trinkets in a single run: 9 Volt, The Battery, Car Battery, AAA Battery, and Watch Battery ( Any 2 items that have the 'battery' item tag)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3268,7 +3268,7 @@
 		"Link": "",
 		"Name": " Technology Zero",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Pick up any 2 technology items in a single run ( Any 2 items that have the \u0026#39;tech\u0026#39; item tag)",
+		"UnlockMethod": "Pick up any 2 technology items in a single run ( Any 2 items that have the 'tech' item tag)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3322,7 +3322,7 @@
 	{
 		"Id": "376",
 		"Link": "",
-		"Name": " Death\u0026#39;s List",
+		"Name": " Death's List",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Take 25 Deals with the Devil",
 		"RequiredForAchievements": [
@@ -3342,7 +3342,7 @@
 		"Link": "",
 		"Name": " Lachryphagy",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Collect 10 \u0026#34;Tears Up\u0026#34; items or pills in one run",
+		"UnlockMethod": "Collect 10 \"Tears Up\" items or pills in one run",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3366,7 +3366,7 @@
 		"Link": "",
 		"Name": " Extension Cord",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Have The Battery, 9 Volt, and Car Battery in Isaac\u0026#39;s collection",
+		"UnlockMethod": "Have The Battery, 9 Volt, and Car Battery in Isaac's collection",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3390,7 +3390,7 @@
 		"Link": "",
 		"Name": " Lil Spewer",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Have Isaac die to his own explosion from Ipecac, Bob\u0026#39;s Rotten Head, or a Horf! pill",
+		"UnlockMethod": "Have Isaac die to his own explosion from Ipecac, Bob's Rotten Head, or a Horf! pill",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3438,7 +3438,7 @@
 		"Link": "",
 		"Name": " The Forgotten",
 		"Description": "Unlocked a new character.",
-		"UnlockMethod": "It\u0026#39;s complicated",
+		"UnlockMethod": "It's complicated",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3446,7 +3446,7 @@
 		"Link": "",
 		"Name": " Bone Heart",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "It\u0026#39;s complicated",
+		"UnlockMethod": "It's complicated",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3454,7 +3454,7 @@
 		"Link": "",
 		"Name": " Marrow",
 		"Description": "Unlocked a new item.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart or It Lives! on Hard mode as The Forgotten",
+		"UnlockMethod": "Defeat Mom's Heart or It Lives! on Hard mode as The Forgotten",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3516,7 +3516,7 @@
 	{
 		"Id": "400",
 		"Link": "",
-		"Name": " Dad\u0026#39;s Ring",
+		"Name": " Dad's Ring",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Ultra Greedier as The Forgotten",
 		"RequiredForAchievements": null
@@ -3550,7 +3550,7 @@
 		"Link": "",
 		"Name": " Bethany",
 		"Description": "Beat Hard mode as Lazarus without losing a life",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart/It Lives! on hard mode as Lazarus, without dying at all",
+		"UnlockMethod": "Defeat Mom's Heart/It Lives! on hard mode as Lazarus, without dying at all",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3565,8 +3565,8 @@
 		"Id": "406",
 		"Link": "",
 		"Name": " The Planetarium",
-		"Description": "Kids shouldn\u0026#39;t believe in fortunes...",
-		"UnlockMethod": "Collect any 3 items with the \u0026#39;stars\u0026#39; item tag in a single run",
+		"Description": "Kids shouldn't believe in fortunes...",
+		"UnlockMethod": "Collect any 3 items with the 'stars' item tag in a single run",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3582,7 +3582,7 @@
 		"Link": "",
 		"Name": " Forgotten Lullaby",
 		"Description": "Get that song out of her head.",
-		"UnlockMethod": "Blow up The Siren\u0026#39;s skull after defeating her",
+		"UnlockMethod": "Blow up The Siren's skull after defeating her",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3638,7 +3638,7 @@
 		"Link": "",
 		"Name": " Red Key",
 		"Description": "The other side is calling...",
-		"UnlockMethod": "Open Mom\u0026#39;s Chest in Home",
+		"UnlockMethod": "Open Mom's Chest in Home",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3646,7 +3646,7 @@
 		"Link": "",
 		"Name": " Wisp Baby",
 		"Description": "Beat the game in Hard mode with Bethany.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart or It Lives! on Hard mode as Bethany",
+		"UnlockMethod": "Defeat Mom's Heart or It Lives! on Hard mode as Bethany",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3684,7 +3684,7 @@
 	{
 		"Id": "421",
 		"Link": "",
-		"Name": " Beth\u0026#39;s Faith",
+		"Name": " Beth's Faith",
 		"Description": "Complete Boss Rush with Bethany.",
 		"UnlockMethod": "Complete the Boss Rush as Bethany",
 		"RequiredForAchievements": null
@@ -3742,7 +3742,7 @@
 		"Link": "",
 		"Name": " Double Baby",
 		"Description": "Beat the game in Hard mode with Jacob and Esau.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart or It Lives! on Hard mode as Jacob and Esau",
+		"UnlockMethod": "Defeat Mom's Heart or It Lives! on Hard mode as Jacob and Esau",
 		"RequiredForAchievements": null
 	},
 	{
@@ -3820,7 +3820,7 @@
 	{
 		"Id": "438",
 		"Link": "",
-		"Name": " Solomon\u0026#39;s Baby",
+		"Name": " Solomon's Baby",
 		"Description": "Beat everything in Hard mode with Jacob and Esau.",
 		"UnlockMethod": "Earn all Hard mode Completion Marks as Jacob and Esau",
 		"RequiredForAchievements": null
@@ -3868,7 +3868,7 @@
 	{
 		"Id": "444",
 		"Link": "",
-		"Name": " Guppy\u0026#39;s Eye",
+		"Name": " Guppy's Eye",
 		"Description": "Complete the Corpse with Cain.",
 		"UnlockMethod": "Defeat Mother as Cain",
 		"RequiredForAchievements": null
@@ -3908,7 +3908,7 @@
 	{
 		"Id": "449",
 		"Link": "",
-		"Name": " Montezuma\u0026#39;s Revenge",
+		"Name": " Montezuma's Revenge",
 		"Description": "Complete the final chapter with ???.",
 		"UnlockMethod": "Defeat The Beast as ???",
 		"RequiredForAchievements": null
@@ -3948,7 +3948,7 @@
 	{
 		"Id": "454",
 		"Link": "",
-		"Name": " Devil\u0026#39;s Crown",
+		"Name": " Devil's Crown",
 		"Description": "Complete the Corpse with Azazel.",
 		"UnlockMethod": "Defeat Mother as Azazel",
 		"RequiredForAchievements": null
@@ -3980,7 +3980,7 @@
 	{
 		"Id": "458",
 		"Link": "",
-		"Name": " \u0026#39;M",
+		"Name": " 'M",
 		"Description": "Complete the Corpse with Eden.",
 		"UnlockMethod": "Defeat Mother as Eden",
 		"RequiredForAchievements": null
@@ -4028,7 +4028,7 @@
 	{
 		"Id": "464",
 		"Link": "",
-		"Name": " Keeper\u0026#39;s Sack",
+		"Name": " Keeper's Sack",
 		"Description": "Complete the Corpse with Keeper.",
 		"UnlockMethod": "Defeat Mother as Keeper",
 		"RequiredForAchievements": null
@@ -4036,7 +4036,7 @@
 	{
 		"Id": "465",
 		"Link": "",
-		"Name": " Keeper\u0026#39;s Box",
+		"Name": " Keeper's Box",
 		"Description": "Complete the final chapter with Keeper.",
 		"UnlockMethod": "Defeat The Beast as Keeper",
 		"RequiredForAchievements": null
@@ -4300,7 +4300,7 @@
 	{
 		"Id": "498",
 		"Link": "",
-		"Name": " Azazel\u0026#39;s Rage",
+		"Name": " Azazel's Rage",
 		"Description": "???",
 		"UnlockMethod": "Defeat The Beast as Tainted Azazel",
 		"RequiredForAchievements": null
@@ -4356,7 +4356,7 @@
 	{
 		"Id": "505",
 		"Link": "",
-		"Name": " Isaac\u0026#39;s Tomb",
+		"Name": " Isaac's Tomb",
 		"Description": "???",
 		"UnlockMethod": "Defeat The Beast as Tainted Forgotten",
 		"RequiredForAchievements": null
@@ -4390,13 +4390,13 @@
 		"Link": "",
 		"Name": " Baptism by Fire",
 		"Description": "Unlocked a new challenge.",
-		"UnlockMethod": "Defeat Satan as Bethany, defeat Mom\u0026#39;s Heart 11 times, and unlock Maggy\u0026#39;s Faith",
+		"UnlockMethod": "Defeat Satan as Bethany, defeat Mom's Heart 11 times, and unlock Maggy's Faith",
 		"RequiredForAchievements": null
 	},
 	{
 		"Id": "510",
 		"Link": "",
-		"Name": " Isaac\u0026#39;s Awakening",
+		"Name": " Isaac's Awakening",
 		"Description": "Unlocked a new challenge.",
 		"UnlockMethod": "Defeat Mother",
 		"RequiredForAchievements": null
@@ -4414,7 +4414,7 @@
 		"Link": "",
 		"Name": " Pica Run",
 		"Description": "Unlocked a new challenge.",
-		"UnlockMethod": "Defeat Mom\u0026#39;s Heart 11 times and unlock Marbles",
+		"UnlockMethod": "Defeat Mom's Heart 11 times and unlock Marbles",
 		"RequiredForAchievements": null
 	},
 	{
@@ -4478,7 +4478,7 @@
 		"Link": "",
 		"Name": " Spirit Sword",
 		"Description": "Complete Challenge 39.",
-		"UnlockMethod": "Complete Isaac\u0026#39;s Awakening (challenge #39)",
+		"UnlockMethod": "Complete Isaac's Awakening (challenge #39)",
 		"RequiredForAchievements": null
 	},
 	{
@@ -4686,7 +4686,7 @@
 		"Link": "",
 		"Name": " Brimstone Bombs",
 		"Description": "Kill Hornfel before he escapes!",
-		"UnlockMethod": "After breaking Hornfel\u0026#39;s minecart, kill him before he can escape",
+		"UnlockMethod": "After breaking Hornfel's minecart, kill him before he can escape",
 		"RequiredForAchievements": null
 	},
 	{
@@ -4700,7 +4700,7 @@
 	{
 		"Id": "548",
 		"Link": "",
-		"Name": " Mom\u0026#39;s Lock",
+		"Name": " Mom's Lock",
 		"Description": "???",
 		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Isaac",
 		"RequiredForAchievements": null
@@ -4724,7 +4724,7 @@
 	{
 		"Id": "551",
 		"Link": "",
-		"Name": " Mother\u0026#39;s Kiss",
+		"Name": " Mother's Kiss",
 		"Description": "???",
 		"UnlockMethod": "Defeat Mother as Tainted Magdalene",
 		"RequiredForAchievements": null
@@ -4820,7 +4820,7 @@
 	{
 		"Id": "563",
 		"Link": "",
-		"Name": " Azazel\u0026#39;s Stump",
+		"Name": " Azazel's Stump",
 		"Description": "???",
 		"UnlockMethod": "Defeat Mother as Tainted Azazel",
 		"RequiredForAchievements": null
@@ -4860,7 +4860,7 @@
 	{
 		"Id": "568",
 		"Link": "",
-		"Name": " Kid\u0026#39;s Drawing",
+		"Name": " Kid's Drawing",
 		"Description": "???",
 		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lost",
 		"RequiredForAchievements": null
@@ -4892,7 +4892,7 @@
 	{
 		"Id": "572",
 		"Link": "",
-		"Name": " Keeper\u0026#39;s Bargain",
+		"Name": " Keeper's Bargain",
 		"Description": "???",
 		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Keeper",
 		"RequiredForAchievements": null
@@ -4916,7 +4916,7 @@
 	{
 		"Id": "575",
 		"Link": "",
-		"Name": " Apollyon\u0026#39;s Best Friend",
+		"Name": " Apollyon's Best Friend",
 		"Description": "???",
 		"UnlockMethod": "Defeat Mother as Tainted Apollyon",
 		"RequiredForAchievements": null
@@ -4948,7 +4948,7 @@
 	{
 		"Id": "579",
 		"Link": "",
-		"Name": " Beth\u0026#39;s Essence",
+		"Name": " Beth's Essence",
 		"Description": "???",
 		"UnlockMethod": "Defeat Mother as Tainted Bethany",
 		"RequiredForAchievements": null
@@ -5084,7 +5084,7 @@
 	{
 		"Id": "596",
 		"Link": "",
-		"Name": " Keeper\u0026#39;s Kin",
+		"Name": " Keeper's Kin",
 		"Description": "???",
 		"UnlockMethod": "Defeat Delirium as Tainted Keeper",
 		"RequiredForAchievements": null
@@ -5212,7 +5212,7 @@
 	{
 		"Id": "612",
 		"Link": "",
-		"Name": " Fool\u0026#39;s Gold",
+		"Name": " Fool's Gold",
 		"Description": "???",
 		"UnlockMethod": "Defeat Mega Satan as Tainted Lilith",
 		"RequiredForAchievements": null

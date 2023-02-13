@@ -7,11 +7,11 @@
     <app-recover-achievements  (achievementsEmitter)="analyze($event)"></app-recover-achievements>
   </div>
 
-  <div *ngIf="loaded" class="flex flex-col justify-around gap-2">
-    <mat-card *ngFor="let u of unlockables">
+  <div *ngIf="loaded" class="flex flex-col justify-around gap-2 items-center">
+    <mat-card class ="w-4/5" *ngFor="let u of unlockables">
       <mat-card-header>
         <mat-card-title>
-          {{u.Id}} - {{u.Name}}
+          {{u.Id}}: {{u.Name}}
         </mat-card-title>
         <mat-card-subtitle>
           {{u.Description}}
