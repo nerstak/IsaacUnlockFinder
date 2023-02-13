@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import achievements from '../../../../scripts/achievements.json'
+import achievements from '../../../assets/achievements.json'
 
 @Component({
   selector: 'app-achievements-analysis',
