@@ -11,13 +11,15 @@ import { RecoverAchievementsComponent } from './components/recover-achievements/
 import { AchievementsAnalysisComponent } from './components/achievements-analysis/achievements-analysis.component';
 import {MatDividerModule} from "@angular/material/divider";
 import {MatToolbarModule} from "@angular/material/toolbar";
+import { AchievementComponent } from './components/achievement/achievement.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UploaderComponent,
     RecoverAchievementsComponent,
-    AchievementsAnalysisComponent
+    AchievementsAnalysisComponent,
+    AchievementComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'serverApp'}),

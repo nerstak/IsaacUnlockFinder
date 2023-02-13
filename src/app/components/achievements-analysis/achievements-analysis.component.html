@@ -9,23 +9,6 @@
 
  <!-- TODO: Have 3 tabs: One for unlockables achievements, one for softlocked achievements, one for unlocked achievements -->
   <div *ngIf="loaded" class="flex flex-col justify-around gap-2 items-center">
-    <mat-card class ="w-4/5" *ngFor="let u of unlockables">
-      <mat-card-header>
-        <mat-card-title>
-          {{u.Id}}: {{u.Name}}
-        </mat-card-title>
-        <mat-card-subtitle>
-          {{u.Description}}
-        </mat-card-subtitle>
-      </mat-card-header>
-      <img class="m-1 rounded-md" mat-card-sm-image src="/assets/images/{{u.ImageName}}">
-      <mat-card-content>
-        {{u.UnlockMethod}}
-        <mat-divider *ngIf="u.Link"></mat-divider>
-      </mat-card-content>
-      <mat-card-actions align="end">
-        <a mat-button *ngIf="u.Link" href="https://bindingofisaacrebirth.fandom.com/wiki/{{u.Link}}">Wiki Page</a>
-      </mat-card-actions>
-    </mat-card>
+    <app-achievement  class="w-3/5" [achievement]="u" *ngFor="let u of unlockables"></app-achievement>
   </div>
 </div>

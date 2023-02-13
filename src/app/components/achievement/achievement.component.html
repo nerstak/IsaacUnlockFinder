@@ -1,0 +1,19 @@
+<mat-card *ngIf="achievement">
+  <mat-card-header>
+    <mat-card-title>
+      {{achievement.Id}}: {{achievement.Name}}
+    </mat-card-title>
+    <mat-card-subtitle>
+      {{achievement.Description}}
+    </mat-card-subtitle>
+  </mat-card-header>
+  <img class="m-1 rounded-md" mat-card-sm-image src="/assets/images/{{achievement.ImageName}}">
+  <mat-card-content>
+    {{achievement.UnlockMethod}}
+    <mat-divider *ngIf="achievement.Link"></mat-divider>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <a mat-button *ngIf="achievement.Link" href="https://bindingofisaacrebirth.fandom.com/wiki/{{achievement.Link}}">Wiki Page</a>
+  </mat-card-actions>
+</mat-card>
+
