@@ -7,8 +7,18 @@
     <app-recover-achievements  (achievementsEmitter)="analyze($event)"></app-recover-achievements>
   </div>
 
+  <mat-tab-group class="w-4/5 grow min-h-screen" color="accent" *ngIf="loaded" dynamicHeight>
+    <mat-tab label="Unlockable now ({{unlockables.length}})">
+      <app-list-achievements description="Achievements that are unlockable upon a player action in game" [list]="unlockables"></app-list-achievements>
+    </mat-tab>
+    <mat-tab label="Soft locked ({{softLocked.length}})">
+      <app-list-achievements description="Achievements that will be unlockable once another achievement(s) will have been unlocked" [list]="softLocked"></app-list-achievements>
+    </mat-tab>
+    <mat-tab label="Unlocked ({{alreadyUnlocked.length}})">
+      <app-list-achievements description="Achievements that have already been unlocked by the player" [list]="alreadyUnlocked"></app-list-achievements>
+    </mat-tab>
+
+  </mat-tab-group>
  <!-- TODO: Have 3 tabs: One for unlockables achievements, one for softlocked achievements, one for unlocked achievements -->
-  <div *ngIf="loaded" class="flex flex-col justify-around gap-2 items-center">
-    <app-achievement  class="w-3/5" [achievement]="u" *ngFor="let u of unlockables"></app-achievement>
-  </div>
+
 </div>

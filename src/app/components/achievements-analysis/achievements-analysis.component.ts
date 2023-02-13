@@ -10,11 +10,15 @@ export class AchievementsAnalysisComponent {
   achievementsDependency: Achievement[] = achievements
 
   unlockables: Achievement[] = [];
+  alreadyUnlocked: Achievement[] = []
+  softLocked: Achievement[] = []
 
   loaded = false;
 
   analyze(achievementsSave: number[]) {
     const unlocks = new Map(achievementsSave.entries());
+    const alreadyUnlocked = new Map<number,number>();
+    const softLocked = new Map<number,number>();
 
     for (let unlock of achievementsSave.entries()) {
       if (unlock[1] === 0) { // Locked achievement
@@ -24,24 +28,33 @@ export class AchievementsAnalysisComponent {
         }).flatMap((value, _) => value.RequiredForAchievements)
           .forEach(x => {
             if (x !== null) {
-              // TODO: Register all of this soft locked achievements
+              softLocked.set(parseInt(x), 1);
               unlocks.delete(parseInt(x));
             }
           })
 
       } else if (unlock[1] === 1) { // Unlocked achievement
         // Cannot be unlocked a second time
-        // TODO: Register list of unlocked achievements
+        alreadyUnlocked.set(unlock[0],1);
         unlocks.delete(unlock[0]);
       }
     }
-    for (let unlock of unlocks) {
+    this.unlockables = this.listToAchievementsList(unlocks, this.unlockables);
+    this.alreadyUnlocked = this.listToAchievementsList(alreadyUnlocked, this.alreadyUnlocked);
+    this.softLocked = this.listToAchievementsList(softLocked, this.softLocked);
+
+    this.loaded = true;
+  }
+
+  private listToAchievementsList(ach: Map<number, number>, list: Achievement[]) {
+    for (let unlock of ach) {
       const tmp = this.achievementsDependency.find(x => this.findAchievement(unlock[0], x))
       if (tmp !== undefined) {
-        this.unlockables.push(tmp)
+        list.push(tmp);
       }
     }
-    this.loaded = true;
+
+    return list;
   }
 
   private findAchievement(id: number, x: Achievement) {

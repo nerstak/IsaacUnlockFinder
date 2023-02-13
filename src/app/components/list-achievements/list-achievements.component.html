@@ -1,0 +1,8 @@
+<div *ngIf="list" class="flex flex-col justify-around gap-2 items-center p-5">
+  <mat-card *ngIf="description">
+    <mat-card-content class="font-semibold">
+      {{description}}
+    </mat-card-content>
+  </mat-card>
+  <app-achievement class="w-3/5" [achievement]="elt" *ngFor="let elt of list"></app-achievement>
+</div>

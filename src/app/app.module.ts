@@ -12,6 +12,8 @@ import { AchievementsAnalysisComponent } from './components/achievements-analysi
 import {MatDividerModule} from "@angular/material/divider";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { AchievementComponent } from './components/achievement/achievement.component';
+import {MatTabsModule} from "@angular/material/tabs";
+import { ListAchievementsComponent } from './components/list-achievements/list-achievements.component';
 
 @NgModule({
   declarations: [
@@ -19,17 +21,19 @@ import { AchievementComponent } from './components/achievement/achievement.compo
     UploaderComponent,
     RecoverAchievementsComponent,
     AchievementsAnalysisComponent,
-    AchievementComponent
+    AchievementComponent,
+    ListAchievementsComponent
   ],
-  imports: [
-    BrowserModule.withServerTransition({appId: 'serverApp'}),
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatCardModule,
-    MatButtonModule,
-    MatDividerModule,
-    MatToolbarModule
-  ],
+    imports: [
+        BrowserModule.withServerTransition({appId: 'serverApp'}),
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatCardModule,
+        MatButtonModule,
+        MatDividerModule,
+        MatToolbarModule,
+        MatTabsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
