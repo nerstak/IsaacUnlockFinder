@@ -7,6 +7,7 @@
     <app-recover-achievements  (achievementsEmitter)="analyze($event)"></app-recover-achievements>
   </div>
 
+ <!-- TODO: Have 3 tabs: One for unlockables achievements, one for softlocked achievements, one for unlocked achievements -->
   <div *ngIf="loaded" class="flex flex-col justify-around gap-2 items-center">
     <mat-card class ="w-4/5" *ngFor="let u of unlockables">
       <mat-card-header>
