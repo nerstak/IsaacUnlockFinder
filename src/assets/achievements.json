@@ -1,0 +1,6074 @@
+[
+	{
+		"Id": "1",
+		"Link": "Magdalene",
+		"Name": "Magdalene",
+		"ImageName": "1.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Have 7 or more Red Heart Containers at one time",
+		"RequiredForAchievements": [
+			"50",
+			"71",
+			"109",
+			"168",
+			"20",
+			"45"
+		]
+	},
+	{
+		"Id": "2",
+		"Link": "Cain",
+		"Name": "Cain",
+		"ImageName": "2.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Hold 55 Coins at one time",
+		"RequiredForAchievements": [
+			"21",
+			"46",
+			"51",
+			"75",
+			"110",
+			"171"
+		]
+	},
+	{
+		"Id": "3",
+		"Link": "Judas",
+		"Name": "Judas",
+		"ImageName": "3.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Defeat Satan",
+		"RequiredForAchievements": [
+			"107",
+			"108",
+			"170",
+			"78",
+			"52",
+			"72",
+			"77.1"
+		]
+	},
+	{
+		"Id": "4",
+		"Link": "Womb",
+		"Name": "The Womb",
+		"ImageName": "4.png",
+		"Description": "Chapter 4 - The Womb unlocked.",
+		"UnlockMethod": "Defeat Mom",
+		"RequiredForAchievements": [
+			"3",
+			"115",
+			"172",
+			"175",
+			"43",
+			"70",
+			"167",
+			"110",
+			"169",
+			"105",
+			"133",
+			"15",
+			"171",
+			"127",
+			"40",
+			"88",
+			"9",
+			"44",
+			"157",
+			"112",
+			"18",
+			"173",
+			"168",
+			"117",
+			"83",
+			"56",
+			"114",
+			"130",
+			"109",
+			"45",
+			"46",
+			"177",
+			"81"
+		]
+	},
+	{
+		"Id": "5",
+		"Link": "The_Harbingers",
+		"Name": "The Harbingers",
+		"ImageName": "5.png",
+		"Description": "The horsemen are loose.",
+		"UnlockMethod": "Defeat Mom",
+		"RequiredForAchievements": [
+			"44",
+			"112",
+			"115",
+			"133",
+			"7",
+			"81",
+			"9",
+			"46",
+			"175",
+			"15",
+			"372",
+			"70",
+			"105",
+			"40",
+			"110",
+			"169",
+			"117",
+			"172",
+			"18",
+			"43",
+			"3",
+			"177",
+			"167",
+			"45",
+			"171",
+			"56",
+			"83",
+			"88",
+			"127",
+			"130",
+			"109",
+			"168",
+			"114",
+			"173",
+			"157"
+		]
+	},
+	{
+		"Id": "6",
+		"Link": "Cube_of_Meat",
+		"Name": "A Cube of Meat",
+		"ImageName": "6.png",
+		"Description": "Unlocked a new item. (Also unlocks the Ball of Bandages)",
+		"UnlockMethod": "Defeat Mom",
+		"RequiredForAchievements": [
+			"81",
+			"70",
+			"117",
+			"19",
+			"173",
+			"109",
+			"168",
+			"177",
+			"167",
+			"44",
+			"157",
+			"169",
+			"175",
+			"144",
+			"43",
+			"112",
+			"115",
+			"130",
+			"18",
+			"46",
+			"171",
+			"114",
+			"56",
+			"88",
+			"110",
+			"172",
+			"45",
+			"105",
+			"83",
+			"15",
+			"9",
+			"127",
+			"3",
+			"133",
+			"40"
+		]
+	},
+	{
+		"Id": "7",
+		"Link": "Book_of_Revelations",
+		"Name": "The Book of Revelations",
+		"ImageName": "7.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat a Harbinger",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "8",
+		"Link": "Transcendence",
+		"Name": "A Noose",
+		"ImageName": "8.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Mom's Heart 3 times",
+		"RequiredForAchievements": [
+			"139"
+		]
+	},
+	{
+		"Id": "9",
+		"Link": "The_Nail",
+		"Name": "The Nail",
+		"ImageName": "9.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "10",
+		"Link": "A_Quarter",
+		"Name": "A Quarter",
+		"ImageName": "10.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Mom's Heart 8 times",
+		"RequiredForAchievements": [
+			"11",
+			"162"
+		]
+	},
+	{
+		"Id": "11",
+		"Link": "Dr._Fetus",
+		"Name": "A Fetus in a Jar",
+		"ImageName": "11.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Mom's Heart 9 times",
+		"RequiredForAchievements": [
+			"32"
+		]
+	},
+	{
+		"Id": "12",
+		"Link": "The_Small_Rock",
+		"Name": "A Small Rock",
+		"ImageName": "12.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Destroy 100 Tinted Rocks",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "13",
+		"Link": "Monstro%27s_Tooth",
+		"Name": "Monstro's Tooth",
+		"ImageName": "13.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Beat Chapter 1",
+		"RequiredForAchievements": [
+			"14",
+			"37",
+			"86"
+		]
+	},
+	{
+		"Id": "14",
+		"Link": "Little_Chubby",
+		"Name": "Lil' Chubby",
+		"ImageName": "14.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Beat Chapter 2",
+		"RequiredForAchievements": [
+			"38",
+			"17",
+			"87"
+		]
+	},
+	{
+		"Id": "15",
+		"Link": "Loki%27s_Horns",
+		"Name": "Loki's Horns",
+		"ImageName": "15.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Lokii",
+		"RequiredForAchievements": [
+			"164"
+		]
+	},
+	{
+		"Id": "16",
+		"Link": "Steven",
+		"Name": "Something From The Future",
+		"ImageName": "16.png",
+		"Description": "New boss in the basement!",
+		"UnlockMethod": "Beat Basement 40 times",
+		"RequiredForAchievements": [
+			"24"
+		]
+	},
+	{
+		"Id": "17",
+		"Link": "C.H.A.D.",
+		"Name": "Something Cute",
+		"ImageName": "17.png",
+		"Description": "New boss in the caves!",
+		"UnlockMethod": "Beat Chapter 2 30 times",
+		"RequiredForAchievements": [
+			"25"
+		]
+	},
+	{
+		"Id": "18",
+		"Link": "Gish",
+		"Name": "Something Sticky",
+		"ImageName": "18.png",
+		"Description": "New boss in the depths!",
+		"UnlockMethod": "Beat Chapter 3 20 times",
+		"RequiredForAchievements": [
+			"23"
+		]
+	},
+	{
+		"Id": "19",
+		"Link": "Super_Bandage",
+		"Name": "A Bandage",
+		"ImageName": "19.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Make a Super Bandage Girl by picking up 4 copies of Ball of Bandages in one run; see Unlocking Super Meat Boy \u0026 Super Bandage Girl",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "20",
+		"Link": "The_Relic",
+		"Name": "A Cross",
+		"ImageName": "20.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "21",
+		"Link": "Sack_of_Pennies",
+		"Name": "A Bag of Pennies",
+		"ImageName": "21.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "22",
+		"Link": "The_Book_of_Sin",
+		"Name": "The Book of Sin",
+		"ImageName": "22.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat all 7 Deadly Sins",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "23",
+		"Link": "Little_Gish",
+		"Name": "Little Gish",
+		"ImageName": "23.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Gish",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "24",
+		"Link": "Little_Steven",
+		"Name": "Little Steven",
+		"ImageName": "24.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Steven",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "25",
+		"Link": "Little_C.H.A.D.",
+		"Name": "Little C.H.A.D.",
+		"ImageName": "25.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat C.H.A.D.",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "26",
+		"Link": "The_Gamekid",
+		"Name": "A Gamekid",
+		"ImageName": "26.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Visit 10 Arcades",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "27",
+		"Link": "The_Halo",
+		"Name": "A Halo",
+		"ImageName": "27.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Mom, Mom's Heart, or It Lives! using The Bible",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "28",
+		"Link": "Mr._Mega",
+		"Name": "Mr. Mega",
+		"ImageName": "28.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Destroy 10 Tinted Rocks",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "29",
+		"Link": "The_D6",
+		"Name": "The D6",
+		"ImageName": "29.png",
+		"Description": "Isaac now holds the D6!",
+		"UnlockMethod": "Defeat Isaac as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "30",
+		"Link": "Scissors",
+		"Name": "The Scissors",
+		"ImageName": "30.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Die 100 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "31",
+		"Link": "The_Parasite",
+		"Name": "The Parasite",
+		"ImageName": "31.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Pick up any 2 of the following items in a single run: Bob's Rotten Head, Dead Cat, Cricket's Head, and Tammy's Head ( Any 2 items that have the 'dead' item tag)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "32",
+		"Link": "%3F%3F%3F_(Character)",
+		"Name": "???",
+		"ImageName": "32.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Defeat Mom's Heart 10 times",
+		"RequiredForAchievements": [
+			"174",
+			"34",
+			"160",
+			"29",
+			"48",
+			"73",
+			"113",
+			"114"
+		]
+	},
+	{
+		"Id": "33",
+		"Link": "",
+		"Name": "Everything Is Terrible!!!",
+		"ImageName": "33.png",
+		"Description": "The game just got harder!",
+		"UnlockMethod": "Defeat Mom's Heart 5 times",
+		"RequiredForAchievements": [
+			"140"
+		]
+	},
+	{
+		"Id": "34",
+		"Link": "It_Lives",
+		"Name": "It Lives!",
+		"ImageName": "34.png",
+		"Description": "Your future's past waits.",
+		"UnlockMethod": "Defeat Mom's Heart 11 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "35",
+		"Link": "Mom%27s_Contacts",
+		"Name": "Mom's Contact",
+		"ImageName": "35.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Obtain three Yes Mother? items in one run",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "36",
+		"Link": "The_Necronomicon",
+		"Name": "The Necronomicon",
+		"ImageName": "36.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Use XIII - Death 4 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "37",
+		"Link": "",
+		"Name": "Basement Boy",
+		"ImageName": "37.png",
+		"Description": "Beat basement without taking damage.",
+		"UnlockMethod": "Beat Chapter 1 without taking damage",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "38",
+		"Link": "",
+		"Name": "Spelunker Boy",
+		"ImageName": "38.png",
+		"Description": "Beat caves without taking damage.",
+		"UnlockMethod": "Beat Chapter 2 without taking damage",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "39",
+		"Link": "",
+		"Name": "Dark Boy",
+		"ImageName": "39.png",
+		"Description": "Beat depths without taking damage.",
+		"UnlockMethod": "Beat Chapter 3 without taking damage",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "40",
+		"Link": "",
+		"Name": "Mama's Boy",
+		"ImageName": "40.png",
+		"Description": "Beat womb without taking damage.",
+		"UnlockMethod": "Beat Chapter 4 without taking damage",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "41",
+		"Link": "",
+		"Name": "Golden God!",
+		"ImageName": "41.png",
+		"Description": "You are the best!!",
+		"UnlockMethod": "Defeat ??? and The Lamb",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "42",
+		"Link": "Eve",
+		"Name": "Eve",
+		"ImageName": "42.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Don't pick up any Hearts for 2 floors in a row",
+		"RequiredForAchievements": [
+			"44",
+			"53",
+			"76",
+			"157",
+			"111",
+			"112",
+			"169"
+		]
+	},
+	{
+		"Id": "43",
+		"Link": "Mom%27s_Knife",
+		"Name": "Mom's Knife",
+		"ImageName": "43.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "44",
+		"Link": "Razor_Blade",
+		"Name": "The Razor",
+		"ImageName": "44.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "45",
+		"Link": "Guardian_Angel",
+		"Name": "Guardian Angel",
+		"ImageName": "45.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "46",
+		"Link": "Bomb_Bag",
+		"Name": "A Bag of Bombs",
+		"ImageName": "46.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "47",
+		"Link": "Demon_Baby",
+		"Name": "Demon Baby",
+		"ImageName": "47.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "48",
+		"Link": "Forget_Me_Now",
+		"Name": "Forget Me Now",
+		"ImageName": "48.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "49",
+		"Link": "D20",
+		"Name": "The D20",
+		"ImageName": "49.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "50",
+		"Link": "Celtic_Cross",
+		"Name": "Celtic Cross",
+		"ImageName": "50.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "51",
+		"Link": "Abel",
+		"Name": "Abel",
+		"ImageName": "51.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "52",
+		"Link": "Curved_Horn",
+		"Name": "Curved Horn",
+		"ImageName": "52.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "53",
+		"Link": "Sacrificial_Dagger",
+		"Name": "Sacrificial Dagger",
+		"ImageName": "53.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "54",
+		"Link": "Bloody_Lust",
+		"Name": "Bloody Lust",
+		"ImageName": "54.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "55",
+		"Link": "Bloody_Penny",
+		"Name": "Blood Penny",
+		"ImageName": "55.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "56",
+		"Link": "Blood_Rights",
+		"Name": "Blood Rights",
+		"ImageName": "56.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "57",
+		"Link": "The_Polaroid",
+		"Name": "The Polaroid",
+		"ImageName": "57.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac 5 times",
+		"RequiredForAchievements": [
+			"118",
+			"123",
+			"157",
+			"49",
+			"128",
+			"50",
+			"75",
+			"77.1",
+			"113",
+			"53",
+			"68",
+			"131",
+			"55"
+		]
+	},
+	{
+		"Id": "58",
+		"Link": "Dad%27s_Key",
+		"Name": "Dad's Key",
+		"ImageName": "58.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Pick up both Key Pieces from the Angels in one run",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "59",
+		"Link": "The_Candle",
+		"Name": "Blue Candle",
+		"ImageName": "59.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Donate 900 coins to the Donation Machine",
+		"RequiredForAchievements": [
+			"138"
+		]
+	},
+	{
+		"Id": "60",
+		"Link": "Burnt_Penny",
+		"Name": "Burnt Penny",
+		"ImageName": "60.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Beans! (challenge #13)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "61",
+		"Link": "Lucky_Toe",
+		"Name": "Lucky Toe",
+		"ImageName": "61.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Blow up 20 Shopkeepers",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "62",
+		"Link": "Epic_Fetus",
+		"Name": "Epic Fetus",
+		"ImageName": "62.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete The Family Man (challenge #19)",
+		"RequiredForAchievements": [
+			"164"
+		]
+	},
+	{
+		"Id": "63",
+		"Link": "SMB_Super_Fan",
+		"Name": "SMB Super Fan",
+		"ImageName": "63.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete It's in the Cards (challenge #14)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "64",
+		"Link": "Counterfeit_Penny",
+		"Name": "Counterfeit Coin",
+		"ImageName": "64.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Play either Shell Game or Hell Game 100 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "65",
+		"Link": "Guppy%27s_Hair_Ball",
+		"Name": "Guppy's Hairball",
+		"ImageName": "65.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Become Guppy",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "66",
+		"Link": "Conquest",
+		"Name": "A Forgotten Horseman",
+		"ImageName": "66.png",
+		"Description": "Unlocked a new boss!",
+		"UnlockMethod": "Take 10 Angel Room items",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "67",
+		"Link": "Samson",
+		"Name": "Samson",
+		"ImageName": "67.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Complete 2 floors in a row without taking damage",
+		"RequiredForAchievements": [
+			"54",
+			"55",
+			"56",
+			"74",
+			"115",
+			"177"
+		]
+	},
+	{
+		"Id": "68",
+		"Link": "Triachnid",
+		"Name": "Something Icky",
+		"ImageName": "68.png",
+		"Description": "New boss in the womb!",
+		"UnlockMethod": "Defeat Isaac 10 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "69",
+		"Link": "",
+		"Name": "!Platinum God!",
+		"ImageName": "69.png",
+		"Description": "OMG!",
+		"UnlockMethod": "Collect all non-DLC items in the game, and unlock all of the secrets and endings (minus The Lost and his 6 unlockable items)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "70",
+		"Link": "Isaac%27s_Head",
+		"Name": "Isaac's Head",
+		"ImageName": "70.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "71",
+		"Link": "Maggy%27s_Faith",
+		"Name": "Maggy's Faith",
+		"ImageName": "71.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "72",
+		"Link": "Judas%27_Tongue",
+		"Name": "Judas' Tongue",
+		"ImageName": "72.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "73",
+		"Link": "%3F%3F%3F%27s_Soul",
+		"Name": "???'s Soul",
+		"ImageName": "73.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "74",
+		"Link": "Samson%27s_Lock",
+		"Name": "Samson's Lock",
+		"ImageName": "74.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "75",
+		"Link": "Cain%27s_Eye",
+		"Name": "Cain's Eye",
+		"ImageName": "75.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "76",
+		"Link": "Eve%27s_Bird_Foot",
+		"Name": "Eve's Bird Foot",
+		"ImageName": "76.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "78",
+		"Link": "The_Negative",
+		"Name": "The Negative",
+		"ImageName": "78.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan 5 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "79",
+		"Link": "Azazel",
+		"Name": "Azazel",
+		"ImageName": "79.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Make 3 Deals with the Devil in one run",
+		"RequiredForAchievements": [
+			"47",
+			"127",
+			"128",
+			"126",
+			"173",
+			"9"
+		]
+	},
+	{
+		"Id": "80",
+		"Link": "Lazarus",
+		"Name": "Lazarus",
+		"ImageName": "80.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Have 4 or more Soul Hearts at one time",
+		"RequiredForAchievements": [
+			"105",
+			"116",
+			"117",
+			"118",
+			"119",
+			"172"
+		]
+	},
+	{
+		"Id": "81",
+		"Link": "Eden",
+		"Name": "Eden",
+		"ImageName": "81.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Complete Chapter 4",
+		"RequiredForAchievements": [
+			"122",
+			"57",
+			"271",
+			"126",
+			"76",
+			"116",
+			"125",
+			"176",
+			"150",
+			"20",
+			"21",
+			"54",
+			"121",
+			"129",
+			"281",
+			"106",
+			"107",
+			"123",
+			"124"
+		]
+	},
+	{
+		"Id": "82",
+		"Link": "The_Lost",
+		"Name": "The Lost",
+		"ImageName": "82.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": " It's complicated Die in a Sacrifice Room while holding Missing Poster",
+		"RequiredForAchievements": [
+			"129",
+			"130",
+			"131",
+			"132",
+			"133",
+			"156",
+			"175"
+		]
+	},
+	{
+		"Id": "83",
+		"Link": "",
+		"Name": "Dead Boy",
+		"ImageName": "83.png",
+		"Description": "Beat Chest or Dark Room without taking damage.",
+		"UnlockMethod": "Complete Chapter 6 without taking damage",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "84",
+		"Link": "",
+		"Name": "The Real Platinum God",
+		"ImageName": "84.png",
+		"Description": "111% now stop playing!",
+		"UnlockMethod": "Collect every non-DLC item, and unlock every secret and ending.",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "85",
+		"Link": "Lucky_Rock",
+		"Name": "Lucky Rock",
+		"ImageName": "85.png",
+		"Description": "Destroy 100 rocks.",
+		"UnlockMethod": "Destroy 100 rocks",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "86",
+		"Link": "The_Cellar",
+		"Name": "The Cellar",
+		"ImageName": "86.png",
+		"Description": "Alt stage to the basement.",
+		"UnlockMethod": "Beat all Basement bosses ( except Baby Plum) (not restricted to beating bosses in The Basement)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "87",
+		"Link": "The_Catacombs",
+		"Name": "The Catacombs",
+		"ImageName": "87.png",
+		"Description": "Alt stage to the caves.",
+		"UnlockMethod": "Beat all Caves bosses ( except Bumbino) (not restricted to beating bosses in The Caves)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "88",
+		"Link": "Necropolis",
+		"Name": "The Necropolis",
+		"ImageName": "88.png",
+		"Description": "Alt stage to the depths.",
+		"UnlockMethod": "Beat all Depths bosses ( except Reap Creep) (not restricted to beating bosses in The Depths)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "89",
+		"Link": "Runes",
+		"Name": "Rune of Hagalaz",
+		"ImageName": "89.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Pitch Black (challenge #1)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "90",
+		"Link": "Runes",
+		"Name": "Rune of Jera",
+		"ImageName": "90.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete High Brow (challenge #2)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "91",
+		"Link": "Runes",
+		"Name": "Rune of Ehwaz",
+		"ImageName": "91.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Head Trauma (challenge #3)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "92",
+		"Link": "Runes",
+		"Name": "Rune of Dagaz",
+		"ImageName": "92.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Darkness Falls (challenge #4)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "93",
+		"Link": "Runes",
+		"Name": "Rune of Ansuz",
+		"ImageName": "93.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete The Tank (challenge #5)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "94",
+		"Link": "Runes",
+		"Name": "Rune of Perthro",
+		"ImageName": "94.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Solar System (challenge #6)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "95",
+		"Link": "Runes",
+		"Name": "Rune of Berkano",
+		"ImageName": "95.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Purist (challenge #20)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "96",
+		"Link": "Runes",
+		"Name": "Rune of Algiz",
+		"ImageName": "96.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Cat Got Your Tongue (challenge #8)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "97",
+		"Link": "Chaos_Card",
+		"Name": "Chaos Card",
+		"ImageName": "97.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Demo Man (challenge #9)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "98",
+		"Link": "Credit_Card",
+		"Name": "Credit Card",
+		"ImageName": "98.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Cursed! (challenge #10)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "99",
+		"Link": "Rules_Card",
+		"Name": "Rules Card",
+		"ImageName": "99.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Glass Cannon (challenge #11)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "100",
+		"Link": "A_Card_Against_Humanity",
+		"Name": "Card Against Humanity",
+		"ImageName": "100.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete When Life Gives You Lemons (challenge #12)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "101",
+		"Link": "Swallowed_Penny",
+		"Name": "Swallowed Penny",
+		"ImageName": "101.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Slow Roll (challenge #15)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "102",
+		"Link": "Robo-Baby_2.0",
+		"Name": "Robo-Baby 2.0",
+		"ImageName": "102.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Computer Savvy (challenge #16)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "103",
+		"Link": "Death%27s_Touch",
+		"Name": "Death's Touch",
+		"ImageName": "103.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Waka Waka (challenge #17)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "104",
+		"Link": "Tech.5",
+		"Name": "Technology .5",
+		"ImageName": "104.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete The Host (challenge #18)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "105",
+		"Link": "Missing_No.",
+		"Name": "Missing No.",
+		"ImageName": "105.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "106",
+		"Link": "Isaac%27s_Tears",
+		"Name": "Isaac's Tears",
+		"ImageName": "106.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "107",
+		"Link": "Guillotine",
+		"Name": "Guillotine",
+		"ImageName": "107.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "108",
+		"Link": "Judas%27_Shadow",
+		"Name": "Judas' Shadow",
+		"ImageName": "108.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "109",
+		"Link": "Maggy%27s_Bow",
+		"Name": "Maggy's Bow",
+		"ImageName": "109.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "110",
+		"Link": "Cain%27s_Other_Eye",
+		"Name": "Cain's Other Eye",
+		"ImageName": "110.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "111",
+		"Link": "Black_Lipstick",
+		"Name": "Black Lipstick",
+		"ImageName": "111.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "112",
+		"Link": "Eve%27s_Mascara",
+		"Name": "Eve's Mascara",
+		"ImageName": "112.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "113",
+		"Link": "Fate",
+		"Name": "Fate",
+		"ImageName": "113.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "114",
+		"Link": "%3F%3F%3F%27s_Only_Friend",
+		"Name": "???'s Only Friend",
+		"ImageName": "114.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "115",
+		"Link": "Samson%27s_Chains",
+		"Name": "Samson's Chains",
+		"ImageName": "115.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "116",
+		"Link": "Lazarus%27_Rags",
+		"Name": "Lazarus' Rags",
+		"ImageName": "116.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "117",
+		"Link": "Broken_Ankh",
+		"Name": "Broken Ankh",
+		"ImageName": "117.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "118",
+		"Link": "Store_Credit",
+		"Name": "Store Credit",
+		"ImageName": "118.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "119",
+		"Link": "Pandora%27s_Box",
+		"Name": "Pandora's Box",
+		"ImageName": "119.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "120",
+		"Link": "Suicide_King",
+		"Name": "Suicide King",
+		"ImageName": "120.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Suicide King (challenge #7)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "121",
+		"Link": "Blank_Card",
+		"Name": "Blank Card",
+		"ImageName": "121.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "122",
+		"Link": "Book_of_Secrets",
+		"Name": "Book of Secrets",
+		"ImageName": "122.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "123",
+		"Link": "Mysterious_Paper",
+		"Name": "Mysterious Paper",
+		"ImageName": "123.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "124",
+		"Link": "Mystery_Sack",
+		"Name": "Mystery Sack",
+		"ImageName": "124.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "125",
+		"Link": "Undefined",
+		"Name": "Undefined",
+		"ImageName": "125.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "126",
+		"Link": "Satanic_Bible",
+		"Name": "Satanic Bible",
+		"ImageName": "126.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "127",
+		"Link": "Daemon%27s_Tail",
+		"Name": "Daemon's Tail",
+		"ImageName": "127.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "128",
+		"Link": "Abaddon",
+		"Name": "Abaddon",
+		"ImageName": "128.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "129",
+		"Link": "Isaac%27s_Heart",
+		"Name": "Isaac's Heart",
+		"ImageName": "129.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "130",
+		"Link": "The_Mind",
+		"Name": "The Mind",
+		"ImageName": "130.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "131",
+		"Link": "The_Body",
+		"Name": "The Body",
+		"ImageName": "131.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "132",
+		"Link": "The_Soul",
+		"Name": "The Soul",
+		"ImageName": "132.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "133",
+		"Link": "D100",
+		"Name": "The D100",
+		"ImageName": "133.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "134",
+		"Link": "Blue_Map",
+		"Name": "Blue Map",
+		"ImageName": "134.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Donate 10 Coins to the Donation Machine",
+		"RequiredForAchievements": [
+			"151"
+		]
+	},
+	{
+		"Id": "135",
+		"Link": "There%27s_Options",
+		"Name": "There's Options",
+		"ImageName": "135.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Donate 50 Coins to the Donation Machine",
+		"RequiredForAchievements": [
+			"152"
+		]
+	},
+	{
+		"Id": "136",
+		"Link": "Black_Candle",
+		"Name": "Black Candle",
+		"ImageName": "136.png",
+		"Description": "Unlocked a new item",
+		"UnlockMethod": "Donate 150 Coins to the Donation Machine",
+		"RequiredForAchievements": [
+			"153"
+		]
+	},
+	{
+		"Id": "137",
+		"Link": "Red_Candle",
+		"Name": "Red Candle",
+		"ImageName": "137.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Donate 400 Coins to the Donation Machine",
+		"RequiredForAchievements": [
+			"154"
+		]
+	},
+	{
+		"Id": "138",
+		"Link": "Stop_Watch",
+		"Name": "Stop Watch",
+		"ImageName": "138.png",
+		"Description": "Unlocked a new item",
+		"UnlockMethod": "Donate 999 Coins to the Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "139",
+		"Link": "Wire_Coat_Hanger",
+		"Name": "Wire Coat Hanger",
+		"ImageName": "139.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Mom's Heart 4 times",
+		"RequiredForAchievements": [
+			"33"
+		]
+	},
+	{
+		"Id": "140",
+		"Link": "Ipecac",
+		"Name": "Ipecac",
+		"ImageName": "140.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Mom's Heart 6 times",
+		"RequiredForAchievements": [
+			"141"
+		]
+	},
+	{
+		"Id": "141",
+		"Link": "Experimental_Treatment",
+		"Name": "Experimental Treatment",
+		"ImageName": "141.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Mom's Heart 7 times",
+		"RequiredForAchievements": [
+			"10"
+		]
+	},
+	{
+		"Id": "142",
+		"Link": "Krampus",
+		"Name": "Krampus",
+		"ImageName": "142.png",
+		"Description": "Unlocked another miniboss!",
+		"UnlockMethod": "Take 20 items from Devil Rooms",
+		"RequiredForAchievements": [
+			"376",
+			"143"
+		]
+	},
+	{
+		"Id": "143",
+		"Link": "Head_of_Krampus",
+		"Name": "Head of Krampus",
+		"ImageName": "143.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Krampus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "144",
+		"Link": "Cube_of_Meat",
+		"Name": "Super Meat Boy",
+		"ImageName": "144.png",
+		"Description": "Built him out of meat cubes.",
+		"UnlockMethod": "Make a Super Meat Boy by picking up 4 copies of Cube of Meat in one run; see Unlocking Super Meat Boy \u0026 Super Bandage Girl",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "145",
+		"Link": "Butter_Bean",
+		"Name": "Butter Bean",
+		"ImageName": "145.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Destroy 100 Poops",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "146",
+		"Link": "Little_Baggy",
+		"Name": "Little Baggy",
+		"ImageName": "146.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Pick up any 2 of the following items in a single run: Roid Rage, The Virus, Growth Hormones, Experimental Treatment, and Speed Ball ( Any 2 items that have the 'syringe' item tag)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "147",
+		"Link": "Blood_Bag",
+		"Name": "Blood Bag",
+		"ImageName": "147.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Use the Blood Donation Machine 30 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "148",
+		"Link": "D4",
+		"Name": "The D4",
+		"ImageName": "148.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Blow up 30 Slot Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "149",
+		"Link": "Missing_Poster",
+		"Name": "Missing Poster",
+		"ImageName": "149.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Isaac",
+		"RequiredForAchievements": [
+			"82"
+		]
+	},
+	{
+		"Id": "150",
+		"Link": "Rubber_Cement",
+		"Name": "Rubber Cement",
+		"ImageName": "150.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Mom's Heart 2 times",
+		"RequiredForAchievements": [
+			"8",
+			"159"
+		]
+	},
+	{
+		"Id": "151",
+		"Link": "Shop#Levels",
+		"Name": "Store Upgrade lv.1",
+		"ImageName": "151.png",
+		"Description": "Donated 20 pennies to the shop.",
+		"UnlockMethod": "Donate 20 Coins to the Donation Machine",
+		"RequiredForAchievements": [
+			"135"
+		]
+	},
+	{
+		"Id": "152",
+		"Link": "Shop#Levels",
+		"Name": "Store Upgrade lv.2",
+		"ImageName": "152.png",
+		"Description": "Donated 100 pennies to the shop.",
+		"UnlockMethod": "Donate 100 Coins to the Donation Machine",
+		"RequiredForAchievements": [
+			"136"
+		]
+	},
+	{
+		"Id": "153",
+		"Link": "Shop#Levels",
+		"Name": "Store Upgrade lv.3",
+		"ImageName": "153.png",
+		"Description": "Donated 200 pennies to the shop.",
+		"UnlockMethod": "Donate 200 Coins to the Donation Machine",
+		"RequiredForAchievements": [
+			"137"
+		]
+	},
+	{
+		"Id": "154",
+		"Link": "Shop#Levels",
+		"Name": "Store Upgrade lv.4",
+		"ImageName": "154.png",
+		"Description": "Donated 600 pennies to the shop.",
+		"UnlockMethod": "Donate 600 Coins to the Donation Machine",
+		"RequiredForAchievements": [
+			"59"
+		]
+	},
+	{
+		"Id": "155",
+		"Link": "Angel",
+		"Name": "Angels",
+		"ImageName": "155.png",
+		"Description": "They are waiting.",
+		"UnlockMethod": "Complete Chapter 6",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "156",
+		"Link": "Godhead",
+		"Name": "Godhead",
+		"ImageName": "156.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Earn all 5 / 9 (except Ultra Greed) / 10 / 12 Completion Marks on Hard mode as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "157",
+		"Link": "Darkness_Falls",
+		"Name": "Darkness Falls",
+		"ImageName": "157.png",
+		"Description": "Unlocked Challenge #4.",
+		"UnlockMethod": " Defeat Mom's Heart 11 times Defeat Satan and ??? as Eve",
+		"RequiredForAchievements": [
+			"92"
+		]
+	},
+	{
+		"Id": "158",
+		"Link": "The_Tank",
+		"Name": "The Tank",
+		"ImageName": "158.png",
+		"Description": "Unlocked Challenge #5.",
+		"UnlockMethod": "Have 7 or more Red Heart Containers at one time",
+		"RequiredForAchievements": [
+			"93"
+		]
+	},
+	{
+		"Id": "159",
+		"Link": "Solar_System",
+		"Name": "Solar System",
+		"ImageName": "159.png",
+		"Description": "Unlocked Challenge #6.",
+		"UnlockMethod": "Defeat Mom's Heart 3 times",
+		"RequiredForAchievements": [
+			"94",
+			"139"
+		]
+	},
+	{
+		"Id": "160",
+		"Link": "Suicide_King_(Challenge)",
+		"Name": "Suicide King",
+		"ImageName": "160.png",
+		"Description": "Unlocked Challenge #7.",
+		"UnlockMethod": "Defeat Mom's Heart 11 times",
+		"RequiredForAchievements": [
+			"120"
+		]
+	},
+	{
+		"Id": "161",
+		"Link": "Cat_Got_Your_Tongue",
+		"Name": "Cat Got Your Tongue",
+		"ImageName": "161.png",
+		"Description": "Unlocked Challenge #8.",
+		"UnlockMethod": "Become Guppy",
+		"RequiredForAchievements": [
+			"96"
+		]
+	},
+	{
+		"Id": "162",
+		"Link": "Demo_Man",
+		"Name": "Demo Man",
+		"ImageName": "162.png",
+		"Description": "Unlocked Challenge #9.",
+		"UnlockMethod": "Defeat Mom's Heart 9 times",
+		"RequiredForAchievements": [
+			"97",
+			"32"
+		]
+	},
+	{
+		"Id": "163",
+		"Link": "Cursed!",
+		"Name": "Cursed!",
+		"ImageName": "163.png",
+		"Description": "Unlocked Challenge #10.",
+		"UnlockMethod": "Have 7 or more Red Heart Containers at one time",
+		"RequiredForAchievements": [
+			"98"
+		]
+	},
+	{
+		"Id": "164",
+		"Link": "Glass_Cannon_(Challenge)",
+		"Name": "Glass Cannon",
+		"ImageName": "164.png",
+		"Description": "Unlocked Challenge #11.",
+		"UnlockMethod": "Beat The Family Man (challenge #19) and defeat Lokii",
+		"RequiredForAchievements": [
+			"99"
+		]
+	},
+	{
+		"Id": "165",
+		"Link": "The_Family_Man",
+		"Name": "The Family Man",
+		"ImageName": "165.png",
+		"Description": "Unlocked Challenge #19.",
+		"UnlockMethod": "Pick up both Key Pieces from the Angels in one run",
+		"RequiredForAchievements": [
+			"62"
+		]
+	},
+	{
+		"Id": "166",
+		"Link": "Purist",
+		"Name": "Purist",
+		"ImageName": "166.png",
+		"Description": "Unlocked Challenge #20.",
+		"UnlockMethod": "Defeat Mom",
+		"RequiredForAchievements": [
+			"117",
+			"172",
+			"15",
+			"127",
+			"157",
+			"177",
+			"45",
+			"130",
+			"83",
+			"88",
+			"81",
+			"70",
+			"170",
+			"112",
+			"110",
+			"56",
+			"133",
+			"95",
+			"18",
+			"173",
+			"168",
+			"105",
+			"9",
+			"46",
+			"171",
+			"3",
+			"40",
+			"43",
+			"109",
+			"175",
+			"167",
+			"44",
+			"169",
+			"155"
+		]
+	},
+	{
+		"Id": "167",
+		"Link": "Babies",
+		"Name": "Lost Baby",
+		"ImageName": "167.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "168",
+		"Link": "Babies",
+		"Name": "Cute Baby",
+		"ImageName": "168.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "169",
+		"Link": "Babies",
+		"Name": "Crow Baby",
+		"ImageName": "169.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "170",
+		"Link": "Babies",
+		"Name": "Shadow Baby",
+		"ImageName": "170.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "171",
+		"Link": "Babies",
+		"Name": "Glass Baby",
+		"ImageName": "171.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "172",
+		"Link": "Babies",
+		"Name": "Wrapped Baby",
+		"ImageName": "172.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": " Defeat Mom's Heart on Hard mode as Azazel Defeat Mom's Heart on Hard mode as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "173",
+		"Link": "Babies",
+		"Name": "Begotten Baby",
+		"ImageName": "173.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": " Defeat Mom's Heart on Hard mode as Lazarus Defeat Mom's Heart on Hard mode as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "174",
+		"Link": "Babies",
+		"Name": "Dead Baby",
+		"ImageName": "174.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "175",
+		"Link": "Babies",
+		"Name": "-0- Baby",
+		"ImageName": "175.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "176",
+		"Link": "Babies",
+		"Name": "Glitch Baby",
+		"ImageName": "176.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "177",
+		"Link": "Babies",
+		"Name": "Fighting Baby",
+		"ImageName": "177.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "178",
+		"Link": "Beelzebub",
+		"Name": "Lord of the Flies",
+		"ImageName": "178.png",
+		"Description": "You became Lord of the Flies.",
+		"UnlockMethod": "Become Beelzebub",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "179",
+		"Link": "",
+		"Name": " Fart Baby",
+		"ImageName": "179.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "180",
+		"Link": "",
+		"Name": " Purity",
+		"ImageName": "180.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "181",
+		"Link": "",
+		"Name": " D12",
+		"ImageName": "181.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "182",
+		"Link": "",
+		"Name": " Betrayal",
+		"ImageName": "182.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "183",
+		"Link": "",
+		"Name": " Fate's Reward",
+		"ImageName": "183.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "184",
+		"Link": "",
+		"Name": " Athame",
+		"ImageName": "184.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "185",
+		"Link": "",
+		"Name": " Blind Rage",
+		"ImageName": "185.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "186",
+		"Link": "",
+		"Name": " Maw of the Void",
+		"ImageName": "186.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "187",
+		"Link": "",
+		"Name": " Empty Vessel",
+		"ImageName": "187.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "188",
+		"Link": "",
+		"Name": " Eden's Blessing",
+		"ImageName": "188.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "189",
+		"Link": "",
+		"Name": " Sworn Protector",
+		"ImageName": "189.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "190",
+		"Link": "",
+		"Name": " Incubus",
+		"ImageName": "190.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "191",
+		"Link": "",
+		"Name": " Keeper now holds... A Penny!",
+		"ImageName": "191.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "192",
+		"Link": "",
+		"Name": " Lil' Chest",
+		"ImageName": "192.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "193",
+		"Link": "",
+		"Name": " Censer",
+		"ImageName": "193.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "194",
+		"Link": "",
+		"Name": " Evil Eye",
+		"ImageName": "194.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "195",
+		"Link": "",
+		"Name": " My Shadow",
+		"ImageName": "195.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "196",
+		"Link": "",
+		"Name": " Cracked Dice",
+		"ImageName": "196.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "197",
+		"Link": "",
+		"Name": " Black Feather",
+		"ImageName": "197.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "198",
+		"Link": "",
+		"Name": " Lusty Blood",
+		"ImageName": "198.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "199",
+		"Link": "",
+		"Name": " Lilith",
+		"ImageName": "199.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Defeat Ultra Greed as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "200",
+		"Link": "",
+		"Name": " Key Bum",
+		"ImageName": "200.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "201",
+		"Link": "",
+		"Name": " GB Bug",
+		"ImageName": "201.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "202",
+		"Link": "",
+		"Name": " Zodiac",
+		"ImageName": "202.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "203",
+		"Link": "",
+		"Name": " Box of Friends",
+		"ImageName": "203.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "204",
+		"Link": "",
+		"Name": " Rib of Greed",
+		"ImageName": "204.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "205",
+		"Link": "",
+		"Name": " Cry Baby",
+		"ImageName": "205.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "206",
+		"Link": "",
+		"Name": " Red Baby",
+		"ImageName": "206.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "207",
+		"Link": "",
+		"Name": " Green Baby",
+		"ImageName": "207.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "208",
+		"Link": "",
+		"Name": " Brown Baby",
+		"ImageName": "208.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "209",
+		"Link": "",
+		"Name": " Blue Baby",
+		"ImageName": "209.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "210",
+		"Link": "",
+		"Name": " Lil' Baby",
+		"ImageName": "210.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "211",
+		"Link": "",
+		"Name": " Rage Baby",
+		"ImageName": "211.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "212",
+		"Link": "",
+		"Name": " Black Baby",
+		"ImageName": "212.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "213",
+		"Link": "",
+		"Name": " Long Baby",
+		"ImageName": "213.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "214",
+		"Link": "",
+		"Name": " Yellow Baby",
+		"ImageName": "214.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "215",
+		"Link": "",
+		"Name": " White Baby",
+		"ImageName": "215.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "216",
+		"Link": "",
+		"Name": " Big Baby",
+		"ImageName": "216.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "217",
+		"Link": "",
+		"Name": " Noose Baby",
+		"ImageName": "217.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "218",
+		"Link": "",
+		"Name": " Rune Bag",
+		"ImageName": "218.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "219",
+		"Link": "",
+		"Name": " Cambion Conception",
+		"ImageName": "219.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "220",
+		"Link": "",
+		"Name": " Serpent's Kiss",
+		"ImageName": "220.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "221",
+		"Link": "",
+		"Name": " Succubus",
+		"ImageName": "221.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "222",
+		"Link": "",
+		"Name": " Immaculate Conception",
+		"ImageName": "222.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "223",
+		"Link": "",
+		"Name": " Goat Head Baby",
+		"ImageName": "223.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "224",
+		"Link": "",
+		"Name": " Gold Heart",
+		"ImageName": "224.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete XXXXXXXXL (challenge #21)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "225",
+		"Link": "",
+		"Name": " Get out of Jail Free Card",
+		"ImageName": "225.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete SPEED! (challenge #22)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "226",
+		"Link": "",
+		"Name": " Gold Bomb",
+		"ImageName": "226.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Blue Bomber (challenge #23)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "227",
+		"Link": "",
+		"Name": " 2 new pills",
+		"ImageName": "227.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete PAY TO PLAY (challenge #24)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "228",
+		"Link": "",
+		"Name": " 2 new pills",
+		"ImageName": "228.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Have a Heart (challenge #25)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "229",
+		"Link": "",
+		"Name": " Poker Chip",
+		"ImageName": "229.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete I RULE! (challenge #26)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "230",
+		"Link": "",
+		"Name": " Stud Finder",
+		"ImageName": "230.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete BRAINS! (challenge #27)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "231",
+		"Link": "",
+		"Name": " D8",
+		"ImageName": "231.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete PRIDE DAY! (challenge #28)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "232",
+		"Link": "",
+		"Name": " Kidney Stone",
+		"ImageName": "232.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": " Complete The Guardian (challenge #30) Complete Onan's Streak (challenge #29)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "233",
+		"Link": "",
+		"Name": " Blank Rune",
+		"ImageName": "233.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": " Complete Onan's Streak (challenge #29) Complete The Guardian (challenge #30)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "234",
+		"Link": "",
+		"Name": " Blue Womb",
+		"ImageName": "234.png",
+		"Description": "Unlocked a hidden chapter.",
+		"UnlockMethod": "Defeat Mom's Heart 10 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "235",
+		"Link": "",
+		"Name": " 1001%",
+		"ImageName": "235.png",
+		"Description": "Nerd x 1000000",
+		"UnlockMethod": "Unlock all secrets and endings, and collect every item in the game",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "236",
+		"Link": "",
+		"Name": " Keeper holds Wooden Nickel",
+		"ImageName": "236.png",
+		"Description": "Unlocked a new starting item.",
+		"UnlockMethod": "Defeat Isaac as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "237",
+		"Link": "",
+		"Name": " Keeper holds Store Key",
+		"ImageName": "237.png",
+		"Description": "Unlocked a new starting item.",
+		"UnlockMethod": "Defeat Satan as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "238",
+		"Link": "",
+		"Name": " Deep Pockets",
+		"ImageName": "238.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "239",
+		"Link": "",
+		"Name": " Karma",
+		"ImageName": "239.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "240",
+		"Link": "",
+		"Name": " Sticky Nickels",
+		"ImageName": "240.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "241",
+		"Link": "",
+		"Name": " Super Greed Baby",
+		"ImageName": "241.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mom's Heart on Hard mode as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "242",
+		"Link": "",
+		"Name": " Lucky Pennies",
+		"ImageName": "242.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Donate 1 Coin to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "243",
+		"Link": "",
+		"Name": " Special Hanging Shopkeepers",
+		"ImageName": "243.png",
+		"Description": "Unlocked a secret.",
+		"UnlockMethod": "Donate 10 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "244",
+		"Link": "",
+		"Name": " Wooden Nickel",
+		"ImageName": "244.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Donate 30 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "245",
+		"Link": "",
+		"Name": " Cain holds Paperclip",
+		"ImageName": "245.png",
+		"Description": "Unlocked a new starting item.",
+		"UnlockMethod": "Donate 68 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "246",
+		"Link": "",
+		"Name": " Everything is Terrible 2!!!",
+		"ImageName": "246.png",
+		"Description": "Greed just got harder!",
+		"UnlockMethod": "Donate 111 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "247",
+		"Link": "",
+		"Name": " Special Shopkeepers",
+		"ImageName": "247.png",
+		"Description": "Unlocked a secret.",
+		"UnlockMethod": "Donate 234 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "248",
+		"Link": "",
+		"Name": " Eve now holds Razor Blade",
+		"ImageName": "248.png",
+		"Description": "Unlocked a new starting item.",
+		"UnlockMethod": "Donate 439 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "249",
+		"Link": "",
+		"Name": " Store Key",
+		"ImageName": "249.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Donate 666 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "250",
+		"Link": "",
+		"Name": " Lost holds Holy Mantle",
+		"ImageName": "250.png",
+		"Description": "Unlocked a new starting item.",
+		"UnlockMethod": "Donate 879 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "251",
+		"Link": "",
+		"Name": " Keeper",
+		"ImageName": "251.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Donate 1000 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "252",
+		"Link": "",
+		"Name": " Hive Baby",
+		"ImageName": "252.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "253",
+		"Link": "",
+		"Name": " Buddy Baby",
+		"ImageName": "253.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "254",
+		"Link": "",
+		"Name": " Colorful Baby",
+		"ImageName": "254.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "255",
+		"Link": "",
+		"Name": " Whore Baby",
+		"ImageName": "255.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "256",
+		"Link": "",
+		"Name": " Cracked Baby",
+		"ImageName": "256.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "257",
+		"Link": "",
+		"Name": " Dripping Baby",
+		"ImageName": "257.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "258",
+		"Link": "",
+		"Name": " Blinding Baby",
+		"ImageName": "258.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Use Blank Card while holding XIX - The Sun",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "259",
+		"Link": "",
+		"Name": " Sucky Baby",
+		"ImageName": "259.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "260",
+		"Link": "",
+		"Name": " Dark Baby",
+		"ImageName": "260.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "261",
+		"Link": "",
+		"Name": " Picky Baby",
+		"ImageName": "261.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "262",
+		"Link": "",
+		"Name": " Revenge Baby",
+		"ImageName": "262.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "263",
+		"Link": "",
+		"Name": " Belial Baby",
+		"ImageName": "263.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "264",
+		"Link": "",
+		"Name": " Sale Baby",
+		"ImageName": "264.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "265",
+		"Link": "",
+		"Name": " XXXXXXXXL",
+		"ImageName": "265.png",
+		"Description": "Unlocked Challenge #21.",
+		"UnlockMethod": "Defeat Mom",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "266",
+		"Link": "",
+		"Name": " SPEED!",
+		"ImageName": "266.png",
+		"Description": "Unlocked Challenge #22.",
+		"UnlockMethod": "Defeat Mom",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "267",
+		"Link": "",
+		"Name": " Blue Bomber",
+		"ImageName": "267.png",
+		"Description": "Unlocked Challenge #23.",
+		"UnlockMethod": "Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "268",
+		"Link": "",
+		"Name": " PAY TO PLAY",
+		"ImageName": "268.png",
+		"Description": "Unlocked Challenge #24.",
+		"UnlockMethod": "Defeat Isaac as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "269",
+		"Link": "",
+		"Name": " Have a Heart",
+		"ImageName": "269.png",
+		"Description": "Unlocked Challenge #25.",
+		"UnlockMethod": "Defeat Mom",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "270",
+		"Link": "",
+		"Name": " I RULE!",
+		"ImageName": "270.png",
+		"Description": "Unlocked Challenge #26.",
+		"UnlockMethod": " Defeat ??? or The Lamb, and defeat Satan as Isaac Defeat Mega Satan",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "271",
+		"Link": "",
+		"Name": " BRAINS!",
+		"ImageName": "271.png",
+		"Description": "Unlocked Challenge #27.",
+		"UnlockMethod": "Defeat Isaac 5 times",
+		"RequiredForAchievements": [
+			"68"
+		]
+	},
+	{
+		"Id": "272",
+		"Link": "",
+		"Name": " PRIDE DAY!",
+		"ImageName": "272.png",
+		"Description": "Unlocked Challenge #28.",
+		"UnlockMethod": "Defeat Mom",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "273",
+		"Link": "",
+		"Name": " Onan's Streak",
+		"ImageName": "273.png",
+		"Description": "Unlocked Challenge #29.",
+		"UnlockMethod": " Defeat Mom Unlock Judas and It Lives.",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "274",
+		"Link": "",
+		"Name": " The Guardian",
+		"ImageName": "274.png",
+		"Description": "Unlocked Challenge #30.",
+		"UnlockMethod": "Defeat Mom",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "275",
+		"Link": "",
+		"Name": " Generosity",
+		"ImageName": "275.png",
+		"Description": "If only everyone was as generous as you are...",
+		"UnlockMethod": "Donate 999 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "276",
+		"Link": "",
+		"Name": " Mega",
+		"ImageName": "276.png",
+		"Description": "Unlocked...",
+		"UnlockMethod": "Defeat Mega Satan as every character ( except Tainted characters)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "277",
+		"Link": "",
+		"Name": " Backasswards",
+		"ImageName": "277.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": " Defeat ??? or The Lamb Defeat Mega Satan",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "278",
+		"Link": "",
+		"Name": " Aprils fool",
+		"ImageName": "278.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Defeat Mom",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "279",
+		"Link": "",
+		"Name": " Pokey Mans",
+		"ImageName": "279.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Defeat Mom's Heart 11 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "280",
+		"Link": "",
+		"Name": " Ultra Hard",
+		"ImageName": "280.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": " Defeat ??? or The Lamb. Possession of The Polaroid / The Negative is required, barring getting to Dark Room through a Sacrifice Room. Defeat Mega Satan",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "281",
+		"Link": "",
+		"Name": " PONG",
+		"ImageName": "281.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Defeat Isaac 5 times",
+		"RequiredForAchievements": [
+			"68"
+		]
+	},
+	{
+		"Id": "282",
+		"Link": "",
+		"Name": " D Infinity",
+		"ImageName": "282.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "283",
+		"Link": "",
+		"Name": " Eucharist",
+		"ImageName": "283.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "284",
+		"Link": "",
+		"Name": " Silver Dollar",
+		"ImageName": "284.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "285",
+		"Link": "",
+		"Name": " Shade",
+		"ImageName": "285.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "286",
+		"Link": "",
+		"Name": " King Baby",
+		"ImageName": "286.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Delirium as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "287",
+		"Link": "",
+		"Name": " Bloody Crown",
+		"ImageName": "287.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "288",
+		"Link": "",
+		"Name": " Dull Razor",
+		"ImageName": "288.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "289",
+		"Link": "",
+		"Name": " Eden's Soul",
+		"ImageName": "289.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "290",
+		"Link": "",
+		"Name": " Dark Prince's Crown",
+		"ImageName": "290.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "291",
+		"Link": "",
+		"Name": " Compound Fracture",
+		"ImageName": "291.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "292",
+		"Link": "",
+		"Name": " Euthanasia",
+		"ImageName": "292.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "293",
+		"Link": "",
+		"Name": " Holy Card",
+		"ImageName": "293.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "294",
+		"Link": "",
+		"Name": " Crooked Penny",
+		"ImageName": "294.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "295",
+		"Link": "",
+		"Name": " Void",
+		"ImageName": "295.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "296",
+		"Link": "",
+		"Name": " D1",
+		"ImageName": "296.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "297",
+		"Link": "",
+		"Name": " Glyph of Balance",
+		"ImageName": "297.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "298",
+		"Link": "",
+		"Name": " Sack of Sacks",
+		"ImageName": "298.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "299",
+		"Link": "",
+		"Name": " Eye of Belial",
+		"ImageName": "299.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "300",
+		"Link": "",
+		"Name": " Meconium",
+		"ImageName": "300.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "301",
+		"Link": "",
+		"Name": " Stem Cell",
+		"ImageName": "301.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "302",
+		"Link": "",
+		"Name": " Crow Heart",
+		"ImageName": "302.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "303",
+		"Link": "",
+		"Name": " Metronome",
+		"ImageName": "303.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "304",
+		"Link": "",
+		"Name": " Bat Wing",
+		"ImageName": "304.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "305",
+		"Link": "",
+		"Name": " Plan C",
+		"ImageName": "305.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "306",
+		"Link": "",
+		"Name": " Duality",
+		"ImageName": "306.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "307",
+		"Link": "",
+		"Name": " Dad's Lost Coin",
+		"ImageName": "307.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "308",
+		"Link": "",
+		"Name": " Eye of Greed",
+		"ImageName": "308.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "309",
+		"Link": "",
+		"Name": " Black Rune",
+		"ImageName": "309.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "310",
+		"Link": "",
+		"Name": " Locust of Wrath",
+		"ImageName": "310.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "311",
+		"Link": "",
+		"Name": " Locust of Pestilence",
+		"ImageName": "311.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "312",
+		"Link": "",
+		"Name": " Locust of Famine",
+		"ImageName": "312.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "313",
+		"Link": "",
+		"Name": " Locust of Death",
+		"ImageName": "313.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "314",
+		"Link": "",
+		"Name": " Locust of Conquest",
+		"ImageName": "314.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "315",
+		"Link": "",
+		"Name": " Hushy",
+		"ImageName": "315.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "316",
+		"Link": "",
+		"Name": " Brown Nugget",
+		"ImageName": "316.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "317",
+		"Link": "",
+		"Name": " Mort Baby",
+		"ImageName": "317.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "318",
+		"Link": "",
+		"Name": " Smelter",
+		"ImageName": "318.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Mom's Heart or It Lives! on Hard mode as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "319",
+		"Link": "",
+		"Name": " Apollyon Baby",
+		"ImageName": "319.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "320",
+		"Link": "",
+		"Name": " New Area",
+		"ImageName": "320.png",
+		"Description": "Unlocked a new area.",
+		"UnlockMethod": "Defeat Hush",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "321",
+		"Link": "",
+		"Name": " Once More with Feeling!",
+		"ImageName": "321.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete a Victory Lap, defeating The Lamb",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "322",
+		"Link": "",
+		"Name": " Hat trick!",
+		"ImageName": "322.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Get a 3-win streak",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "323",
+		"Link": "",
+		"Name": " 5 Nights at Mom's",
+		"ImageName": "323.png",
+		"Description": "Unlocked super special rocks.",
+		"UnlockMethod": "Get a 5-win streak ( 3-win streak), using a different character each time (Mega Satan victories do not count if the Void portal doesn't spawn)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "324",
+		"Link": "",
+		"Name": " Sin collector",
+		"ImageName": "324.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Collect every entry in the Bestiary (bugged v190 - Mobs that don't exist in the bestiary are being counted. This allows Sin Collector to be unlocked without a complete bestiary)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "325",
+		"Link": "",
+		"Name": " Dedication",
+		"ImageName": "325.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Participate in 31 Daily Challenges (they don't have to be consecutive; it will still count if Isaac dies in the first room)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "326",
+		"Link": "",
+		"Name": " ZIP!",
+		"ImageName": "326.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb in under 20 minutes",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "327",
+		"Link": "",
+		"Name": " It's the Key",
+		"ImageName": "327.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb without taking Hearts, Coins, or Bombs through the entire run",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "328",
+		"Link": "",
+		"Name": " Mr. Resetter!",
+		"ImageName": "328.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Reset 7 times in a row",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "329",
+		"Link": "",
+		"Name": " Living on the edge",
+		"ImageName": "329.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete a Chapter (floors I and II) after Basement, start-to-finish, with only half a Heart total (can use The Lost)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "330",
+		"Link": "",
+		"Name": " U Broke It!",
+		"ImageName": "330.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Obtain 50 items in a run (duplicate passive items/familiars count towards the total, e.g., multiple Breakfast)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "331",
+		"Link": "",
+		"Name": " Laz Bleeds More!",
+		"ImageName": "331.png",
+		"Description": "Unlocked a new starting item.",
+		"UnlockMethod": "Complete Backasswards (challenge #31)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "332",
+		"Link": "",
+		"Name": " Maggy Now Holds a Pill!",
+		"ImageName": "332.png",
+		"Description": "Unlocked a new starting item.",
+		"UnlockMethod": "Complete Aprils Fool (challenge #32)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "333",
+		"Link": "",
+		"Name": " Charged Key",
+		"ImageName": "333.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Pokey Mans (challenge #33)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "334",
+		"Link": "",
+		"Name": " Samson Feels Healthy!",
+		"ImageName": "334.png",
+		"Description": "Unlocked a new starting item.",
+		"UnlockMethod": "Complete Ultra Hard (challenge #34)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "335",
+		"Link": "",
+		"Name": " Greed's Gullet",
+		"ImageName": "335.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete Pong (challenge #35)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "336",
+		"Link": "",
+		"Name": " The Marathon",
+		"ImageName": "336.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Get a 5-win streak in the Daily Challenges (they don't have to be consecutive days, only the runs you play are counted)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "337",
+		"Link": "",
+		"Name": " RERUN",
+		"ImageName": "337.png",
+		"Description": "Unlocked the power of RERUN.",
+		"UnlockMethod": "Complete 3 Victory Laps and start a 4th",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "338",
+		"Link": "",
+		"Name": " Delirious",
+		"ImageName": "338.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "339",
+		"Link": "",
+		"Name": " 1000000%",
+		"ImageName": "339.png",
+		"Description": "Just Stop!",
+		"UnlockMethod": "Collect every item in the game, unlock all secrets and endings, and complete the Bestiary",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "340",
+		"Link": "",
+		"Name": " Apollyon",
+		"ImageName": "340.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "Defeat Mega Satan",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "341",
+		"Link": "",
+		"Name": " Greedier!",
+		"ImageName": "341.png",
+		"Description": "New mode unlocked!",
+		"UnlockMethod": "Donate 500 Coins to the Greed Donation Machine",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "342",
+		"Link": "",
+		"Name": " Burning Basement",
+		"ImageName": "342.png",
+		"Description": "Alt stage to the basement.",
+		"UnlockMethod": "Defeat Mom's Heart 11 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "343",
+		"Link": "",
+		"Name": " Flooded Caves",
+		"ImageName": "343.png",
+		"Description": "Alt stage to the caves.",
+		"UnlockMethod": "Defeat It Lives! 16 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "344",
+		"Link": "",
+		"Name": " Dank Depths",
+		"ImageName": "344.png",
+		"Description": "Alt stage to the depths.",
+		"UnlockMethod": "Defeat It Lives! 21 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "345",
+		"Link": "",
+		"Name": " Scarred Womb",
+		"ImageName": "345.png",
+		"Description": "Alt stage to the womb.",
+		"UnlockMethod": "Defeat It Lives! 30 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "346",
+		"Link": "",
+		"Name": " Something wicked this way comes!",
+		"ImageName": "346.png",
+		"Description": "Unlocked new bosses!",
+		"UnlockMethod": "Defeat ??? as 3 different Characters",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "347",
+		"Link": "",
+		"Name": " Something wicked this way comes+!",
+		"ImageName": "347.png",
+		"Description": "Unlocked even more bosses!",
+		"UnlockMethod": "Defeat ??? as 6 different Characters",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "348",
+		"Link": "",
+		"Name": " The gate is open!",
+		"ImageName": "348.png",
+		"Description": "Unlocked new enemies!",
+		"UnlockMethod": "Defeat The Lamb",
+		"RequiredForAchievements": [
+			"155"
+		]
+	},
+	{
+		"Id": "349",
+		"Link": "",
+		"Name": " Black Hole",
+		"ImageName": "349.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat 20 Portals",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "350",
+		"Link": "",
+		"Name": " Mystery Gift",
+		"ImageName": "350.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Destroy 500 rocks",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "351",
+		"Link": "",
+		"Name": " Sprinkler",
+		"ImageName": "351.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Beat Chapter 1 without taking damage",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "352",
+		"Link": "",
+		"Name": " Angry Fly",
+		"ImageName": "352.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Become Beelzebub",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "353",
+		"Link": "",
+		"Name": " Bozo",
+		"ImageName": "353.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Destroy 5 rainbow poops",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "354",
+		"Link": "",
+		"Name": " Broken Modem",
+		"ImageName": "354.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete 7 Daily Challenges (by touching the trophy at the end)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "355",
+		"Link": "",
+		"Name": " Buddy in a Box",
+		"ImageName": "355.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Pick up 5 familiars in a single run",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "356",
+		"Link": "",
+		"Name": " Fast Bombs",
+		"ImageName": "356.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Little Horn 20 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "357",
+		"Link": "",
+		"Name": " Lil Delirium",
+		"ImageName": "357.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium for the 1st time",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "358",
+		"Link": "",
+		"Name": " Hairpin",
+		"ImageName": "358.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Recharge using Lil' Batteries 20 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "359",
+		"Link": "",
+		"Name": " Wooden Cross",
+		"ImageName": "359.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Sleep in a bed",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "360",
+		"Link": "",
+		"Name": " Butter!",
+		"ImageName": "360.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete 2 Victory Laps and start a 3rd",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "361",
+		"Link": "",
+		"Name": " Huge Growth",
+		"ImageName": "361.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Increase in size 5 times in a single run via Magic Mushroom, \"One makes you larger\" pills, XI - Strength, etc.",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "362",
+		"Link": "",
+		"Name": " Ancient Recall",
+		"ImageName": "362.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Use Cards and Runes 20 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "363",
+		"Link": "",
+		"Name": " Era Walk",
+		"ImageName": "363.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Add both the Broken Watch and the Stop Watch to your collection",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "364",
+		"Link": "",
+		"Name": " Coupon",
+		"ImageName": "364.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Purchase anything from Shops, Devil Rooms, and/or Black Markets 50 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "365",
+		"Link": "",
+		"Name": " Telekinesis",
+		"ImageName": "365.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Beat Chapter 2 without taking damage",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "366",
+		"Link": "",
+		"Name": " Moving Box",
+		"ImageName": "366.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Use Pandora's Box in Dark Room",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "367",
+		"Link": "",
+		"Name": " Jumper Cables",
+		"ImageName": "367.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Pick up any 2 of the following items/trinkets in a single run: 9 Volt, The Battery, Car Battery, AAA Battery, and Watch Battery ( Any 2 items that have the 'battery' item tag)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "368",
+		"Link": "",
+		"Name": " Leprosy",
+		"ImageName": "368.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Beat Chapter 3 without taking damage",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "369",
+		"Link": "",
+		"Name": " Technology Zero",
+		"ImageName": "369.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Pick up any 2 technology items in a single run ( Any 2 items that have the 'tech' item tag)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "370",
+		"Link": "",
+		"Name": " Filigree Feather",
+		"ImageName": "370.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Acquire both Key Piece 1 and Key Piece 2",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "371",
+		"Link": "",
+		"Name": " Mr. ME!",
+		"ImageName": "371.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Open 20 Locked Chests",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "372",
+		"Link": "",
+		"Name": " 7 Seals",
+		"ImageName": "372.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat all 5 Harbingers",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "373",
+		"Link": "",
+		"Name": " Angelic Prism",
+		"ImageName": "373.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat an Angel 10 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "374",
+		"Link": "",
+		"Name": " Pop!",
+		"ImageName": "374.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Beat Chapter 4 without taking damage",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "375",
+		"Link": "",
+		"Name": " Door Stop",
+		"ImageName": "375.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Blow up doors and Secret Room walls 50 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "376",
+		"Link": "",
+		"Name": " Death's List",
+		"ImageName": "376.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Take 25 Deals with the Devil",
+		"RequiredForAchievements": [
+			"383"
+		]
+	},
+	{
+		"Id": "377",
+		"Link": "",
+		"Name": " Haemolacria",
+		"ImageName": "377.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Acquire Blood Clot 10 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "378",
+		"Link": "",
+		"Name": " Lachryphagy",
+		"ImageName": "378.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Collect 10 \"Tears Up\" items or pills in one run",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "379",
+		"Link": "",
+		"Name": " Schoolbag",
+		"ImageName": "379.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Enter every Shop from Chapter 1 through Chapter 3 in one run",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "380",
+		"Link": "",
+		"Name": " Trisagion",
+		"ImageName": "380.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Take 25 Angel Rooms items",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "381",
+		"Link": "",
+		"Name": " Extension Cord",
+		"ImageName": "381.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Have The Battery, 9 Volt, and Car Battery in Isaac's collection",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "382",
+		"Link": "",
+		"Name": " Flat Stone",
+		"ImageName": "382.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Acquire Rubber Cement 5 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "383",
+		"Link": "",
+		"Name": " Sacrificial Altar",
+		"ImageName": "383.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Take 50 Deals with the Devil",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "384",
+		"Link": "",
+		"Name": " Lil Spewer",
+		"ImageName": "384.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Have Isaac die to his own explosion from Ipecac, Bob's Rotten Head, or a Horf! pill",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "385",
+		"Link": "",
+		"Name": " Blanket",
+		"ImageName": "385.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Sleep in 10 beds",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "386",
+		"Link": "",
+		"Name": " Marbles",
+		"ImageName": "386.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Use 5 Gulp! pills in one run ( Placebo uses count)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "387",
+		"Link": "",
+		"Name": " Mystery Egg",
+		"ImageName": "387.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Spawn three charmed enemies in the same room",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "388",
+		"Link": "",
+		"Name": " Rotten Penny",
+		"ImageName": "388.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Have 20 Blue Flies at the same time",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "389",
+		"Link": "",
+		"Name": " Baby-Bender",
+		"ImageName": "389.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Use I - The Magician or Telepathy for Dummies while already having homing tears",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "390",
+		"Link": "",
+		"Name": " The Forgotten",
+		"ImageName": "390.png",
+		"Description": "Unlocked a new character.",
+		"UnlockMethod": "It's complicated",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "391",
+		"Link": "",
+		"Name": " Bone Heart",
+		"ImageName": "391.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "It's complicated",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "392",
+		"Link": "",
+		"Name": " Marrow",
+		"ImageName": "392.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Mom's Heart or It Lives! on Hard mode as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "393",
+		"Link": "",
+		"Name": " Slipped Rib",
+		"ImageName": "393.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Isaac as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "394",
+		"Link": "",
+		"Name": " Pointy Rib",
+		"ImageName": "394.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Satan as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "395",
+		"Link": "",
+		"Name": " Jaw Bone",
+		"ImageName": "395.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat ??? as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "396",
+		"Link": "",
+		"Name": " Brittle Bones",
+		"ImageName": "396.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat The Lamb as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "397",
+		"Link": "",
+		"Name": " Divorce Papers",
+		"ImageName": "397.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Complete the Boss Rush as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "398",
+		"Link": "",
+		"Name": " Hallowed Ground",
+		"ImageName": "398.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Hush as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "399",
+		"Link": "",
+		"Name": " Finger Bone",
+		"ImageName": "399.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greed as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "400",
+		"Link": "",
+		"Name": " Dad's Ring",
+		"ImageName": "400.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Greedier as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "401",
+		"Link": "",
+		"Name": " Book of the Dead",
+		"ImageName": "401.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Delirium as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "402",
+		"Link": "",
+		"Name": " Bone Baby",
+		"ImageName": "402.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "403",
+		"Link": "",
+		"Name": " Bound Baby",
+		"ImageName": "403.png",
+		"Description": "Unlocked a new co-player baby.",
+		"UnlockMethod": "Defeat Mega Satan as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "404",
+		"Link": "",
+		"Name": " Bethany",
+		"ImageName": "404.png",
+		"Description": "Beat Hard mode as Lazarus without losing a life",
+		"UnlockMethod": "Defeat Mom's Heart/It Lives! on hard mode as Lazarus, without dying at all",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "405",
+		"Link": "",
+		"Name": " Jacob and Esau",
+		"ImageName": "405.png",
+		"Description": "You are just like your father...",
+		"UnlockMethod": "Defeat Mother",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "406",
+		"Link": "",
+		"Name": " The Planetarium",
+		"ImageName": "406.png",
+		"Description": "Kids shouldn't believe in fortunes...",
+		"UnlockMethod": "Collect any 3 items with the 'stars' item tag in a single run",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "407",
+		"Link": "",
+		"Name": " A Secret Exit",
+		"ImageName": "407.png",
+		"Description": "Complete ??? 3 times.",
+		"UnlockMethod": "Defeat Hush 3 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "408",
+		"Link": "",
+		"Name": " Forgotten Lullaby",
+		"ImageName": "408.png",
+		"Description": "Get that song out of her head.",
+		"UnlockMethod": "Blow up The Siren's skull after defeating her",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "409",
+		"Link": "",
+		"Name": " Fruity Plum",
+		"ImageName": "409.png",
+		"Description": "Defeat Baby Plum 10 times.",
+		"UnlockMethod": "Defeat Baby Plum 10 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "410",
+		"Link": "",
+		"Name": " Plum Flute",
+		"ImageName": "410.png",
+		"Description": "Make a new friend!",
+		"UnlockMethod": "Allow Baby Plum to escape instead of defeating her",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "411",
+		"Link": "",
+		"Name": " Rotten Heart",
+		"ImageName": "411.png",
+		"Description": "Enter the Corpse...",
+		"UnlockMethod": "Enter Corpse for the first time",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "412",
+		"Link": "",
+		"Name": " Dross",
+		"ImageName": "412.png",
+		"Description": "Defeat all bosses in Downpour.",
+		"UnlockMethod": "Defeat all bosses in Downpour",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "413",
+		"Link": "",
+		"Name": " Ashpit",
+		"ImageName": "413.png",
+		"Description": "Defeat all bosses in the Mines.",
+		"UnlockMethod": "Defeat all bosses in Mines",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "414",
+		"Link": "",
+		"Name": " Gehenna",
+		"ImageName": "414.png",
+		"Description": "Defeat all bosses in the Mausoleum.",
+		"UnlockMethod": "Defeat all bosses in Mausoleum",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "415",
+		"Link": "",
+		"Name": " Red Key",
+		"ImageName": "415.png",
+		"Description": "The other side is calling...",
+		"UnlockMethod": "Open Mom's Chest in Home",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "416",
+		"Link": "",
+		"Name": " Wisp Baby",
+		"ImageName": "416.png",
+		"Description": "Beat the game in Hard mode with Bethany.",
+		"UnlockMethod": "Defeat Mom's Heart or It Lives! on Hard mode as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "417",
+		"Link": "",
+		"Name": " Book of Virtues",
+		"ImageName": "417.png",
+		"Description": "Complete the Cathedral with Bethany.",
+		"UnlockMethod": "Defeat Isaac as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "418",
+		"Link": "",
+		"Name": " Urn of Souls",
+		"ImageName": "418.png",
+		"Description": "Complete Sheol with Bethany.",
+		"UnlockMethod": "Defeat Satan as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "419",
+		"Link": "",
+		"Name": " Blessed Penny",
+		"ImageName": "419.png",
+		"Description": "Complete the Chest with Bethany.",
+		"UnlockMethod": "Defeat ??? as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "420",
+		"Link": "",
+		"Name": " Alabaster Box",
+		"ImageName": "420.png",
+		"Description": "Complete the Dark Room with Bethany.",
+		"UnlockMethod": "Defeat The Lamb as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "421",
+		"Link": "",
+		"Name": " Beth's Faith",
+		"ImageName": "421.png",
+		"Description": "Complete Boss Rush with Bethany.",
+		"UnlockMethod": "Complete the Boss Rush as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "422",
+		"Link": "",
+		"Name": " Soul Locket",
+		"ImageName": "422.png",
+		"Description": "Beat Greed mode with Bethany.",
+		"UnlockMethod": "Defeat Ultra Greed as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "423",
+		"Link": "",
+		"Name": " Divine Intervention",
+		"ImageName": "423.png",
+		"Description": "Complete ??? with Bethany.",
+		"UnlockMethod": "Defeat Hush as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "424",
+		"Link": "",
+		"Name": " Vade Retro",
+		"ImageName": "424.png",
+		"Description": "Beat Greedier mode with Bethany.",
+		"UnlockMethod": "Defeat Ultra Greedier as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "425",
+		"Link": "",
+		"Name": " Star of Bethlehem",
+		"ImageName": "425.png",
+		"Description": "Beat the Void with Bethany.",
+		"UnlockMethod": "Defeat Delirium as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "426",
+		"Link": "",
+		"Name": " Hope Baby",
+		"ImageName": "426.png",
+		"Description": "Beat everything in Hard mode with Bethany.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "427",
+		"Link": "",
+		"Name": " Glowing Baby",
+		"ImageName": "427.png",
+		"Description": "Defeat Mega Satan with Bethany.",
+		"UnlockMethod": "Defeat Mega Satan as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "428",
+		"Link": "",
+		"Name": " Double Baby",
+		"ImageName": "428.png",
+		"Description": "Beat the game in Hard mode with Jacob and Esau.",
+		"UnlockMethod": "Defeat Mom's Heart or It Lives! on Hard mode as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "429",
+		"Link": "",
+		"Name": " The Stairway",
+		"ImageName": "429.png",
+		"Description": "Complete the Cathedral with Jacob and Esau.",
+		"UnlockMethod": "Defeat Isaac as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "430",
+		"Link": "",
+		"Name": " Red Stew",
+		"ImageName": "430.png",
+		"Description": "Complete Sheol with Jacob and Esau.",
+		"UnlockMethod": "Defeat Satan as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "431",
+		"Link": "",
+		"Name": " Birthright",
+		"ImageName": "431.png",
+		"Description": "Complete the Chest with Jacob and Esau.",
+		"UnlockMethod": "Defeat ??? as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "432",
+		"Link": "",
+		"Name": " Damocles",
+		"ImageName": "432.png",
+		"Description": "Complete the Dark Room with Jacob and Esau.",
+		"UnlockMethod": "Defeat The Lamb as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "433",
+		"Link": "",
+		"Name": " Rock Bottom",
+		"ImageName": "433.png",
+		"Description": "Complete Boss Rush with Jacob and Esau.",
+		"UnlockMethod": "Complete Boss Rush as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "434",
+		"Link": "",
+		"Name": " Inner Child",
+		"ImageName": "434.png",
+		"Description": "Beat Greed mode with Jacob and Esau.",
+		"UnlockMethod": "Defeat Ultra Greed as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "435",
+		"Link": "",
+		"Name": " Vanishing Twin",
+		"ImageName": "435.png",
+		"Description": "Complete ??? with Jacob and Esau.",
+		"UnlockMethod": "Defeat Hush as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "436",
+		"Link": "",
+		"Name": " Genesis",
+		"ImageName": "436.png",
+		"Description": "Beat Greedier mode with Jacob and Esau.",
+		"UnlockMethod": "Defeat Ultra Greedier as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "437",
+		"Link": "",
+		"Name": " Suplex!",
+		"ImageName": "437.png",
+		"Description": "Complete the Void with Jacob and Esau.",
+		"UnlockMethod": "Defeat Delirium as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "438",
+		"Link": "",
+		"Name": " Solomon's Baby",
+		"ImageName": "438.png",
+		"Description": "Beat everything in Hard mode with Jacob and Esau.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "439",
+		"Link": "",
+		"Name": " Illusion Baby",
+		"ImageName": "439.png",
+		"Description": "Defeat Mega Satan with Jacob and Esau.",
+		"UnlockMethod": "Defeat Mega Satan as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "440",
+		"Link": "",
+		"Name": " Meat Cleaver",
+		"ImageName": "440.png",
+		"Description": "Complete the Corpse with Isaac.",
+		"UnlockMethod": "Defeat Mother as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "441",
+		"Link": "",
+		"Name": " Options?",
+		"ImageName": "441.png",
+		"Description": "Complete the final chapter with Isaac.",
+		"UnlockMethod": "Defeat The Beast as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "442",
+		"Link": "",
+		"Name": " Yuck Heart",
+		"ImageName": "442.png",
+		"Description": "Complete the Corpse with Magdalene.",
+		"UnlockMethod": "Defeat Mother as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "443",
+		"Link": "",
+		"Name": " Candy Heart",
+		"ImageName": "443.png",
+		"Description": "Complete the final chapter with Magdalene.",
+		"UnlockMethod": "Defeat The Beast as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "444",
+		"Link": "",
+		"Name": " Guppy's Eye",
+		"ImageName": "444.png",
+		"Description": "Complete the Corpse with Cain.",
+		"UnlockMethod": "Defeat Mother as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "445",
+		"Link": "",
+		"Name": " A Pound of Flesh",
+		"ImageName": "445.png",
+		"Description": "Complete the final chapter with Cain.",
+		"UnlockMethod": "Defeat The Beast as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "446",
+		"Link": "",
+		"Name": " Akeldama",
+		"ImageName": "446.png",
+		"Description": "Complete the Corpse with Judas.",
+		"UnlockMethod": "Defeat Mother as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "447",
+		"Link": "",
+		"Name": " Redemption",
+		"ImageName": "447.png",
+		"Description": "Complete the final chapter with Judas.",
+		"UnlockMethod": "Defeat The Beast as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "448",
+		"Link": "",
+		"Name": " Eternal D6",
+		"ImageName": "448.png",
+		"Description": "Complete the Corpse with ???.",
+		"UnlockMethod": "Defeat Mother as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "449",
+		"Link": "",
+		"Name": " Montezuma's Revenge",
+		"ImageName": "449.png",
+		"Description": "Complete the final chapter with ???.",
+		"UnlockMethod": "Defeat The Beast as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "450",
+		"Link": "",
+		"Name": " Bird Cage",
+		"ImageName": "450.png",
+		"Description": "Complete the Corpse with Eve.",
+		"UnlockMethod": "Defeat Mother as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "451",
+		"Link": "",
+		"Name": " Cracked Orb",
+		"ImageName": "451.png",
+		"Description": "Complete the final chapter with Eve.",
+		"UnlockMethod": "Defeat The Beast as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "452",
+		"Link": "",
+		"Name": " Bloody Gust",
+		"ImageName": "452.png",
+		"Description": "Complete the Corpse with Samson.",
+		"UnlockMethod": "Defeat Mother as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "453",
+		"Link": "",
+		"Name": " Empty Heart",
+		"ImageName": "453.png",
+		"Description": "Complete the final chapter with Samson.",
+		"UnlockMethod": "Defeat The Beast as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "454",
+		"Link": "",
+		"Name": " Devil's Crown",
+		"ImageName": "454.png",
+		"Description": "Complete the Corpse with Azazel.",
+		"UnlockMethod": "Defeat Mother as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "455",
+		"Link": "",
+		"Name": " Lil Abaddon",
+		"ImageName": "455.png",
+		"Description": "Complete the final chapter with Azazel.",
+		"UnlockMethod": "Defeat The Beast as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "456",
+		"Link": "",
+		"Name": " Tinytoma",
+		"ImageName": "456.png",
+		"Description": "Complete the Corpse with Lazarus.",
+		"UnlockMethod": "Defeat Mother as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "457",
+		"Link": "",
+		"Name": " Astral Projection",
+		"ImageName": "457.png",
+		"Description": "Complete the final chapter with Lazarus.",
+		"UnlockMethod": "Defeat The Beast as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "458",
+		"Link": "",
+		"Name": " 'M",
+		"ImageName": "458.png",
+		"Description": "Complete the Corpse with Eden.",
+		"UnlockMethod": "Defeat Mother as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "459",
+		"Link": "",
+		"Name": " Everything Jar",
+		"ImageName": "459.png",
+		"Description": "Complete the final chapter with Eden.",
+		"UnlockMethod": "Defeat The Beast as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "460",
+		"Link": "",
+		"Name": " Lost Soul",
+		"ImageName": "460.png",
+		"Description": "Complete the Corpse with the Lost.",
+		"UnlockMethod": "Defeat Mother as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "461",
+		"Link": "",
+		"Name": " Hungry Soul",
+		"ImageName": "461.png",
+		"Description": "Complete the final chapter with the Lost.",
+		"UnlockMethod": "Defeat The Beast as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "462",
+		"Link": "",
+		"Name": " Blood Puppy",
+		"ImageName": "462.png",
+		"Description": "Complete the Corpse with Lilith.",
+		"UnlockMethod": "Defeat Mother as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "463",
+		"Link": "",
+		"Name": " C Section",
+		"ImageName": "463.png",
+		"Description": "Complete the final chapter with Lilith.",
+		"UnlockMethod": "Defeat The Beast as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "464",
+		"Link": "",
+		"Name": " Keeper's Sack",
+		"ImageName": "464.png",
+		"Description": "Complete the Corpse with Keeper.",
+		"UnlockMethod": "Defeat Mother as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "465",
+		"Link": "",
+		"Name": " Keeper's Box",
+		"ImageName": "465.png",
+		"Description": "Complete the final chapter with Keeper.",
+		"UnlockMethod": "Defeat The Beast as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "466",
+		"Link": "",
+		"Name": " Lil Portal",
+		"ImageName": "466.png",
+		"Description": "Complete the Corpse with Apollyon.",
+		"UnlockMethod": "Defeat Mother as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "467",
+		"Link": "",
+		"Name": " Worm Friend",
+		"ImageName": "467.png",
+		"Description": "Complete the final chapter with Apollyon.",
+		"UnlockMethod": "Defeat The Beast as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "468",
+		"Link": "",
+		"Name": " Bone Spurs",
+		"ImageName": "468.png",
+		"Description": "Complete the Corpse with the Forgotten.",
+		"UnlockMethod": "Defeat Mother as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "469",
+		"Link": "",
+		"Name": " Spirit Shackles",
+		"ImageName": "469.png",
+		"Description": "Complete the final chapter with the Forgotten.",
+		"UnlockMethod": "Defeat The Beast as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "470",
+		"Link": "",
+		"Name": " Revelation",
+		"ImageName": "470.png",
+		"Description": "Complete the Corpse with Bethany.",
+		"UnlockMethod": "Defeat Mother as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "471",
+		"Link": "",
+		"Name": " Jar of Wisps",
+		"ImageName": "471.png",
+		"Description": "Complete the final chapter with Bethany.",
+		"UnlockMethod": "Defeat The Beast as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "472",
+		"Link": "",
+		"Name": " Magic Skin",
+		"ImageName": "472.png",
+		"Description": "Complete the Corpse with Jacob and Esau.",
+		"UnlockMethod": "Defeat Mother as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "473",
+		"Link": "",
+		"Name": " Friend Finder",
+		"ImageName": "473.png",
+		"Description": "Complete the final chapter with Jacob and Esau.",
+		"UnlockMethod": "Defeat The Beast as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "474",
+		"Link": "",
+		"Name": " The Broken",
+		"ImageName": "474.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "475",
+		"Link": "",
+		"Name": " The Dauntless",
+		"ImageName": "475.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "476",
+		"Link": "",
+		"Name": " The Hoarder",
+		"ImageName": "476.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "477",
+		"Link": "",
+		"Name": " The Deceiver",
+		"ImageName": "477.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "478",
+		"Link": "",
+		"Name": " The Soiled",
+		"ImageName": "478.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "479",
+		"Link": "",
+		"Name": " The Curdled",
+		"ImageName": "479.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "480",
+		"Link": "",
+		"Name": " The Savage",
+		"ImageName": "480.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "481",
+		"Link": "",
+		"Name": " The Benighted",
+		"ImageName": "481.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "482",
+		"Link": "",
+		"Name": " The Enigma",
+		"ImageName": "482.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "483",
+		"Link": "",
+		"Name": " The Capricious",
+		"ImageName": "483.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "484",
+		"Link": "",
+		"Name": " The Baleful",
+		"ImageName": "484.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as The Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "485",
+		"Link": "",
+		"Name": " The Harlot",
+		"ImageName": "485.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "486",
+		"Link": "",
+		"Name": " The Miser",
+		"ImageName": "486.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "487",
+		"Link": "",
+		"Name": " The Empty",
+		"ImageName": "487.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "488",
+		"Link": "",
+		"Name": " The Fettered",
+		"ImageName": "488.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "489",
+		"Link": "",
+		"Name": " The Zealot",
+		"ImageName": "489.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "490",
+		"Link": "",
+		"Name": " The Deserter",
+		"ImageName": "490.png",
+		"Description": "???",
+		"UnlockMethod": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "491",
+		"Link": "",
+		"Name": " Glitched Crown",
+		"ImageName": "491.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "492",
+		"Link": "",
+		"Name": " Belly Jelly",
+		"ImageName": "492.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "493",
+		"Link": "",
+		"Name": " Blue Key",
+		"ImageName": "493.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "494",
+		"Link": "",
+		"Name": " Sanguine Bond",
+		"ImageName": "494.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "495",
+		"Link": "",
+		"Name": " The Swarm",
+		"ImageName": "495.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "496",
+		"Link": "",
+		"Name": " Heartbreak",
+		"ImageName": "496.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "497",
+		"Link": "",
+		"Name": " Larynx",
+		"ImageName": "497.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "498",
+		"Link": "",
+		"Name": " Azazel's Rage",
+		"ImageName": "498.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "499",
+		"Link": "",
+		"Name": " Salvation",
+		"ImageName": "499.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "500",
+		"Link": "",
+		"Name": " TMTRAINER",
+		"ImageName": "500.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "501",
+		"Link": "",
+		"Name": " Sacred Orb",
+		"ImageName": "501.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "502",
+		"Link": "",
+		"Name": " Twisted Pair",
+		"ImageName": "502.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "503",
+		"Link": "",
+		"Name": " Strawman",
+		"ImageName": "503.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "504",
+		"Link": "",
+		"Name": " Echo Chamber",
+		"ImageName": "504.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "505",
+		"Link": "",
+		"Name": " Isaac's Tomb",
+		"ImageName": "505.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "506",
+		"Link": "",
+		"Name": " Vengeful Spirit",
+		"ImageName": "506.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "507",
+		"Link": "",
+		"Name": " Esau Jr.",
+		"ImageName": "507.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat The Beast as Tainted Jacob",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "508",
+		"Link": "",
+		"Name": " Bloody Mary",
+		"ImageName": "508.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Unlock Bethany, Blood Bag, and It Lives!",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "509",
+		"Link": "",
+		"Name": " Baptism by Fire",
+		"ImageName": "509.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Defeat Satan as Bethany, defeat Mom's Heart 11 times, and unlock Maggy's Faith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "510",
+		"Link": "",
+		"Name": " Isaac's Awakening",
+		"ImageName": "510.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Defeat Mother",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "511",
+		"Link": "",
+		"Name": " Seeing Double",
+		"ImageName": "511.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Defeat Mother",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "512",
+		"Link": "",
+		"Name": " Pica Run",
+		"ImageName": "512.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Defeat Mom's Heart 11 times and unlock Marbles",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "513",
+		"Link": "",
+		"Name": " Hot Potato",
+		"ImageName": "513.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Unlock Tainted Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "514",
+		"Link": "",
+		"Name": " Cantripped!",
+		"ImageName": "514.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Unlock Tainted Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "515",
+		"Link": "",
+		"Name": " Red Redemption",
+		"ImageName": "515.png",
+		"Description": "Unlocked a new challenge.",
+		"UnlockMethod": "Unlock Tainted Jacob",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "516",
+		"Link": "",
+		"Name": " DELETE THIS",
+		"ImageName": "516.png",
+		"Description": "TODO: remove this achievement",
+		"UnlockMethod": "Unlock Tainted Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "517",
+		"Link": "",
+		"Name": " Dirty Mind",
+		"ImageName": "517.png",
+		"Description": "Complete Challenge 36.",
+		"UnlockMethod": "Complete Scat Man (challenge #36)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "518",
+		"Link": "",
+		"Name": " Sigil of Baphomet",
+		"ImageName": "518.png",
+		"Description": "Complete Challenge 37.",
+		"UnlockMethod": "Complete Bloody Mary (challenge #37)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "519",
+		"Link": "",
+		"Name": " Purgatory",
+		"ImageName": "519.png",
+		"Description": "Complete Challenge 38.",
+		"UnlockMethod": "Complete Baptism by Fire (challenge #38)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "520",
+		"Link": "",
+		"Name": " Spirit Sword",
+		"ImageName": "520.png",
+		"Description": "Complete Challenge 39.",
+		"UnlockMethod": "Complete Isaac's Awakening (challenge #39)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "521",
+		"Link": "",
+		"Name": " Broken Glasses",
+		"ImageName": "521.png",
+		"Description": "Complete Challenge 40.",
+		"UnlockMethod": "Complete Seeing Double (challenge #40)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "522",
+		"Link": "",
+		"Name": " Ice Cube",
+		"ImageName": "522.png",
+		"Description": "Complete Challenge 41.",
+		"UnlockMethod": "Complete Pica Run (challenge #41)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "523",
+		"Link": "",
+		"Name": " Charged Penny",
+		"ImageName": "523.png",
+		"Description": "They will charge you up... for a small fee.",
+		"UnlockMethod": "Donate to Battery Bums until they pay out with an item 5 times",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "524",
+		"Link": "",
+		"Name": " The Fool",
+		"ImageName": "524.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "525",
+		"Link": "",
+		"Name": " The Magician",
+		"ImageName": "525.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "526",
+		"Link": "",
+		"Name": " The High Priestess",
+		"ImageName": "526.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "527",
+		"Link": "",
+		"Name": " The Empress",
+		"ImageName": "527.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "528",
+		"Link": "",
+		"Name": " The Emperor",
+		"ImageName": "528.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "529",
+		"Link": "",
+		"Name": " The Hierophant",
+		"ImageName": "529.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "530",
+		"Link": "",
+		"Name": " The Lovers",
+		"ImageName": "530.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "531",
+		"Link": "",
+		"Name": " The Chariot",
+		"ImageName": "531.png",
+		"Description": "Complete Challenge 42.",
+		"UnlockMethod": "Complete Hot Potato (challenge #42)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "532",
+		"Link": "",
+		"Name": " Justice",
+		"ImageName": "532.png",
+		"Description": "Complete Challenge 43.",
+		"UnlockMethod": "Complete Cantripped (challenge #43)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "533",
+		"Link": "",
+		"Name": " The Hermit",
+		"ImageName": "533.png",
+		"Description": "Complete Challenge 44.",
+		"UnlockMethod": "Complete Red Redemption (challenge #44)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "534",
+		"Link": "",
+		"Name": " Wheel of Fortune",
+		"ImageName": "534.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "535",
+		"Link": "",
+		"Name": " Strength",
+		"ImageName": "535.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "536",
+		"Link": "",
+		"Name": " The Hanged Man",
+		"ImageName": "536.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "537",
+		"Link": "",
+		"Name": " Death",
+		"ImageName": "537.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "538",
+		"Link": "",
+		"Name": " Temperance",
+		"ImageName": "538.png",
+		"Description": "INVALID_DESCRIPTION",
+		"UnlockMethod": "Complete DELETE THIS (challenge #45)",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "539",
+		"Link": "",
+		"Name": " The Devil",
+		"ImageName": "539.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "540",
+		"Link": "",
+		"Name": " The Tower",
+		"ImageName": "540.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "541",
+		"Link": "",
+		"Name": " The Stars",
+		"ImageName": "541.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "542",
+		"Link": "",
+		"Name": " The Sun and the Moon",
+		"ImageName": "542.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Jacob",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "543",
+		"Link": "",
+		"Name": " Judgement",
+		"ImageName": "543.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "544",
+		"Link": "",
+		"Name": " The World",
+		"ImageName": "544.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Ultra Greedier as Tainted Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "545",
+		"Link": "",
+		"Name": " Old Capacitor",
+		"ImageName": "545.png",
+		"Description": "Kill 10 Battery Bums.",
+		"UnlockMethod": "Kill 10 Battery Bums",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "546",
+		"Link": "",
+		"Name": " Brimstone Bombs",
+		"ImageName": "546.png",
+		"Description": "Kill Hornfel before he escapes!",
+		"UnlockMethod": "After breaking Hornfel's minecart, kill him before he can escape",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "547",
+		"Link": "",
+		"Name": " Mega Mush",
+		"ImageName": "547.png",
+		"Description": "Beat everything in Hard Mode as every character.",
+		"UnlockMethod": "Earn all Hard mode Completion Marks for all non-Tainted characters",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "548",
+		"Link": "",
+		"Name": " Mom's Lock",
+		"ImageName": "548.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "549",
+		"Link": "",
+		"Name": " Dice Bag",
+		"ImageName": "549.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "550",
+		"Link": "",
+		"Name": " Holy Crown",
+		"ImageName": "550.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "551",
+		"Link": "",
+		"Name": " Mother's Kiss",
+		"ImageName": "551.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "552",
+		"Link": "",
+		"Name": " Gilded Key",
+		"ImageName": "552.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "553",
+		"Link": "",
+		"Name": " Lucky Sack",
+		"ImageName": "553.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "554",
+		"Link": "",
+		"Name": " Your Soul",
+		"ImageName": "554.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "555",
+		"Link": "",
+		"Name": " Number Magnet",
+		"ImageName": "555.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "556",
+		"Link": "",
+		"Name": " Dingle Berry",
+		"ImageName": "556.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "557",
+		"Link": "",
+		"Name": " Ring Cap",
+		"ImageName": "557.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "558",
+		"Link": "",
+		"Name": " Strange Key",
+		"ImageName": "558.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "559",
+		"Link": "",
+		"Name": " Lil Clot",
+		"ImageName": "559.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "560",
+		"Link": "",
+		"Name": " Temporary Tattoo",
+		"ImageName": "560.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "561",
+		"Link": "",
+		"Name": " Swallowed M80",
+		"ImageName": "561.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "562",
+		"Link": "",
+		"Name": " Wicked Crown",
+		"ImageName": "562.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "563",
+		"Link": "",
+		"Name": " Azazel's Stump",
+		"ImageName": "563.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "564",
+		"Link": "",
+		"Name": " Torn Pocket",
+		"ImageName": "564.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "565",
+		"Link": "",
+		"Name": " Torn Card",
+		"ImageName": "565.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "566",
+		"Link": "",
+		"Name": " Nuh Uh!",
+		"ImageName": "566.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "567",
+		"Link": "",
+		"Name": " Modeling Clay",
+		"ImageName": "567.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "568",
+		"Link": "",
+		"Name": " Kid's Drawing",
+		"ImageName": "568.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "569",
+		"Link": "",
+		"Name": " Crystal Key",
+		"ImageName": "569.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "570",
+		"Link": "",
+		"Name": " The Twins",
+		"ImageName": "570.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "571",
+		"Link": "",
+		"Name": " Adoption Papers",
+		"ImageName": "571.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "572",
+		"Link": "",
+		"Name": " Keeper's Bargain",
+		"ImageName": "572.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "573",
+		"Link": "",
+		"Name": " Cursed Penny",
+		"ImageName": "573.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "574",
+		"Link": "",
+		"Name": " Cricket Leg",
+		"ImageName": "574.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "575",
+		"Link": "",
+		"Name": " Apollyon's Best Friend",
+		"ImageName": "575.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "576",
+		"Link": "",
+		"Name": " Polished Bone",
+		"ImageName": "576.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "577",
+		"Link": "",
+		"Name": " Hollow Heart",
+		"ImageName": "577.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "578",
+		"Link": "",
+		"Name": " Expansion Pack",
+		"ImageName": "578.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "579",
+		"Link": "",
+		"Name": " Beth's Essence",
+		"ImageName": "579.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "580",
+		"Link": "",
+		"Name": " RC Remote",
+		"ImageName": "580.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Jacob",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "581",
+		"Link": "",
+		"Name": " Found Soul",
+		"ImageName": "581.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mother as Tainted Jacob",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "582",
+		"Link": "",
+		"Name": " Member Card",
+		"ImageName": "582.png",
+		"Description": "Spend 40+ pennies in a single shop.",
+		"UnlockMethod": "Spend 40+ coins in a single Shop",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "583",
+		"Link": "",
+		"Name": " Golden Razor",
+		"ImageName": "583.png",
+		"Description": "Obtain 99 pennies. Then spend every single one of them.",
+		"UnlockMethod": "In a single run, obtain 99 Coins, then spend all of them",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "584",
+		"Link": "",
+		"Name": " Spindown Dice",
+		"ImageName": "584.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "585",
+		"Link": "",
+		"Name": " Hypercoagulation",
+		"ImageName": "585.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "586",
+		"Link": "",
+		"Name": " Bag of Crafting",
+		"ImageName": "586.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "587",
+		"Link": "",
+		"Name": " Dark Arts",
+		"ImageName": "587.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "588",
+		"Link": "",
+		"Name": " IBS",
+		"ImageName": "588.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "589",
+		"Link": "",
+		"Name": " Sumptorium",
+		"ImageName": "589.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "590",
+		"Link": "",
+		"Name": " Berserk!",
+		"ImageName": "590.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "591",
+		"Link": "",
+		"Name": " Hemoptysis",
+		"ImageName": "591.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "592",
+		"Link": "",
+		"Name": " Flip",
+		"ImageName": "592.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "593",
+		"Link": "",
+		"Name": " Corrupted Data",
+		"ImageName": "593.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "594",
+		"Link": "",
+		"Name": " Ghost Bombs",
+		"ImageName": "594.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "595",
+		"Link": "",
+		"Name": " Gello",
+		"ImageName": "595.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "596",
+		"Link": "",
+		"Name": " Keeper's Kin",
+		"ImageName": "596.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "597",
+		"Link": "",
+		"Name": " Abyss",
+		"ImageName": "597.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "598",
+		"Link": "",
+		"Name": " Decap Attack",
+		"ImageName": "598.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "599",
+		"Link": "",
+		"Name": " Lemegeton",
+		"ImageName": "599.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "600",
+		"Link": "",
+		"Name": " Anima Sola",
+		"ImageName": "600.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Delirium as Tainted Jacob",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "601",
+		"Link": "",
+		"Name": " Mega Chest",
+		"ImageName": "601.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "602",
+		"Link": "",
+		"Name": " Queen of Hearts",
+		"ImageName": "602.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "603",
+		"Link": "",
+		"Name": " Gold Pill",
+		"ImageName": "603.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "604",
+		"Link": "",
+		"Name": " Black Sack",
+		"ImageName": "604.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "605",
+		"Link": "",
+		"Name": " Charming Poop",
+		"ImageName": "605.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "606",
+		"Link": "",
+		"Name": " Horse Pill",
+		"ImageName": "606.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "607",
+		"Link": "",
+		"Name": " Crane Game",
+		"ImageName": "607.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "608",
+		"Link": "",
+		"Name": " Hell Game",
+		"ImageName": "608.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "609",
+		"Link": "",
+		"Name": " Wooden Chest",
+		"ImageName": "609.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "610",
+		"Link": "",
+		"Name": " Wild Card",
+		"ImageName": "610.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "611",
+		"Link": "",
+		"Name": " Haunted Chest",
+		"ImageName": "611.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "612",
+		"Link": "",
+		"Name": " Fool's Gold",
+		"ImageName": "612.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "613",
+		"Link": "",
+		"Name": " Golden Penny",
+		"ImageName": "613.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "614",
+		"Link": "",
+		"Name": " Rotten Beggar",
+		"ImageName": "614.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "615",
+		"Link": "",
+		"Name": " Golden Battery",
+		"ImageName": "615.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "616",
+		"Link": "",
+		"Name": " Confessional",
+		"ImageName": "616.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "617",
+		"Link": "",
+		"Name": " Golden Trinket",
+		"ImageName": "617.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Mega Satan as Tainted Jacob",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "618",
+		"Link": "",
+		"Name": " Soul of Isaac",
+		"ImageName": "618.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Isaac",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "619",
+		"Link": "",
+		"Name": " Soul of Magdalene",
+		"ImageName": "619.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Magdalene",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "620",
+		"Link": "",
+		"Name": " Soul of Cain",
+		"ImageName": "620.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Cain",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "621",
+		"Link": "",
+		"Name": " Soul of Judas",
+		"ImageName": "621.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "622",
+		"Link": "",
+		"Name": " Soul of ???",
+		"ImageName": "622.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted ???",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "623",
+		"Link": "",
+		"Name": " Soul of Eve",
+		"ImageName": "623.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Eve",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "624",
+		"Link": "",
+		"Name": " Soul of Samson",
+		"ImageName": "624.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Samson",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "625",
+		"Link": "",
+		"Name": " Soul of Azazel",
+		"ImageName": "625.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Azazel",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "626",
+		"Link": "",
+		"Name": " Soul of Lazarus",
+		"ImageName": "626.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Lazarus",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "627",
+		"Link": "",
+		"Name": " Soul of Eden",
+		"ImageName": "627.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Eden",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "628",
+		"Link": "",
+		"Name": " Soul of the Lost",
+		"ImageName": "628.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Lost",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "629",
+		"Link": "",
+		"Name": " Soul of Lilith",
+		"ImageName": "629.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Lilith",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "630",
+		"Link": "",
+		"Name": " Soul of the Keeper",
+		"ImageName": "630.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Keeper",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "631",
+		"Link": "",
+		"Name": " Soul of Apollyon",
+		"ImageName": "631.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Apollyon",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "632",
+		"Link": "",
+		"Name": " Soul of the Forgotten",
+		"ImageName": "632.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Forgotten",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "633",
+		"Link": "",
+		"Name": " Soul of Bethany",
+		"ImageName": "633.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Bethany",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "634",
+		"Link": "",
+		"Name": " Soul of Jacob and Esau",
+		"ImageName": "634.png",
+		"Description": "???",
+		"UnlockMethod": "Defeat Hush and Boss Rush as Tainted Jacob",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "635",
+		"Link": "",
+		"Name": " A Strange Door",
+		"ImageName": "635.png",
+		"Description": "Where could it lead to?",
+		"UnlockMethod": "Defeat Mother",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "636",
+		"Link": "",
+		"Name": " Death Certificate",
+		"ImageName": "636.png",
+		"Description": "...",
+		"UnlockMethod": "Earn all Hard mode Completion Marks for all characters, including tainted ones",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "637",
+		"Link": "",
+		"Name": " Dead God",
+		"ImageName": "637.png",
+		"Description": "",
+		"UnlockMethod": "Unlock all the other achievements and collect every item in the game",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "77.1",
+		"Link": "The_Left_Hand",
+		"Name": "The Left Hand",
+		"ImageName": "77.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Pride as any character, or ??? as Judas",
+		"RequiredForAchievements": null
+	},
+	{
+		"Id": "77.2",
+		"Link": "The_Left_Hand",
+		"Name": "The Left Hand",
+		"ImageName": "77.png",
+		"Description": "Unlocked a new item.",
+		"UnlockMethod": "Defeat Ultra Pride as any character, or ??? as Judas",
+		"RequiredForAchievements": null
+	}
+]
