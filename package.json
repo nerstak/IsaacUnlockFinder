@@ -1,6 +1,6 @@
 {
   "name": "isaac-unlock-finder",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,7 +11,7 @@
     "dev:ssr": "ng run IsaacUnlockFinder:serve-ssr",
     "serve:ssr": "node dist/IsaacUnlockFinder/server/main.js",
     "build:ssr": "ng build && ng run IsaacUnlockFinder:server",
-    "prerender": "ng run IsaacUnlockFinder:prerender"
+    "prerender": "ng run IsaacUnlockFinder:prerender && ./nodes_modules/.bin/ngsw-config ./dist/IsaacUnlockFinder/browser ./ngsw-config.json"
   },
   "private": true,
   "dependencies": {
@@ -26,6 +26,7 @@
     "@angular/platform-browser-dynamic": "^15.1.0",
     "@angular/platform-server": "^15.1.0",
     "@angular/router": "^15.1.0",
+    "@angular/service-worker": "^15.1.0",
     "@nguniversal/express-engine": "^15.1.0",
     "browserify-zlib": "^0.2.0",
     "express": "^4.15.2",
