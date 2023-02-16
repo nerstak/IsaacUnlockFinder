@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@use 'sass:map';
+@use '@angular/material' as mat;
+@import 'themes/upheav.scss';
+
+
+html, body { height: 100%; }
+body { margin: 0; }
+* { font-family: Upheaval, Roboto, "Helvetica Neue", sans-serif; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'themes/default';
+
+$color-config:    mat.get-color-config($theme);
+$primary-palette: map.get($color-config, 'primary');
+
+html { background-color: mat-color($primary-palette); }

@@ -1,1139 +1,1634 @@
 digraph G {
-    // All nodes of same rank are at the same row (easier for visualization)
-    // {rank="same"; 90;start;}
-    subgraph cluster_1 {
-		node [style=filled];
-		4;
-		5;
-		6;
-		166;
-		label = "First victory against Mom";
-		color=blue
-	}
+// All nodes of same rank are at the same row (easier for visualization)
+    {rank = "0"; start;}
+subgraph cluster_1 {
+node [style = filled];
+4;
+5;
+6;
+166;
+265;266;269;272;274
+label = "First victory against Mom";
+color = blue
+}
 
-  //
-  //    SECTION: CHALLENGES
-  //
+//
+ //    SECTION: CHALLENGES
+ //
 
-  subgraph cluster_16 {
-		node [style=filled];
-		158;163;161;60;62;164;63;89;90;91;92;93;94;120;95;96;97;98;99;100;101;102;103;104;
-		label = "Challenges";
-		color=blue
-	}
+subgraph cluster_16 {
+node [style = filled];
+158; 163; 161; 60;165; 62; 164; 63; 89; 90; 91; 92; 93; 94; 120; 95; 96; 97; 98; 99; 100; 101; 102; 103; 104; 224; 225;226;227;228;229;230;231;232;233;273;
+label = "Challenges";
+color = blue
+}
 
-  // "The Tank"
-  // 7 or more red hearts
+// "The Tank"
+ // 7 or more red hearts
   start -> 158;
 
-  // "Cursed!"
-  // 7 or more red hearts
+// "Cursed!"
+ // 7 or more red hearts
   start -> 163;
 
-  // "Cat Got Your Tongue"
-  // Become Guppy
+// "Cat Got Your Tongue"
+ // Become Guppy
   start -> 161;
 
-  // "Burnt Penny"
-  // Complete 'Beans!', Challenge #13
+// "Burnt Penny"
+ // Complete 'Beans!', Challenge #13
   start -> 60;
 
-  // "Epic Fetus"
-  // Complete 'The Family Man', Challenge #19
+// "Epic Fetus"
+ // Complete 'The Family Man', Challenge #19
   165 -> 62;
 
-  // "Glass Cannon"
-  // Complete 'The Family Man', Challenge #19 and defeat Lokii
+// "Glass Cannon"
+ // Complete 'The Family Man', Challenge #19 and defeat Lokii
   62 -> 164;
-  15 -> 164;
+15 -> 164;
 
-  // "SMB Super Fan"
-  // Complete 'Its in the Cards', Challenge #14
+// "SMB Super Fan"
+ // Complete 'Its in the Cards', Challenge #14
   start -> 63;
 
-  // "Rune of Hagalaz"
-  // Complete 'Pitch Black', Challenge #1
+// "Rune of Hagalaz"
+ // Complete 'Pitch Black', Challenge #1
   start -> 89;
 
-  // "Rune of Jera"
-  // Complete 'High Brow', Challenge #2
+// "Rune of Jera"
+ // Complete 'High Brow', Challenge #2
   start -> 90;
 
-  // "Rune of Ehwaz"
-  // Complete 'Head Trauma', Challenge #3
+// "Rune of Ehwaz"
+ // Complete 'Head Trauma', Challenge #3
   start -> 91;
 
-  // "Rune of Dagaz"
-  // Complete 'Darkness Fall', Challenge #4
+// "Rune of Dagaz"
+ // Complete 'Darkness Fall', Challenge #4
   157 -> 92;
 
-  // "Rune of Ansuz"
-  // Complete 'The Tank', Challenge #5
+// "Rune of Ansuz"
+ // Complete 'The Tank', Challenge #5
   158 -> 93;
 
-  // "Rune of Perthro"
-  // Complete 'Solar System', Challenge #6
+// "Rune of Perthro"
+ // Complete 'Solar System', Challenge #6
   159 -> 94;
 
-  // "Suicide King"
-  // Complete 'Suicide King', Challenge #7
+// "Suicide King"
+ // Complete 'Suicide King', Challenge #7
   160 -> 120;
 
-  // "Rune of Algiz"
-  // Complete 'Cat Got Your Tongue', Challenge #8
+// "Rune of Algiz"
+ // Complete 'Cat Got Your Tongue', Challenge #8
   161 -> 96;
 
-  // "Chaos Card"
-  // Complete 'Demo Man', Challenge #9
+// "Chaos Card"
+ // Complete 'Demo Man', Challenge #9
   162 -> 97;
 
-  // "Credit Card"
-  // Complete 'Cursed!', Challenge #10
+// "Credit Card"
+ // Complete 'Cursed!', Challenge #10
   163 -> 98;
 
-  // "Rules Card"
-  // Complete 'Glass Cannon', Challenge #11
+// "Rules Card"
+ // Complete 'Glass Cannon', Challenge #11
   164 -> 99;
 
-  // "Rune of Berkano"
-  // Complete 'Purist', Challenge #20
+// "Rune of Berkano"
+ // Complete 'Purist', Challenge #20
   166 -> 95;
 
 
-
-  // "Card Against Humanity"
-  // Complete 'When Life Gives You Lemons', Challenge #12
+// "Card Against Humanity"
+ // Complete 'When Life Gives You Lemons', Challenge #12
   start -> 100;
 
-  // "Swallowed Penny"
-  // Complete 'Slow Roll', Challenge #15
+// "Swallowed Penny"
+ // Complete 'Slow Roll', Challenge #15
   start -> 101;
 
-  // "Robo-Baby 2.0"
-  // Complete 'Computer Savvy', Challenge #16
+// "Robo-Baby 2.0"
+ // Complete 'Computer Savvy', Challenge #16
   start -> 102;
 
-  // "Death's Touch"
-  // Complete 'Waka Waka', Challenge #17
+// "Death's Touch"
+ // Complete 'Waka Waka', Challenge #17
   start -> 103;
 
-  // "Techonology .5"
-  // Complete 'The Host', Challenge #18
+// "Techonology .5"
+ // Complete 'The Host', Challenge #18
   start -> 104;
 
+// "Gold Heart"
+  // Complete 'XXXXXXXXL', Challenge #21
+  265 -> 224;
 
+// "Get out of Jail Free Card"
+  // Complete 'SPEED!', Challenge #22
+  266 -> 225;
 
-  //
-  //    SECTION: START
-  //
+// "Glod Bomb"
+  // Complete 'Blue Bomber', Challenge #23
+267 -> 226;
 
-  // "The Book of Sin"
-  // Defeat all 7 Deadly Sins
+// "2 new pills"
+// Complete 'PAY TO PLAY', Challenge #24
+268 -> 227;
+
+// "2 new pills"
+// Complete 'Have a Heart', Challenge #25
+269 -> 228;
+
+// "Poker Chip"
+// Complete 'I RULE!', Challenge #26
+270 -> 229;
+
+// "Stud Finder"
+// Complete 'BRAINS!', Challenge #27
+271 -> 230;
+
+// "Onan's Streak"
+// Unlock Judas & It Lives
+3 -> 273;
+34 -> 273;
+
+// "D8"
+// Complete 'PRIDE DAY!', Challenge #28
+272 -> 231;
+
+// "Kidney Stone"
+// Complete 'Onan's Streak'
+273 -> 232;
+
+// "The Guardian"
+// Complete 'The Guardian', Challenge #30
+274 -> 233;
+
+//
+ //    SECTION: START
+ //
+
+// "The Book of Sin"
+ // Defeat all 7 Deadly Sins
   start -> 22;
 
-  // "A Halo"
-  // Defeat Mom, Mom's Heart or It Lives! using The Bible
+// "A Halo"
+ // Defeat Mom, Mom's Heart or It Lives! using The Bible
   start -> 27;
 
-  // "The Scissors"
-  // Die a 100 times
+// "The Scissors"
+ // Die a 100 times
   start -> 30;
 
-  // "The Parasite"
-  // Pick 2 'dead' items
+// "The Parasite"
+ // Pick 2 'dead' items
   start -> 31;
 
-  // "Mom's Contact"
-  // Obtain 3 Yes Mother? items in one run
+// "Mom's Contact"
+ // Obtain 3 Yes Mother? items in one run
   start -> 35;
 
-  // "The Necronomicon"
-  // Use XIII - Death 4 times
+// "The Necronomicon"
+ // Use XIII - Death 4 times
   start -> 36;
 
-  // "Dad's Key"
-  // Collect both Key Pieces from the Angels in one run
+// "Dad's Key"
+ // Collect both Key Pieces from the Angels in one run
   start -> 58;
 
-  // "The Family Man"
-  // Collect both Key Pieces from the Angels in one run
+// "The Family Man"
+ // Collect both Key Pieces from the Angels in one run
   start -> 165;
 
-  // "Filigree Feather"
-  // Collect both Key Pieces from the Angels in one run
+// "Filigree Feather"
+ // Collect both Key Pieces from the Angels in one run
   start -> 370;
 
-  // "Lucky Toe"
-  // Blow up 20 Shopkeepers
+// "Lucky Toe"
+ // Blow up 20 Shopkeepers
   start -> 61;
 
-  // "Counterfeit Coin"
-  // Play Shell Game or Hell Game 100 times
+// "Counterfeit Coin"
+ // Play Shell Game or Hell Game 100 times
   start -> 64;
 
-  // "Guppy's Hairball"
-  // Become Guppy
+// "Guppy's Hairball"
+ // Become Guppy
   start -> 65;
 
-  // "A Forgotten Horseman"
-  // Take 10 Angel Room items
+// "A Forgotten Horseman"
+ // Take 10 Angel Room items
   start -> 66;
 
-  // "The Left Hand"
-  // Defeat Ultra Pride
-  // Can also be unlock with Judas
+// "The Left Hand"
+ // Defeat Ultra Pride
+ // Can also be unlock with Judas
   start -> 77.2;
 
-  // "Butter Bean"
-  // Destroy 100 Poops
+// "Butter Bean"
+ // Destroy 100 Poops
   start -> 145;
 
-  // "Little Baggy"
-  // Pick 2 syringes in one run
+// "Little Baggy"
+ // Pick 2 syringes in one run
   start -> 146;
 
-  // "Blood Bag"
-  // Use 30 times the Blood Donation Machine
+// "Blood Bag"
+ // Use 30 times the Blood Donation Machine
   start -> 147;
 
-  // "The D4"
-  // Blow up 30 Slot Machine
+// "The D4"
+ // Blow up 30 Slot Machine
   start -> 148;
 
-  // "Lord of the Flies"
-  // Become Beelzebub
+// "Lord of the Flies"
+ // Become Beelzebub
   start -> 178;
 
-  // "Lil Spewer"
-  // Die of your own projectile explosion (not a bomb)
+// "Lil Spewer"
+ // Die of your own projectile explosion (not a bomb)
   start -> 384;
 
-  subgraph cluster_2 {
-		node [style=filled];
-		134;
-		151;
-		135;
-		152;
-		136;
-		153;137;154;59;138;
-		label = "Shop unlocks";
-		color=blue
-	}
+subgraph cluster_2 {
+node [style = filled];
+134;
+151;
+135;
+152;
+136;
+153; 137; 154; 59; 138;
+label = "Shop Donation Machine";
+color = blue
+}
 
-  //
-  //   SECTION: DONATION MACHINES
-  //
+//
+ //   SECTION: DONATION MACHINES
+ //
 
-  // "Blue Map"
-  // Donate 10 coins to the Donation Machine
+// "Blue Map"
+ // Donate 10 coins to the Donation Machine
   start -> 134;
 
-  // "Store Upgrade lv.1"
-  // Donate 20 coins to the Donation Machine
+// "Store Upgrade lv.1"
+ // Donate 20 coins to the Donation Machine
   134 -> 151;
 
-  // "There's Options"
-  // Donate 50 coins to the Donation Machine
+// "There's Options"
+ // Donate 50 coins to the Donation Machine
   151 -> 135;
 
-  // "Store Upgrade lv.2"
-  // Donate 100 coins to the Donation Machine
+// "Store Upgrade lv.2"
+ // Donate 100 coins to the Donation Machine
   135 -> 152;
 
-  // "Black Candle"
-  // Donate 150 coins to the Donation Machine
+// "Black Candle"
+ // Donate 150 coins to the Donation Machine
   152 -> 136;
 
-  // "Store Upgrade lv.3"
-  // Donate 200 coins to the Donation Machine
+// "Store Upgrade lv.3"
+ // Donate 200 coins to the Donation Machine
   136 -> 153;
 
-  // "Red Candle"
-  // Donate 400 coins to the Donation Machine
+// "Red Candle"
+ // Donate 400 coins to the Donation Machine
   153 -> 137;
 
-  // "Store Upgrade lv.3"
-  // Donate 600 coins to the Donation Machine
+// "Store Upgrade lv.3"
+ // Donate 600 coins to the Donation Machine
   137 -> 154;
 
-  // "Blue Candle"
-  // Donate 900 coins to the Donation Machine
+// "Blue Candle"
+ // Donate 900 coins to the Donation Machine
   154 -> 59;
 
-  // "Stop Watch"
-  // Donate 999 coins to the Donation Machine
+// "Stop Watch"
+ // Donate 999 coins to the Donation Machine
   59 -> 138
 
+//
+ //    SECTION: GREED DONATION MACHINE
+ //
 
-  //
-  //    SECTION: ROCKS
-  //
+subgraph cluster_20 {
+node [style = filled];
+242; 243; 244; 245; 246; 247; 248; 249; 250; 275; 251;
+label = "Greed Donation Machine";
+color = blue
+}
 
-  // "Mr. Mega"
-  // Destroy 10 Tinted Rocks
+// "Lucky Pennies"
+ // Donate 1 Coin to the Greed Donation Machine
+  start -> 242;
+
+// "Special Hanging Shopkeepers"
+ // Donate 10 Coins to the Greed Donation Machine
+  242 -> 243;
+
+// "Wooden Nickel"
+ // Donate 30 Coins to the Greed Donation Machine
+  243 -> 244;
+
+// "Cain holds Paperclip"
+ // Donate 68 Coins to the Greed Donation Machine
+  244 -> 245;
+
+// "Everything is Terrible 2!!!"
+ // Donate 111 Coins to the Greed Donation Machine
+  245 -> 246;
+
+// "Special Shopkeepers"
+ // Donate 234 Coins to the Greed Donation Machine
+  246 -> 247;
+
+// "Eve now holds Razor Blade"
+ // Donate 439 Coins to the Greed Donation Machine
+  247 -> 248;
+
+// "Store Key"
+ // Donate 666 Coins to the Greed Donation Machine
+  248 -> 249;
+
+// "Lost holds Holy Mantle"
+ // Donate 879 Coins to the Greed Donation Machine
+  249 -> 250;
+
+// "Generosity"
+ // Donate 999 Coins to the Greed Donation Machine
+  250 -> 275;
+
+// "Keeper"
+ // Donate 1000 Coins to the Greed Donation Machine
+  275 -> 251;
+
+
+//
+ //    SECTION: ROCKS
+ //
+
+subgraph cluster_23 {
+node [style = filled];
+28;12;85;267;
+label = "Rocks";
+color = blue
+}
+
+// "Mr. Mega"
+ // Destroy 10 Tinted Rocks
   start -> 28
 
-  // "A Small Rock"
-  // Destroy 100 Tinted Rocks
+// "A Small Rock"
+ // Destroy 100 Tinted Rocks
   start -> 12;
 
-  // "Lucky Rock"
-  // Destroy 100 rocks
+// "Lucky Rock"
+ // Destroy 100 rocks
   start -> 85;
 
-  //
-  //    SECTION: CHAPTERS
-  //
+// "Blue Bomber"
+  // Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times
+  28 -> 267;
+34 ->267;
+160 -> 267;
 
-  // "Monstro's Tooth"
-  // Beat Chapter 1
+//
+ //    SECTION: CHAPTERS
+ //
+
+// "Monstro's Tooth"
+ // Beat Chapter 1
   start -> 13;
 
-  // "Basement Boy"
-  // Beat Chapter 1 without taking any damage
+// "Basement Boy"
+ // Beat Chapter 1 without taking any damage
   start -> 37
 
-  // "Lil' Chubby"
-  // Beat Chapter 2
-  13->14
+// "Lil' Chubby"
+ // Beat Chapter 2
+  13 -> 14;
 
-  // "Spelunker Boy"
-  // Beat Chapter 2 without taking any damage
-  13 -> 37
+// "Spelunker Boy"
+ // Beat Chapter 2 without taking any damage
+  13 -> 37;
 
-  // "Dark Boy"
-  // Beat Chapter 3 without taking any damage
-  14->38
+// "Dark Boy"
+ // Beat Chapter 3 without taking any damage
+  14 -> 38;
 
-  // "Something From The Future"
-  // Beat Basement 40 times
+// "Something From The Future"
+ // Beat Basement 40 times
   start -> 16;
 
-  // "Something Cute"
-  // Beat Chapter 2 30 times
+// "Something Cute"
+ // Beat Chapter 2 30 times
   14 -> 17;
 
-  // "Something Sticky"
-  // Beat Chapter 3 20 times
+// "Something Sticky"
+ // Beat Chapter 3 20 times
   4 -> 18;
-  5 -> 18;
-  6 -> 18;
-  166 -> 18;
+5 -> 18;
+6 -> 18;
+166 -> 18;
 
-  // "Mama's Boy"
-  // Beat Chapter 4 without taking any damage
+// "Mama's Boy"
+ // Beat Chapter 4 without taking any damage
   4 -> 40;
-  5 -> 40;
-  6 -> 40;
-  166 -> 40;
+5 -> 40;
+6 -> 40;
+166 -> 40;
 
-  // "Angels"
-  // Beat Chapter 6
+// "Angels"
+ // Beat Chapter 6
   348 -> 155;
 
-  // "Dead Boy"
-  // Beat Chapter 6 without taking any damage
+// "Dead Boy"
+ // Beat Chapter 6 without taking any damage
   4 -> 83;
-  5 -> 83;
-  6 -> 83;
-  166 -> 83;
+5 -> 83;
+6 -> 83;
+166 -> 83;
 
-  //
-  //   SECTION: BOSSES
-  //
+// "Blinding Baby"
+// Use Blank Card while holding 'XIX - The Sun'
+121 -> 258;
 
-  // "Little Gish"
-  // Defeat Gish
+//
+ //   SECTION: BOSSES
+ //
+
+// "Little Gish"
+ // Defeat Gish
   18 -> 23;
 
-  // "Little Steven"
-  // Defeat Steven
+// "Little Steven"
+ // Defeat Steven
   16 -> 24;
 
-  // "Little C.H.A.D."
-  // Defeat C.H.A.D.
+// "Little C.H.A.D."
+ // Defeat C.H.A.D.
   17 -> 25;
 
-  // "Loki's Horns"
-  // Beat Lokii (only available in Chapter 4)
+// "Loki's Horns"
+ // Beat Lokii (only available in Chapter 4)
   4 -> 15;
-  5 -> 15;
-  6 -> 15;
-  166 -> 15;
+5 -> 15;
+6 -> 15;
+166 -> 15;
 
-    subgraph cluster_18 {
-		node [style=filled];
-		78;
-		label = "The Negative";
-		color=blue
-	}
+subgraph cluster_18 {
+node [style = filled];
+78;
+label = "The Negative";
+color = blue
+}
 
-  // "The Negative"
-  // Defeat Satan 5 times
+// "The Negative"
+ // Defeat Satan 5 times
   3 -> 78;
 
-  subgraph cluster_17 {
-		node [style=filled];
-		57;
-		label = "The Polaroid";
-		color=blue
-	}
+subgraph cluster_17 {
+node [style = filled];
+57;
+label = "The Polaroid";
+color = blue
+}
 
 
-  // "The Polaroid"
-  // Defeat Isaac 5 times
+// "The Polaroid"
+ // Defeat Isaac 5 times
   81 -> 57;
 
-  // "BRAINS!"
-  // Defeat Isaac 5 times
+// "BRAINS!"
+ // Defeat Isaac 5 times
   81 -> 271;
 
-  subgraph cluster_15 {
-		node [style=filled];
-		271;281;68;
-		label = "Isaac (Boss)";
-		color=blue
-	}
-  // "PONG"
-  // Defeat Isaac 5 times
+subgraph cluster_15 {
+node [style = filled];
+271; 281; 68;
+label = "Isaac (Boss)";
+color = blue
+}
+// "PONG"
+ // Defeat Isaac 5 times
   81 -> 281;
 
-  // "Something Icky"
-  // Defeat Isaac 10 times
+// "Something Icky"
+ // Defeat Isaac 10 times
   57 -> 68;
-  271 -> 68;
-  281 -> 68;
+271 -> 68;
+281 -> 68;
 
-  // "The Cellar"
-  // Defeat all Basement bosses (but Baby Plum) anywhere
+// "The Cellar"
+ // Defeat all Basement bosses (but Baby Plum) anywhere
   13 -> 86;
 
-  // "The Catacombs"
-  // Defeat all Caves bosses (but Bumbino) anywhere
+// "The Catacombs"
+ // Defeat all Caves bosses (but Bumbino) anywhere
   14 -> 87;
 
-  // "The Necropolis"
-  // Defeat all Depths bosses (but Reap Creep) anywhere
+// "The Necropolis"
+ // Defeat all Depths bosses (but Reap Creep) anywhere
   4 -> 88;
-  5 -> 88;
-  6 -> 88;
-  166 -> 88;
+5 -> 88;
+6 -> 88;
+166 -> 88;
 
-  // "The gate is open"
-  // Defeat the Lamb
+// "The gate is open"
+ // Defeat the Lamb
   start -> 348;
 
+// "Mega"
+ // Defeat Mega Satan with every characters (Tainted ones excluded)
+  155 -> 276;
 
-  //
-  //   SECTION: MOM
-  //
+// "I RULE!"
+ // Defeat Mega Satan
+ 155 -> 270;
 
-  // "The Womb"
-  // Defeat Mom 1 time <=> Beat Chapter 3
+
+
+//
+ //   SECTION: MOM
+ //
+
+// "The Womb"
+ // Defeat Mom 1 time <=> Beat Chapter 3
   start -> 4;
 
-  // "The Harbingers"
-  // Defeat Mom 1 time
+// "The Harbingers"
+ // Defeat Mom 1 time
   start -> 5;
 
-  // "A Cube of Meat"
-  // Defeat Mom 1 time
+// "A Cube of Meat"
+ // Defeat Mom 1 time
   start -> 6;
 
-  // "Purist"
-  // Defeat Mom 1 time
+// "Purist"
+ // Defeat Mom 1 time
   start -> 166;
 
-  // "A Bandage"
-  // Pick 4 Ball of Bandages
+// "XXXXXXXXL"
+  // Defeat Mom
+  start -> 265;
+
+// "SPEED!"
+  // Defeat Mom
+  start -> 266;
+
+// "Have a Heart"
+  // Defeat Mom
+  start -> 269;
+
+// "PRIDE DAY!"
+  // Defeat Mom
+  start -> 272;
+
+// "The Guardian"
+  // Defeat Mom
+  start -> 274;
+
+
+// "A Bandage"
+ // Pick 4 Ball of Bandages
   6 -> 19;
 
-  // "Super Meat Boy"
-  // Pick 4 Cube of Meat
+// "Super Meat Boy"
+ // Pick 4 Cube of Meat
   6 -> 144;
 
 
-  //
-  //   SECTION: ARCADES
-  //
+//
+ //   SECTION: ARCADES
+ //
 
-  // "A Gamekid"
-  // Visit 10 Arcades
+// "A Gamekid"
+ // Visit 10 Arcades
   start -> 26;
 
 
-  //
-  //   SECTION: HARBINGERS
-  //
+//
+ //   SECTION: HARBINGERS
+ //
 
-  // "The Book of Revelations"
-  // Defeat 1 Harbinger
+// "The Book of Revelations"
+ // Defeat 1 Harbinger
   5 -> 7;
 
-  // "7 Seals"
-  // Defeat all Harbingers
+// "7 Seals"
+ // Defeat all Harbingers
   5 -> 372;
 
 
-  //
-  //   SECTION: MOM'S HEART
-  //
+//
+ //   SECTION: MOM'S HEART
+ //
 
-  subgraph cluster_3 {
-		node [style=filled];
-		81;150;8;159;139;33;140;141;10;11;162;32;34;160;
-		label = "Mom's Heart";
-		color=blue
-	}
+subgraph cluster_3 {
+node [style = filled];
+81; 150; 8; 159; 139; 33; 140; 141; 10; 11; 162; 32; 234; 34; 160;
+label = "Mom's Heart";
+color = blue
+}
 
-  // "Eden"
-  // Defeat Mom's Heart 1 time
+// "Eden"
+ // Defeat Mom's Heart 1 time
   4 -> 81;
-  5 -> 81;
-  6 -> 81;
-  166 -> 81;
+5 -> 81;
+6 -> 81;
+166 -> 81;
 
-  // "Rubber Cement"
-  // Defeat Mom's Heart 2 times
+// "Rubber Cement"
+ // Defeat Mom's Heart 2 times
   81 -> 150;
 
-  // "A Noose"
-  // Defeat Mom's Heart 3 times
+// "A Noose"
+ // Defeat Mom's Heart 3 times
   150 -> 8;
 
-  // "Solar System"
-  // Defeat Mom's Heart 3 times
+// "Solar System"
+ // Defeat Mom's Heart 3 times
   150 -> 159;
 
-  // "Wire Coat Hanger"
-  // Defeat Mom's Heart 4 times
+// "Wire Coat Hanger"
+ // Defeat Mom's Heart 4 times
   8 -> 139;
-  159 -> 139;
+159 -> 139;
 
-  // "Everything Is Terrible!!!"
-  // Defeat Mom's Heart 5 times
+// "Everything Is Terrible!!!"
+ // Defeat Mom's Heart 5 times
   139 -> 33;
 
-  // "Ipecac"
-  // Defeat Mom's Heart 6 times
+// "Ipecac"
+ // Defeat Mom's Heart 6 times
   33 -> 140;
 
-  // "Experimental Treatment"
-  // Defeat Mom's Heart 7 times
+// "Experimental Treatment"
+ // Defeat Mom's Heart 7 times
   140 -> 141;
 
-  // "A Quarter"
-  // Defeat Mom's Heart 8 times
+// "A Quarter"
+ // Defeat Mom's Heart 8 times
   141 -> 10;
 
-  // "A Fetus in a Jar"
-  // Defeat Mom's Heart 9 times
+// "A Fetus in a Jar"
+ // Defeat Mom's Heart 9 times
   10 -> 11;
 
-  // "Demo Man"
-  // Defeat Mom's Heart 9 times
+// "Demo Man"
+ // Defeat Mom's Heart 9 times
   10 -> 162;
 
-  // "???"
-  // Defeat Mom's Heart 10 times
+// "???"
+ // Defeat Mom's Heart 10 times
   11 -> 32;
-  162 -> 32;
+162 -> 32;
 
-  // "It Lives!"
-  // Defeat Mom's Heart 11 times
+// "Blue Womb"
+ // Defeat Mom's Heart 10 times
+  11 -> 234;
+162 -> 234;
+
+// "It Lives!"
+ // Defeat Mom's Heart 11 times
   32 -> 34;
+234 -> 34;
 
-  // "Suicide King"
-  // Defeat Mom's Heart 11 times
+// "Suicide King"
+ // Defeat Mom's Heart 11 times
   32 -> 160;
+234 -> 160;
 
 
-  //
-  //   SECTION: DEVIL ROOMS
-  //
+//
+ //   SECTION: DEVIL ROOMS
+ //
 
-  // "Azazel"
-  // Make 3 deals with the Devil in one run
+// "Azazel"
+ // Make 3 deals with the Devil in one run
   start -> 79;
 
-  // "Krampus"
-  // Take 20 items from Devil Rooms
+// "Krampus"
+ // Take 20 items from Devil Rooms
   start -> 142;
 
-  // "Death's List "
-  // Take 25 Deals with the Devil
+// "Death's List "
+ // Take 25 Deals with the Devil
   142 -> 376;
 
-  // "Sacrificial Altar"
-  // Take 50 Deals with the Devil
+// "Sacrificial Altar"
+ // Take 50 Deals with the Devil
   376 -> 383;
 
-  //
-  //   SECTION: KRAMPUS
-  //
+//
+ //   SECTION: KRAMPUS
+ //
 
-  // "Head of Krampus"
-  // Defeat Krampus
+// "Head of Krampus"
+ // Defeat Krampus
   142 -> 143;
 
 
-  //
-  //   SECTION: ISAAC
-  //
+//
+ //   SECTION: ISAAC
+ //
 
-  subgraph cluster_4 {
-		node [style=filled];
-		43;49;70;149;106;167;
-		label = "Isaac";
-		color=blue
-	}
+subgraph cluster_4 {
+node [style = filled];
+43; 49; 70; 149; 106; 167; 179; 192; 205;253;
+label = "Isaac";
+color = blue
+}
 
-  // "Mom's Knife"
-  // Defeat Satan as Isaac
+// "Mom's Knife"
+ // Defeat Satan as Isaac
   4 -> 43;
-  5 -> 43;
-  6 -> 43;
-  166 -> 43;
+5 -> 43;
+6 -> 43;
+166 -> 43;
 
-  // "The D20"
-  // Defeat ??? as Isaac
+// "The D20"
+ // Defeat ??? as Isaac
   57 -> 49;
 
-  // "Isaac's Head"
-  // Complete Boss Rush as Isaac
+// "Isaac's Head"
+ // Complete Boss Rush as Isaac
   4 -> 70;
-  5 -> 70;
-  6 -> 70;
-  166 -> 70;
+5 -> 70;
+6 -> 70;
+166 -> 70;
 
-  // "Missing Poster"
-  // Defeat The Lamb as Isaac
+// "Missing Poster"
+ // Defeat The Lamb as Isaac
   start -> 149;
 
-  // "Isaac's Tears"
-  // Defeat Isaac as Isaac
+// "Isaac's Tears"
+ // Defeat Isaac as Isaac
   81 -> 106;
 
-  // "Lost Baby"
-  // Defeat Mom's Heart on Hard Mode as Isaac
+// "Lost Baby"
+ // Defeat Mom's Heart on Hard Mode as Isaac
   4 -> 167;
-  5 -> 167;
-  6 -> 167;
-  166 -> 167;
+5 -> 167;
+6 -> 167;
+166 -> 167;
 
+// "Fart Baby"
+ // Defeat Hush as Isaac
+  234 -> 179;
 
-  //
-  // SECTION: AZAZEL
-  //
+// "Lil' Chest"
+ // Defeat Ultra Greed as Isaac
+  start -> 192;
 
-  subgraph cluster_5 {
-		node [style=filled];
-		79;9;47;126;127;128;173;
-		label = "Azazel";
-		color=blue
-	}
+// "Cry Baby"
+ // Defeat Mega Satan as Isaac
+  155 -> 205;
 
-  // "The Nail"
-  // Complete Boss Rush as Azazel
+// "Buddy Baby"
+// Earn all Hard mode Completion Marks as Isaac
+start -> 253;
+
+//
+ //    SECTION: AZAZEL
+ //
+
+subgraph cluster_5 {
+node [style = filled];
+79; 9; 47; 126; 127; 128; 173; 186; 199; 212;259;
+label = "Azazel";
+color = blue
+}
+
+// "The Nail"
+ // Complete Boss Rush as Azazel
   79 -> 9;
-  4 -> 9;
-  5 -> 9;
-  6 -> 9;
-  166 -> 9;
+4 -> 9;
+5 -> 9;
+6 -> 9;
+166 -> 9;
 
-  // "Demon Baby"
-  // Defeat The Lamb as Azazel
+// "Demon Baby"
+ // Defeat The Lamb as Azazel
   79 -> 47;
 
-  // "Daemon's Tail"
-  // Defeat Satan as Azazel
+// "Daemon's Tail"
+ // Defeat Satan as Azazel
   79 -> 127;
-  4 -> 127;
-  5 -> 127;
-  6 -> 127;
-  166 -> 127;
+4 -> 127;
+5 -> 127;
+6 -> 127;
+166 -> 127;
 
-  // "Abaddon"
-  // Defeat ??? as Azazel
+// "Abaddon"
+ // Defeat ??? as Azazel
   79 -> 128;
-  57 -> 128;
+57 -> 128;
 
-  // "Satanic Bible"
-  // Defeat Isaac as Azazel
+// "Satanic Bible"
+ // Defeat Isaac as Azazel
   79 -> 126;
-  81 -> 126;
+81 -> 126;
 
-  // "Begotten Baby"
-  // Defeat Mom's Heart on Hard Mode as Azazel
+// "Begotten Baby"
+ // Defeat Mom's Heart on Hard Mode as Azazel
   79 -> 173;
-  4 -> 173;
-  5 -> 173;
-  6 -> 173;
-  166 -> 173;
+4 -> 173;
+5 -> 173;
+6 -> 173;
+166 -> 173;
 
-  //
-  //   SECTION: MAGDALENE
-  //
+// "Maw of the Void"
+ // Defeat Hush as Azazel
+  79 -> 186;
+234 -> 186;
 
-  subgraph cluster_6 {
-		node [style=filled];
-		1;20;45;50;71;109;168;
-		label = "Magdalene";
-		color=blue
-	}
+// "Lilith"
+ // Defeat Ultra Greed as Azazel
+  79 -> 199;
 
-  // "Magdalene"
-  // 7 or more hearts
+// "Black Baby"
+ // Defeat Mega Satan as Azazel
+  79 -> 212;
+155 -> 212;
+
+// "Hive Baby"
+// Earn all Hard mode Completion Marks as Azazel
+79 -> 259;
+
+//
+ //   SECTION: MAGDALENE
+ //
+
+subgraph cluster_6 {
+node [style = filled];
+1; 20; 45; 50; 71; 109; 168; 180; 193; 206;254;
+label = "Magdalene";
+color = blue
+}
+
+// "Magdalene"
+ // 7 or more hearts
   start -> 1;
 
-  // "A Cross"
-  // Defeat Isaac as Magdalene: It is possible to beat Isaac thanks to Angel rooms after defeating the Mom's Heart
+// "A Cross"
+ // Defeat Isaac as Magdalene: It is possible to beat Isaac thanks to Angel rooms after defeating the Mom's Heart
   1 -> 20;
-  81 -> 20;
+81 -> 20;
 
-  // "Guardian Angel"
-  // Defeat Satan as Magdalene
+// "Guardian Angel"
+ // Defeat Satan as Magdalene
   1 -> 45;
-  4 -> 45;
-  5 -> 45;
-  6 -> 45;
-  166 -> 45;
+4 -> 45;
+5 -> 45;
+6 -> 45;
+166 -> 45;
 
-  // "Celtic Cross"
-  // Defeat ??? as Magdalene
+// "Celtic Cross"
+ // Defeat ??? as Magdalene
   1 -> 50;
-  57 -> 50;
+57 -> 50;
 
-  // "Maggy's Faith"
-  // Defeat The Lamb as Magdalene
+// "Maggy's Faith"
+ // Defeat The Lamb as Magdalene
   1 -> 71;
 
-  // "Maggy's Bow"
-  // Complete Boss Rush as Magdalene
+// "Maggy's Bow"
+ // Complete Boss Rush as Magdalene
   1 -> 109;
-  4 -> 109;
-  5 -> 109;
-  6 -> 109;
-  166 -> 109;
+4 -> 109;
+5 -> 109;
+6 -> 109;
+166 -> 109;
 
-  // "Cute Baby"
-  // Defeat Mom's Heart on Hard Mode as Magdalene
+// "Cute Baby"
+ // Defeat Mom's Heart on Hard Mode as Magdalene
   1 -> 168;
-  4 -> 168;
-  5 -> 168;
-  6 -> 168;
-  166 -> 168;
+4 -> 168;
+5 -> 168;
+6 -> 168;
+166 -> 168;
 
-  //
-  //   SECTION: CAIN
-  //
+// "Purity"
+ // Defeat Hush as Magdalene
+  234 -> 180;
+1 -> 180;
 
-  subgraph cluster_7 {
-		node [style=filled];
-		2;21;46;51;75;110;171;
-		label = "Cain";
-		color=blue
-	}
+// "Censer"
+ // Defeat Ultra Greed as Magdalene
+  1 -> 193;
 
-  // "Cain"
-  // Holds 55 coins at once
+// "Red Baby"
+ // Defeat Mega Satan as Magdalene
+  1 -> 206;
+155 -> 206;
+
+// "Colorful Baby"
+// Earn all Hard mode Completion Marks as Magdalene
+32 -> 254;
+
+//
+ //   SECTION: CAIN
+ //
+
+subgraph cluster_7 {
+node [style = filled];
+2; 21; 46; 51; 75; 110; 171; 181; 194; 207;268;261;
+label = "Cain";
+color = blue
+}
+
+// "Cain"
+ // Holds 55 coins at once
   start -> 2;
 
-  // "A Bag of Pennies"
-  // Defeat Isaac as Cain
+// "A Bag of Pennies"
+ // Defeat Isaac as Cain
   2 -> 21;
-  81 -> 21;
+81 -> 21;
 
-  // "A Bag of Bombs"
-  // Defeat Satan as Cain
+// "PAY TO PLAY"
+// Defeat Isaac as Cain
+2 -> 268;
+81 -> 268;
+
+// "A Bag of Bombs"
+ // Defeat Satan as Cain
   2 -> 46;
-  4 -> 46;
-  5 -> 46;
-  6 -> 46;
-  166 -> 46;
+4 -> 46;
+5 -> 46;
+6 -> 46;
+166 -> 46;
 
-  // "Abel"
-  // Defeat The Lamb as Cain
+// "Abel"
+ // Defeat The Lamb as Cain
   2 -> 51;
 
-  // "Cain's Eye"
-  // Defeat ??? as Cain
+// "Cain's Eye"
+ // Defeat ??? as Cain
   2 -> 75;
-  57 -> 75;
+57 -> 75;
 
-  // "Cain's Other Eye"
-  // Complete Boss Rush as Cain
+// "Cain's Other Eye"
+ // Complete Boss Rush as Cain
   2 -> 110;
-  4 -> 110;
-  5 -> 110;
-  6 -> 110;
-  166 -> 110;
+4 -> 110;
+5 -> 110;
+6 -> 110;
+166 -> 110;
 
-  // "Glass Baby"
-  // Defeat Mom's Heart on Hard Mode as Cain
+// "Glass Baby"
+ // Defeat Mom's Heart on Hard Mode as Cain
   2 -> 171;
-  4 -> 171;
-  5 -> 171;
-  6 -> 171;
-  166 -> 171;
+4 -> 171;
+5 -> 171;
+6 -> 171;
+166 -> 171;
 
-  //
-  //   SECTION: JUDAS
-  //
+// "D12"
+ // Defeat Hush as Cain
+  2 -> 181;
+234 -> 181;
 
-  subgraph cluster_8 {
-		node [style=filled];
-		3;52;72;77.1;107;108;170;
-		label = "Judas";
-		color=blue
-	}
+// "Evil Eye"
+ // Defeat Ultra Greed as Cain
+  2 -> 194;
 
-  // "Judas"
-  // Defeat Satan
+// "Green Baby"
+ // Defeat Mega Satan as Cain
+  2 -> 207;
+155 -> 207;
+
+// "Picky Baby"
+// Earn all Hard mode Completion Marks as Cain
+2 -> 261;
+
+//
+ //   SECTION: JUDAS
+ //
+
+subgraph cluster_8 {
+node [style = filled];
+3; 52; 72; 77.1; 107; 108; 170; 182; 195; 208; 263;
+label = "Judas";
+color = blue
+}
+
+// "Judas"
+ // Defeat Satan
   4 -> 3;
-  5 -> 3;
-  6 -> 3;
-  166 -> 3;
+5 -> 3;
+6 -> 3;
+166 -> 3;
 
-  // "Curved Horn"
-  // Defeat The Lamb as Judas
+// "Curved Horn"
+ // Defeat The Lamb as Judas
   3 -> 52;
 
-  // "Judas' Tongue"
-  // Defeat Satan as Judas
+// "Judas' Tongue"
+ // Defeat Satan as Judas
   3 -> 72;
 
-  // "The Left Hand"
-  // Defeat ??? as Judas
-  // Can also be unlocked by defeating Ultra Pride
+// "The Left Hand"
+ // Defeat ??? as Judas
+ // Can also be unlocked by defeating Ultra Pride
   3 -> 77.1;
-  57 -> 77.1;
+57 -> 77.1;
 
-  // "Guillotine"
-  // Defeat Isaac as Judas
+// "Guillotine"
+ // Defeat Isaac as Judas
   3 -> 107;
-  81 -> 107;
+81 -> 107;
 
-  // "Judas' Shadow"
-  // Complete Boss Rush as Judas
-  // Because Judas is unlocked by fighting Satan, this means that boss rush already exists
+// "Judas' Shadow"
+ // Complete Boss Rush as Judas
+ // Because Judas is unlocked by fighting Satan, this means that boss rush already exists
   3 -> 108;
 
-  // "Shadow Baby"
-  // Defeat Mom's Heart on Hard Mode as Judas
+// "Shadow Baby"
+ // Defeat Mom's Heart on Hard Mode as Judas
   3 -> 170;
-  166 -> 170;
+166 -> 170;
+
+// "Betrayal"
+ // Defeat Hush as Judas
+  3 -> 182;
+234 -> 182;
+
+// "My Shadow"
+ // Defeat Ultra Greed as Judas
+  3 -> 195;
+
+// "Brown Baby"
+ // Defeat Mega Satan as Judas
+  3 -> 208;
+155 -> 208;
+
+// "Belial Baby"
+// Earn all Hard mode Completion Marks as Judas
+3 -> 263;
 
 
-  //
-  //   SECTION: BLUE BABY ???
-  //
+//
+ //   SECTION: BLUE BABY ???
+ //
 
-  subgraph cluster_9 {
-		node [style=filled];
-		29;32;48;73;113;114;174;
-		label = "???";
-		color=blue
-	}
+subgraph cluster_9 {
+node [style = filled];
+29; 32; 48; 73; 113; 114; 174; 183; 196; 209; 252;
+label = "???";
+color = blue
+}
 
-  // "The D6"
-  // Defeat Isaac as ???
+// "The D6"
+ // Defeat Isaac as ???
   32 -> 29;
 
-  // "Forget Me Now"
-  // Defeat Satan as ???
+// "Forget Me Now"
+ // Defeat Satan as ???
   32 -> 48;
 
-  // "???'s Soul"
-  // Defeat The Lamb as ???
+// "???'s Soul"
+ // Defeat The Lamb as ???
   32 -> 73;
 
-  // "Fate"
-  // Defeat ??? as ???
+// "Fate"
+ // Defeat ??? as ???
   32 -> 113;
-  57 -> 113;
+57 -> 113;
 
-  // "???'s Only Friend"
-  // Complete Boss Rush as ???
+// "???'s Only Friend"
+ // Complete Boss Rush as ???
   4 -> 114;
-  5 -> 114;
-  6 -> 114;
-  32 -> 114;
+5 -> 114;
+6 -> 114;
+32 -> 114;
 
-  // "Dead Baby"
-  // Defeat Mom's Heart on Hard Mode as ???
+// "Dead Baby"
+ // Defeat Mom's Heart on Hard Mode as ???
   32 -> 174;
 
+// "Fate's Reward"
+ // Defeat Hush as ???
+  32 -> 183;
+234 -> 183;
 
-  //
-  //   SECTION: EVE
-  //
+// "Cracked Dice"
+ // Defeat Ultra Greed as ???
+  32 -> 196;
 
-  subgraph cluster_10 {
-		node [style=filled];
-		42;44;53;76;157;111;112;169;
-		label = "Eve";
-		color=blue
-	}
+// "Blue Baby"
+ // Defeat Mega Satan as ???
+  32 -> 209;
+155 -> 209;
 
-  // "Eve"
-  // Don't pick up hearts for 2 floors in a row
+// "Hive Baby"
+// Earn all Hard mode Completion Marks as ???
+32 -> 252;
+
+//
+ //   SECTION: EVE
+ //
+
+subgraph cluster_10 {
+node [style = filled];
+42; 44; 53; 76; 157; 111; 112; 169; 184; 197; 210;255;
+label = "Eve";
+color = blue
+}
+
+// "Eve"
+ // Don't pick up hearts for 2 floors in a row
   start -> 42;
 
-  // "The Razor"
-  // Defeat Satan as Eve
+// "The Razor"
+ // Defeat Satan as Eve
   42 -> 44
-  4 -> 44;
-  5 -> 44;
-  6 -> 44;
-  166 -> 44;
+4 -> 44;
+5 -> 44;
+6 -> 44;
+166 -> 44;
 
-  // "Sacrificial Dagger"
-  // Defeat ??? as Eve
+// "Sacrificial Dagger"
+ // Defeat ??? as Eve
   42 -> 53;
-  57 -> 53;
+57 -> 53;
 
-  // "Eve's Bird Foot"
-  // Defeat Isaac as Eve
-  42-> 76;
-  81 -> 76;
+// "Eve's Bird Foot"
+ // Defeat Isaac as Eve
+  42 -> 76;
+81 -> 76;
 
-  // "Darkness Fall"
-  // Defeat Satan and ??? as Eve
+// "Darkness Fall"
+ // Defeat Satan and ??? as Eve
   42 -> 157
-  4 -> 157;
-  5 -> 157;
-  6 -> 157;
-  166 -> 157;
-  57 -> 157;
+4 -> 157;
+5 -> 157;
+6 -> 157;
+166 -> 157;
+57 -> 157;
 
-  // "Black Lipstick"
-  // Defeat The Lamb as Eve
+// "Black Lipstick"
+ // Defeat The Lamb as Eve
   42 -> 111;
 
-  // "Eve's Mascara"
-  // Complete Boss Rush as Eve
+// "Eve's Mascara"
+ // Complete Boss Rush as Eve
   42 -> 112;
-  4 -> 112;
-  5 -> 112;
-  6 -> 112;
-  166 -> 112;
+4 -> 112;
+5 -> 112;
+6 -> 112;
+166 -> 112;
 
-  // "Crow Baby"
-  // Defeat Mom's Heart on Hard Mode as Eve
+// "Crow Baby"
+ // Defeat Mom's Heart on Hard Mode as Eve
   42 -> 169;
-  4 -> 169;
-  5 -> 169;
-  6 -> 169;
-  166 -> 169;
+4 -> 169;
+5 -> 169;
+6 -> 169;
+166 -> 169;
+
+// "Athame"
+ // Defeat Hush as Eve
+  42 -> 184;
+234 -> 184;
+
+// "Black Feather"
+ // Defeat Ultra Greed as Eve
+  42 -> 197;
+
+// "Lil' Baby"
+ // Defeat Mega Satan as Eve
+  42 -> 210;
+155 -> 210;
+
+// "Whore Baby"
+// Earn all Hard mode Completion Marks as Eve
+42 -> 255;
 
 
-  //
-  //   SECTION: SAMSON
-  //
+//
+ //   SECTION: SAMSON
+ //
 
-  subgraph cluster_11 {
-		node [style=filled];
-		67;54;55;56;74;115;177;
-		label = "Samson";
-		color=blue
-	}
+subgraph cluster_11 {
+node [style = filled];
+67; 54; 55; 56; 74; 115; 177; 185; 198; 211;262;
+label = "Samson";
+color = blue
+}
 
-  // "Samson"
-  // Complete 2 floors in a row without taking any damage
+// "Samson"
+ // Complete 2 floors in a row without taking any damage
   start -> 67;
 
-  // "Bloody Lust"
-  // Defeat Isaac as Samson
+// "Bloody Lust"
+ // Defeat Isaac as Samson
   81 -> 54;
-  67 -> 54;
+67 -> 54;
 
-  // "Blood Penny"
-  // Defeat ??? as Samson
+// "Blood Penny"
+ // Defeat ??? as Samson
   57 -> 55;
-  67 -> 55;
+67 -> 55;
 
-  // "Blood Rights"
-  // Defeat Satan as Samson
+// "Blood Rights"
+ // Defeat Satan as Samson
   4 -> 56;
-  5 -> 56;
-  6 -> 56;
-  166 -> 56;
-  67 -> 56;
+5 -> 56;
+6 -> 56;
+166 -> 56;
+67 -> 56;
 
-  // "Samson's Lock"
-  // Defeat The Lamb as Samson
+// "Samson's Lock"
+ // Defeat The Lamb as Samson
   67 -> 74;
 
-  // "Samson's Chains"
-  // Complete Boss Rush as Samson
+// "Samson's Chains"
+ // Complete Boss Rush as Samson
   4 -> 115;
-  5 -> 115;
-  6 -> 115;
-  166 -> 155;
-  67 -> 115;
+5 -> 115;
+6 -> 115;
+166 -> 115;
+67 -> 115;
 
-  // "Fighting Baby"
-  // Defeat Mom's Heart on Hard Mode as Samson
+// "Fighting Baby"
+ // Defeat Mom's Heart on Hard Mode as Samson
   4 -> 177;
-  5 -> 177;
-  6 -> 177;
-  166 -> 177;
-  67 -> 177;
+5 -> 177;
+6 -> 177;
+166 -> 177;
+67 -> 177;
 
-  //
-  //   SECTION: LAZARUS
-  //
+// "Blind Rage"
+ // Defeat Hush as Samson
+  67 -> 185;
+234 -> 185;
 
-  subgraph cluster_12 {
-		node [style=filled];
-		80;105;116;117;118;119;172;
-		label = "Lazarus";
-		color=blue
-	}
+// "Lusty Blood"
+ // Defeat Ultra Greed as Samson
+  67 -> 198;
 
-  // "Lazarus"
-  // Have 4 or more Soul Hearts at one time
+// "Rage Baby"
+ // Defeat Mega Satan as Samson
+  67 -> 211;
+155 -> 211;
+
+// "Revenge Baby"
+// Earn all Hard mode Completion Marks as Samson
+67 -> 262;
+
+//
+ //   SECTION: LAZARUS
+ //
+
+subgraph cluster_12 {
+node [style = filled];
+80; 105; 116; 117; 118; 119; 172; 187; 200; 213; 257;
+label = "Lazarus";
+color = blue
+}
+
+// "Lazarus"
+ // Have 4 or more Soul Hearts at one time
   start -> 80;
 
-  // "Missing No."
-  // Complete Boss Rush as Lazarus
+// "Missing No."
+ // Complete Boss Rush as Lazarus
   80 -> 105;
-  4 -> 105;
-  5 -> 105;
-  6 -> 105;
-  166 -> 105;
+4 -> 105;
+5 -> 105;
+6 -> 105;
+166 -> 105;
 
-  // "Lazarus' Rags"
-  // Defeat Isaac as Lazarus
+// "Lazarus' Rags"
+ // Defeat Isaac as Lazarus
   80 -> 116;
-  81 -> 116;
+81 -> 116;
 
-  // "Broken Ankh"
-  // Defeat Satan as Lazarus
-  80 -> 117;
-  4 -> 117;
-  5 -> 117;
-  6 -> 117;
-  166 -> 117;
+// "Broken Ankh"
+ // Defeat Satan as Lazarus
+    80 -> 117;
+4 -> 117;
+5 -> 117;
+6 -> 117;
+166 -> 117;
 
-  // "Store Credit"
-  // Defeat ??? as Lazarus
+// "Store Credit"
+ // Defeat ??? as Lazarus
   57 -> 118;
-  80 -> 118;
+80 -> 118;
 
-  // "Pandora's Box"
-  // Defeat The Lamb as Lazarus
+// "Pandora's Box"
+ // Defeat The Lamb as Lazarus
   80 -> 119;
 
-  // "Wrapped Baby"
-  // Defeat Mom's Heart on Hard Mode as Lazarus
+// "Wrapped Baby"
+ // Defeat Mom's Heart on Hard Mode as Lazarus
   80 -> 172;
-  4 -> 172;
-  5 -> 172;
-  6 -> 172;
-  166 -> 172;
+4 -> 172;
+5 -> 172;
+6 -> 172;
+166 -> 172;
 
-  //
-  //   SECTION: THE LOST
-  //
+// "Empty Vessel"
+ // Defeat Hush as Lazarus
+  80 -> 187;
+234 -> 187;
 
-  subgraph cluster_13 {
-		node [style=filled];
-		82;129;130;131;132;133;156;175;
-		label = "The Lost";
-		color=blue
-	}
+// "Key Bum"
+ // Defeat Ultra Greed as Lazarus
+  80 -> 200;
 
-  // "The Lost"
-  // Die in a Sacrifice Room holding Missing Poster
+// "Long Baby"
+ // Defeat Mega Satan as Lazarus
+  80 -> 213;
+155 -> 213;
+
+// "Dripping Baby"
+// Earn all Hard mode Completion Marks as Lazarus
+32 -> 257;
+
+//
+ //   SECTION: THE LOST
+ //
+
+subgraph cluster_13 {
+node [style = filled];
+82; 129; 130; 131; 132; 133; 156; 175; 189; 202; 215;
+label = "The Lost";
+color = blue
+}
+
+// "The Lost"
+ // Die in a Sacrifice Room holding Missing Poster
   149 -> 82;
 
-  // "Isaac's Heart"
-  // Defeat Isaac as The Lost
+// "Isaac's Heart"
+ // Defeat Isaac as The Lost
   81 -> 129;
-  82 -> 129;
+82 -> 129;
 
-  // "The Mind"
-  // Defeat Satan as The Lost
+// "The Mind"
+ // Defeat Satan as The Lost
   82 -> 130;
-  4 -> 130;
-  5 -> 130;
-  6 -> 130;
-  166 -> 130;
+4 -> 130;
+5 -> 130;
+6 -> 130;
+166 -> 130;
 
-  // "The Body"
-  // Defeat ??? as The Lost
+// "The Body"
+ // Defeat ??? as The Lost
   57 -> 131;
-  82 -> 131;
+82 -> 131;
 
-  // "The Soul"
-  // Defeat The Lamb as The Lost
+// "The Soul"
+ // Defeat The Lamb as The Lost
   82 -> 132;
 
-  // "The D100"
-  // Complete Boss Rush as The Lost
+// "The D100"
+ // Complete Boss Rush as The Lost
   82 -> 133;
-  4 -> 133;
-  5 -> 133;
-  6 -> 133;
-  166 -> 133;
+4 -> 133;
+5 -> 133;
+6 -> 133;
+166 -> 133;
 
-  // "Godhead"
-  // Earn all Completion Marks as The Lost
+// "Godhead"
+ // Earn all Completion Marks as The Lost
   82 -> 156;
 
-  // "-0- Baby"
-  // Defeat Mom's Heart on Hard Mode as The Lost
+// "-0- Baby"
+ // Defeat Mom's Heart on Hard Mode as The Lost
   82 -> 175;
-  4 -> 175;
-  5 -> 175;
-  6 -> 175;
-  166 -> 175;
+4 -> 175;
+5 -> 175;
+6 -> 175;
+166 -> 175;
 
-  //
-  //   SECTION: EDEN
-  //
+// "Sworn Protector"
+ // Defeat Hush as The Lost
+  82 -> 189;
+234 -> 189;
 
-  subgraph cluster_18 {
-		node [style=filled];
-		 121;122;123;124;125;176;
-		label = "Eden";
-		color=blue
-	}
+// "Zodiac"
+ // Defeat Ultra Greed as The Lost
+  82 -> 202;
 
-   // "Blank Card"
-  // Defeat Isaac as Eden
+// "White Baby"
+ // Defeat Mega Satan as The Lost
+  82 -> 215;
+155 -> 215;
+
+
+//
+ //   SECTION: EDEN
+ //
+
+subgraph cluster_18 {
+node [style = filled];
+121; 122; 123; 124; 125; 176; 188; 201; 214;256;
+label = "Eden";
+color = blue
+}
+
+// "Blank Card"
+ // Defeat Isaac as Eden
   81 -> 121;
 
-  // "Book of Secrets"
-  // Defeat Satan as Eden
+// "Book of Secrets"
+ // Defeat Satan as Eden
   81 -> 122;
 
-  // "Mysterious Paper"
-  // Defeat ??? as Eden
+// "Mysterious Paper"
+ // Defeat ??? as Eden
   57 -> 123;
-  81 -> 123;
+81 -> 123;
 
-  // "Mystery Sack"
-  // Defeat The Lamb as Eden
+// "Mystery Sack"
+ // Defeat The Lamb as Eden
   81 -> 124;
 
-  // "Undefined"
-  // Complete Boss Rush as Eden
+// "Undefined"
+ // Complete Boss Rush as Eden
   81 -> 125;
 
-  // "Glitch Baby"
-  // Complete Mom's Heart on Hard Mode as Eden
+// "Glitch Baby"
+ // Complete Mom's Heart on Hard Mode as Eden
   81 -> 176;
 
-  // "The Real Platinium God"
-  // Collect every non-DLC item, secret, ending
-  // NOT HERE BECAUSE REQUIRES OTHER ACHIEVEMENTS
-  // SOFTLOCKED BY DESIGN
+// "Eden's Blessing"
+ // Defeat Hush as Eden
+  81 -> 188;
+234 -> 188;
+
+// "GB Bug"
+ // Defeat Ultra Greed as Eden
+  81 -> 201;
+
+// "Yellow Baby"
+ // Defeat Mega Satan as Eden
+  81 -> 214;
+155 -> 214;
+
+// "Cracked Baby"
+// Earn all Hard mode Completion Marks as Eden
+32 -> 256;
+
+
+//
+ //    SECTION: LILITH
+ //
+
+subgraph cluster_19 {
+node [style = filled];
+190; 203; 216; 218; 219; 220; 221; 222; 223;260;
+label = "Lilith";
+color = blue
+}
+
+// "Incubus"
+ // Defeat Hush as Lilith
+  199 -> 190;
+
+// "Box of Friends"
+ // Defeat Ultra Greed as Lilith
+  199 -> 203;
+
+// "Big Baby"
+ // Defeat Mega Satan as Lilith
+  199 -> 216;
+155 -> 216;
+
+// "Rune Bag"
+ // Defeat Isaac as Lilith
+  199 -> 218;
+81 -> 218;
+
+// "Cambion Conception"
+ // Defeat ??? as Lilith
+  199 -> 219;
+57 -> 219;
+
+// "Serpent's Kiss"
+ // Defeat Satan as Lilith
+    199 -> 220;
+4 -> 220;
+5 -> 220;
+6 -> 220;
+166 -> 220;
+
+// "Succubus"
+ // Defeat The Lamb as Lilith
+  199 -> 221;
+
+// "Immaculate Conception"
+ // Complete Boss Rush as Lilith
+  199 -> 222;
+4 -> 222;
+5 -> 222;
+6 -> 222;
+166 -> 222;
+
+// "Goat Head Baby"
+ // Defeat Mom's Heart on Hard mode as Lilith
+    199 -> 223;
+4 -> 223;
+5 -> 223;
+6 -> 223;
+166 -> 223;
+
+// "Dark Baby"
+// Earn all Hard mode Completion Marks as Lilith
+199 -> 260;
+
+
+//
+ //    SECTION: KEEPER
+ //
+
+subgraph cluster_21 {
+node [style = filled];
+191; 204; 217;236;237;238;239;240;241;264;
+label = "Keeper";
+color = blue
+}
+
+// "Keeper now holdes... A Penny!"
+ // Defeat Hush as Keeper
+  251 -> 191;
+
+// "Rib of Greed"
+ // Defeat Ultra Greed as Keeper
+  251 -> 204;
+
+// "Noose Baby"
+ // Defeat Mega Satan as Keeper
+  251 -> 217;
+155 -> 217;
+
+// "Keeper holds Wooden Nickel"
+ // Defeat Isaac as Keeper
+  251 -> 236;
+81 -> 236;
+
+// "Keeper holds Store Key"
+ // Defeat Satan as Keeper
+  251 -> 237;
+4 -> 237;
+5 -> 237;
+6 -> 237;
+166 -> 237;
+
+// "Deep Pockets"
+ // Defeat ??? as Keeper
+  251 -> 238;
+57 -> 238;
+
+// "Karma"
+ // Defeat The Lamb as Keeper
+  251 -> 239;
+
+// "Sticky Nickels"
+ // Complete Boss Rush as Keeper
+  251 -> 240;
+4 -> 240;
+5 -> 240;
+6 -> 240;
+166 -> 240;
+
+// "Super Greed Baby"
+ // Defeat Mom's Heart on Hard Mode as Keeper
+  251 -> 241;
+4 -> 241;
+5 -> 241;
+6 -> 241;
+166 -> 241;
+
+// "Sale Baby"
+// Earn all Hard mode Completion Marks as Keeper
+251 -> 264;
+
+//
+//   SECTION: UNLOCK REWARDS
+//
+
+subgraph cluster_24 {
+node [style = filled];
+84;235;
+label = "Rewards";
+color = blue
+}
+
+// "The Real Platinium God"
+ // Collect every non-DLC item, secret, ending
   start -> 84;
 
+// "1001%"
+  // Unlock all secrets, endings, items in the game
+  84 -> 235;
 
-  start [shape=Mdiamond];
+
+start [shape = Mdiamond];
 //  end [shape=Msquare];
 }
