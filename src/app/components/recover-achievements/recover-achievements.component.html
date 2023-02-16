@@ -1,3 +1,7 @@
 <mat-card>
-  <app-uploader class="p-3" (achievementsEmitter)="update($event)"></app-uploader>
+  <app-uploader
+    class="p-3"
+    (achievementsEmitter)="update($event)"
+    (errorEmitter)="updateErrors($event)"
+  ></app-uploader>
 </mat-card>

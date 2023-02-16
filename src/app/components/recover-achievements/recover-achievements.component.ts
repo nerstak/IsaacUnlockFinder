@@ -1,4 +1,5 @@
 import {Component, EventEmitter, Output} from '@angular/core';
+import {MatSnackBar} from "@angular/material/snack-bar";
 
 @Component({
   selector: 'app-recover-achievements',
@@ -9,8 +10,20 @@ export class RecoverAchievementsComponent {
   @Output()
   achievementsEmitter = new EventEmitter<number[]>();
 
-  update(achievements: number[]) {
-    this.achievementsEmitter.emit(achievements);
+  error: String = "";
+
+  constructor(private snack: MatSnackBar) {
   }
 
+  update(achievements: number[]) {
+    this.achievementsEmitter.emit(achievements);
+    this.snack.dismiss();
+  }
+
+  updateErrors(error: string) {
+    this.snack.open(error, 'Dismiss', {
+      horizontalPosition: "end",
+      verticalPosition: "bottom",
+    });
+  }
 }

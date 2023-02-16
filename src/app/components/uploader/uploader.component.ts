@@ -29,7 +29,6 @@ export class UploaderComponent {
           this.achievementsEmitter.emit(achievements)
         } catch (err) {
           const errTxt = err as string;
-          console.log(err);
           this.errorEmitter.emit(errTxt);
         }
       };

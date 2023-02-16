@@ -76,7 +76,7 @@ export class SaveFileValidatorService {
 
     if (this.RUN_HEADERS.has(header)) {
       throw new Error(
-        'That is a file that stores the temporary game state for a specific run.<br />You need to instead select the "persistent" file that contains the data for the entire save file.',
+        'That is a file that stores the temporary game state for a specific run. You need to instead select the "persistent" file that contains the data for the entire save file.',
       );
     }
 
@@ -90,7 +90,7 @@ export class SaveFileValidatorService {
       console.error("Unknown header:");
       console.error(header);
       throw new Error(
-        "That is not a valid save file for <i>The Binding of Isaac: Repentance</i>.",
+        "That is not a valid save file for The Binding of Isaac: Repentance.",
       );
     }
   }
@@ -139,7 +139,7 @@ export class SaveFileValidatorService {
    */
   protected errorWrongGameType(gameType: string) {
     throw new Error(
-      `That is a save file for <i>The Binding of Isaac: ${gameType}</i>.<br />This site only supports save files for <i>The Binding of Isaac: Repentance</i>.`,
+      `That is a save file for The Binding of Isaac: ${gameType}. This site only supports save files for The Binding of Isaac: Repentance.`,
     );
   }
 }

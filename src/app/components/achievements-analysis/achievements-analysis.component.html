@@ -1,13 +1,9 @@
-<div class="bg-transparent w-screen grow flex flex-col items-center justify-evenly">
-  <mat-toolbar color="primary">
-    <span>Isaac Unlock Finder</span>
-  </mat-toolbar>
-
-  <div *ngIf="!loaded" class="h-screen grow flex items-center justify-evenly ">
-    <app-recover-achievements  (achievementsEmitter)="analyze($event)"></app-recover-achievements>
+<div class="bg-transparent flex flex-col items-center justify-evenly">
+  <div *ngIf="!loaded" class="flex items-center  min-h-[90vh]">
+    <app-recover-achievements class="" (achievementsEmitter)="analyze($event)"></app-recover-achievements>
   </div>
 
-  <mat-tab-group class="w-4/5 grow min-h-screen" color="accent" *ngIf="loaded" dynamicHeight>
+  <mat-tab-group class="w-4/5 min-h-screen" color="accent" *ngIf="loaded" dynamicHeight>
     <mat-tab label="Unlockable now ({{unlockables.length}})">
       <app-list-achievements description="Achievements that are unlockable upon a player action in game" [list]="unlockables"></app-list-achievements>
     </mat-tab>
@@ -19,6 +15,4 @@
     </mat-tab>
 
   </mat-tab-group>
- <!-- TODO: Have 3 tabs: One for unlockables achievements, one for softlocked achievements, one for unlocked achievements -->
-
 </div>
