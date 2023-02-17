@@ -1615,14 +1615,18 @@ color = blue
 
 subgraph cluster_24 {
 node [style = filled];
-84;235;
+69;84;235;
 label = "Rewards";
 color = blue
 }
 
+// "!Platinium God!"
+// Collect every non-DLC item, secret, ending (expect The Lost)
+start -> 69;
+
 // "The Real Platinium God"
  // Collect every non-DLC item, secret, ending
-  start -> 84;
+  69 -> 84;
 
 // "1001%"
   // Unlock all secrets, endings, items in the game
