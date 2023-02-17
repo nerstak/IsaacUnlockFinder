@@ -18,6 +18,7 @@ import {ServiceWorkerModule} from '@angular/service-worker';
 import {MatSnackBarModule} from "@angular/material/snack-bar";
 import {MatIconModule} from "@angular/material/icon";
 import {MatTooltipModule} from "@angular/material/tooltip";
+import {MatListModule} from "@angular/material/list";
 
 @NgModule({
   declarations: [
@@ -28,25 +29,26 @@ import {MatTooltipModule} from "@angular/material/tooltip";
     AchievementComponent,
     ListAchievementsComponent
   ],
-  imports: [
-    BrowserModule.withServerTransition({appId: 'serverApp'}),
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatCardModule,
-    MatButtonModule,
-    MatDividerModule,
-    MatToolbarModule,
-    MatTabsModule,
-    MatSnackBarModule,
-    ServiceWorkerModule.register('ngsw-worker.js', {
-      enabled: !isDevMode(),
-      // Register the ServiceWorker as soon as the application is stable
-      // or after 30 seconds (whichever comes first).
-      registrationStrategy: 'registerWhenStable:30000'
-    }),
-    MatIconModule,
-    MatTooltipModule
-  ],
+    imports: [
+        BrowserModule.withServerTransition({appId: 'serverApp'}),
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatCardModule,
+        MatButtonModule,
+        MatDividerModule,
+        MatToolbarModule,
+        MatTabsModule,
+        MatSnackBarModule,
+        ServiceWorkerModule.register('ngsw-worker.js', {
+            enabled: !isDevMode(),
+            // Register the ServiceWorker as soon as the application is stable
+            // or after 30 seconds (whichever comes first).
+            registrationStrategy: 'registerWhenStable:30000'
+        }),
+        MatIconModule,
+        MatTooltipModule,
+        MatListModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

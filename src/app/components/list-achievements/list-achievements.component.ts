@@ -10,4 +10,17 @@ export class ListAchievementsComponent {
   list: Achievement[] | undefined;
   @Input()
   description: string | undefined;
+
+  @Input()
+  blockedBy: Map<string, Achievement[]> | undefined;
+
+  protected getListOfBlocking(s: string) {
+    if (this.blockedBy != undefined) {
+      const res = this.blockedBy.get(s);
+      if (res !== undefined) {
+        return res;
+      }
+    }
+    return [];
+  }
 }

@@ -8,7 +8,11 @@
       <app-list-achievements description="Achievements that are unlockable upon a player action in game" [list]="unlockables"></app-list-achievements>
     </mat-tab>
     <mat-tab label="Soft locked ({{softLocked.length}})">
-      <app-list-achievements description="Achievements that will be unlockable once another achievement(s) will have been unlocked" [list]="softLocked"></app-list-achievements>
+      <app-list-achievements
+        description="Achievements that will be unlockable once another achievement(s) will have been unlocked"
+        [list]="softLocked"
+        [blockedBy]="blockedBy"
+      ></app-list-achievements>
     </mat-tab>
     <mat-tab label="Unlocked ({{alreadyUnlocked.length}})">
       <app-list-achievements description="Achievements that have already been unlocked by the player" [list]="alreadyUnlocked"></app-list-achievements>

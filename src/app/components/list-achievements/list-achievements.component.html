@@ -4,5 +4,9 @@
       {{description}}
     </mat-card-content>
   </mat-card>
-  <app-achievement class="w-3/5" [achievement]="elt" *ngFor="let elt of list"></app-achievement>
+  <app-achievement
+    class="w-3/5"
+    [achievement]="elt" *ngFor="let elt of list"
+    [blockedBy]="getListOfBlocking(elt.Id)"
+  ></app-achievement>
 </div>

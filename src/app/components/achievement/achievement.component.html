@@ -10,10 +10,22 @@
   <img class="m-1 rounded-md" mat-card-sm-image src="/assets/images/{{achievement.ImageName}}">
   <mat-card-content>
     {{achievement.UnlockMethod}}
+
+    <div *ngIf="blockedBy.length != 0" class="text-[#757575]">
+      <h3>Blocked by:</h3>
+      <ul>
+        <li
+          *ngFor="let b of blockedBy"
+          class="text-[#757575]"
+        >{{b.Id}} : {{b.Name}}
+        </li>
+      </ul>
+    </div>
+
     <mat-divider *ngIf="achievement.Link"></mat-divider>
   </mat-card-content>
-  <mat-card-actions align="end">
-    <a mat-button *ngIf="achievement.Link" href="https://bindingofisaacrebirth.fandom.com/wiki/{{achievement.Link}}">Wiki Page</a>
+  <mat-card-actions align="end" *ngIf="achievement.Link">
+    <a mat-button  href="https://bindingofisaacrebirth.fandom.com/wiki/{{achievement.Link}}">Wiki Page</a>
   </mat-card-actions>
 </mat-card>
 

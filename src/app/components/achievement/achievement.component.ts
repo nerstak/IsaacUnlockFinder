@@ -8,4 +8,7 @@ import {Component, Input} from '@angular/core';
 export class AchievementComponent {
   @Input()
   achievement: Achievement | undefined
+
+  @Input()
+  blockedBy: Achievement[] = [];
 }
