@@ -16,6 +16,8 @@ import {MatTabsModule} from "@angular/material/tabs";
 import {ListAchievementsComponent} from './components/list-achievements/list-achievements.component';
 import {ServiceWorkerModule} from '@angular/service-worker';
 import {MatSnackBarModule} from "@angular/material/snack-bar";
+import {MatIconModule} from "@angular/material/icon";
+import {MatTooltipModule} from "@angular/material/tooltip";
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import {MatSnackBarModule} from "@angular/material/snack-bar";
       // Register the ServiceWorker as soon as the application is stable
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
-    })
+    }),
+    MatIconModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

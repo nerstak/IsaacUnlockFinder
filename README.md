@@ -1,27 +1,49 @@
-# IsaacUnlockFinder
+# Isaac Unlock Finder
+## Description
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+An application to identify (from a Repentance save file) the list of achievement :
+ - that are unlockable from a milestone 
+ - blocked because of others haven't been unlocked
 
-## Development server
+**Current state**: ~276/637 achievements are registered in the graph (Base game + Afterbirth)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Technologies used:
+FrontEnd: 
+- Angular (with Typescript), using Angular Material
+- Tailwind
+- Kaitai Struct
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Dependency graph and resources:
+- Golang
+- GraphViz (`dot` format)
 
-## Build
+### Features
+The main goal of this application was to generate a dependency graph of achievements, in order to find out more easily on which one to focus (and not to lose time on achievements that are currenlty not accessible, because other needs to be unlocked).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This can already be done by browsing the [wiki](https://bindingofisaacrebirth.fandom.com/), but this requires using the correct DLC filters, and also spending *way* too much time figuring out the relationship between achievements.
 
-## Running unit tests
+Therefore, this project is organized in two parts:
+- a dependency graph (created by hand-scrapping the Wiki, as there is no such structure in the game), that can be converted into JSON with additional Wiki metadata
+- a user interface to measure the advancement of a player using its save file
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Usage 
+#### Graph
+One can open the graph file using any application supporting the GraphViz description language, specifically the `dot` one.
 
-## Running end-to-end tests
+From the directory `scripts`, run `go run .` to start the aggregation script (from GraphViz graph and Wiki). It obviously requires Go to be installed...
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### User Interface
+The website is available at [this address](https://isaac.nerstak.fr).
+For development use, install NPM and Angular, run `npm install` in the root folder, then `ng serve` to start a development server.
 
-## Further help
+## Related projects
+- [Isaac Save Viewer](https://github.com/Zamiell/isaac-save-viewer): most of the source code dedicated to parsing and storing the save file data comes from this project, so check it out!
+- [Isaac Wiki](https://bindingofisaacrebirth.fandom.com/): used as a source of knowledge and metadata
+- [Kaitai Struct](https://kaitai.io/): used for reading the save file on the fly
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Questions
+### "Why not a mod?"
+The Isaac Modding API does not provide enough methods that would have been needed for the realisation of this project.
+There is no easy way to access the main save file.
+

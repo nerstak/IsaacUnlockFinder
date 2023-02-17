@@ -1,5 +1,24 @@
 <router-outlet></router-outlet>
 <mat-toolbar color="primary">
-  <span>Isaac Unlock Finder</span>
+  <a [routerLink]="['/']" class="text-2xl">
+    Isaac Unlock Finder
+  </a>
+  <span class="flex-auto"></span>
+  <a [routerLink]="['/help']" class="flex items-center mx-3" matTooltip="Help">
+    <mat-icon class="mx-2" aria-hidden="false" aria-label="Help" fontIcon="help"></mat-icon>
+  </a>
+  <a
+    href="https://github.com/nerstak/IsaacUnlockFinder"
+    class="flex items-center mx-3"
+    matTooltip="Github Repository">
+    <mat-icon class="mx-2" aria-hidden="false" aria-label="Github Repository" fontIcon="code"></mat-icon>
+  </a>
+  <a
+    href="https://github.com/nerstak/IsaacUnlockFinder/blob/main/README.md"
+    class="flex items-center mx-3"
+    matTooltip="Informations">
+    <mat-icon class="mx-2" aria-hidden="false" aria-label="Informations" fontIcon="info"></mat-icon>
+  </a>
 </mat-toolbar>
+
 <app-achievements-analysis></app-achievements-analysis>
