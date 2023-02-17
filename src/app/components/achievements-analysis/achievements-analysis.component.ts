@@ -55,7 +55,9 @@ export class AchievementsAnalysisComponent {
     }
     this.unlockables = this.listToAchievementsList(unlocks, this.unlockables);
     this.alreadyUnlocked = this.listToAchievementsList(alreadyUnlocked, this.alreadyUnlocked);
-    this.softLocked = this.listToAchievementsList(softLocked, this.softLocked);
+    this.softLocked = this.listToAchievementsList(softLocked, this.softLocked).sort((x,y) => {
+      return (parseInt(x.Id) | 0) - (parseInt(y.Id) | 0);
+    });
     this.blockedBy = this.mapToDependencies(blockedBy, this.blockedBy);
 
     this.loaded = true;
