@@ -27,15 +27,20 @@ Therefore, this project is organized in two parts:
 - a dependency graph (created by hand-scrapping the Wiki, as there is no such structure in the game), that can be converted into JSON with additional Wiki metadata
 - a user interface to measure the advancement of a player using its save file
 
-### Usage 
-#### Graph
+## Usage 
+### Graph
 One can open the graph file using any application supporting the GraphViz description language, specifically the `dot` one.
 
 From the directory `scripts`, run `go run .` to start the aggregation script (from GraphViz graph and Wiki). It obviously requires Go to be installed...
 
-#### User Interface
+### User Interface
 The website is available at [this address](https://isaac.nerstak.fr).
 For development use, install NPM and Angular, run `npm install` in the root folder, then `ng serve` to start a development server.
+
+## TODO
+- Finish the graph
+- Categorize unlocks (nothing, character, floor, boss, challenge, item, trinket, pills, cards, etc.)
+- Categorize methods of unlock (complete challenge, completion mark, setup in single run, collect over multiple runs, etc.)
 
 ## Related projects
 - [Isaac Save Viewer](https://github.com/Zamiell/isaac-save-viewer): most of the source code dedicated to parsing and storing the save file data comes from this project, so check it out!
