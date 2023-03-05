@@ -5,7 +5,7 @@ An application to identify (from a Repentance save file) the list of achievement
  - that are unlockable from a milestone 
  - blocked because of others haven't been unlocked
 
-**Current state**: ~276/637 achievements are registered in the graph (Base game + Afterbirth)
+**Current state**: ~403/637 achievements are registered in the graph (Base game + Afterbirth + Afterbirth+)
 
 ### Technologies used:
 FrontEnd: 

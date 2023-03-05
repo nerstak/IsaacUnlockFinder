@@ -7,15 +7,17 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Have 7 or more Red Heart Containers at one time",
 		"RequiredForAchievements": [
-			"20",
+			"180",
+			"193",
+			"297",
 			"45",
 			"50",
-			"71",
-			"193",
 			"109",
-			"168",
-			"180",
-			"206"
+			"206",
+			"283",
+			"20",
+			"71",
+			"168"
 		]
 	},
 	{
@@ -26,17 +28,19 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Hold 55 Coins at one time",
 		"RequiredForAchievements": [
-			"21",
-			"268",
 			"75",
-			"46",
+			"194",
+			"207",
+			"284",
+			"298",
+			"268",
 			"51",
 			"110",
 			"171",
 			"181",
-			"194",
-			"207",
-			"261"
+			"261",
+			"21",
+			"46"
 		]
 	},
 	{
@@ -47,17 +51,19 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Defeat Satan",
 		"RequiredForAchievements": [
+			"77.1",
+			"285",
+			"273",
+			"108",
 			"182",
+			"299",
+			"72",
 			"208",
 			"263",
-			"77.1",
-			"107",
-			"108",
-			"170",
-			"273",
 			"78",
 			"52",
-			"72",
+			"107",
+			"170",
 			"195"
 		]
 	},
@@ -69,45 +75,38 @@
 		"Description": "Chapter 4 - The Womb unlocked.",
 		"UnlockMethod": "Defeat Mom",
 		"RequiredForAchievements": [
-			"83",
-			"127",
-			"46",
-			"222",
-			"88",
-			"171",
-			"115",
-			"133",
-			"9",
-			"45",
-			"109",
-			"169",
-			"114",
-			"56",
-			"117",
+			"318",
 			"40",
-			"173",
-			"168",
-			"112",
-			"172",
+			"171",
 			"175",
-			"220",
+			"314",
+			"168",
+			"222",
+			"392",
 			"15",
-			"81",
-			"110",
-			"177",
-			"130",
-			"18",
-			"167",
-			"157",
-			"223",
-			"237",
-			"240",
-			"43",
+			"114",
+			"397",
 			"70",
-			"3",
-			"44",
-			"105",
-			"241"
+			"9",
+			"223",
+			"241",
+			"18",
+			"173",
+			"112",
+			"177",
+			"172",
+			"240",
+			"374",
+			"109",
+			"110",
+			"115",
+			"83",
+			"167",
+			"169",
+			"133",
+			"88",
+			"81",
+			"105"
 		]
 	},
 	{
@@ -118,47 +117,40 @@
 		"Description": "The horsemen are loose.",
 		"UnlockMethod": "Defeat Mom",
 		"RequiredForAchievements": [
-			"169",
-			"172",
-			"130",
-			"220",
-			"222",
-			"173",
-			"171",
-			"3",
-			"241",
-			"177",
-			"9",
-			"168",
-			"44",
-			"112",
-			"175",
-			"223",
-			"237",
-			"7",
+			"374",
 			"167",
-			"45",
-			"18",
-			"127",
-			"110",
-			"56",
-			"40",
-			"83",
-			"43",
-			"117",
-			"88",
-			"114",
-			"115",
-			"157",
+			"112",
 			"105",
+			"175",
 			"240",
-			"15",
-			"81",
+			"18",
+			"9",
 			"109",
-			"133",
-			"372",
+			"168",
+			"223",
+			"40",
+			"172",
+			"241",
+			"397",
+			"83",
 			"70",
-			"46"
+			"110",
+			"314",
+			"372",
+			"222",
+			"171",
+			"169",
+			"392",
+			"88",
+			"7",
+			"81",
+			"173",
+			"115",
+			"133",
+			"318",
+			"15",
+			"114",
+			"177"
 		]
 	},
 	{
@@ -169,47 +161,40 @@
 		"Description": "Unlocked a new item. (Also unlocks the Ball of Bandages)",
 		"UnlockMethod": "Defeat Mom",
 		"RequiredForAchievements": [
-			"237",
-			"40",
-			"110",
-			"70",
-			"168",
-			"157",
+			"9",
 			"177",
-			"223",
-			"15",
-			"88",
-			"45",
-			"171",
-			"56",
-			"175",
-			"220",
-			"144",
-			"167",
-			"173",
 			"172",
-			"130",
-			"43",
-			"127",
-			"169",
-			"115",
-			"105",
-			"117",
-			"222",
-			"18",
-			"109",
-			"3",
-			"114",
-			"44",
 			"133",
-			"241",
-			"83",
-			"19",
-			"46",
-			"112",
 			"240",
+			"88",
+			"70",
+			"171",
+			"112",
+			"167",
+			"109",
+			"374",
+			"115",
+			"175",
+			"392",
+			"314",
+			"318",
+			"18",
 			"81",
-			"9"
+			"168",
+			"223",
+			"169",
+			"222",
+			"105",
+			"241",
+			"397",
+			"83",
+			"15",
+			"110",
+			"114",
+			"40",
+			"19",
+			"144",
+			"173"
 		]
 	},
 	{
@@ -261,8 +246,8 @@
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Mom's Heart 9 times",
 		"RequiredForAchievements": [
-			"234",
-			"32"
+			"32",
+			"234"
 		]
 	},
 	{
@@ -282,8 +267,10 @@
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Beat Chapter 1",
 		"RequiredForAchievements": [
+			"329",
 			"14",
-			"37",
+			"38",
+			"365",
 			"86"
 		]
 	},
@@ -295,7 +282,8 @@
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Beat Chapter 2",
 		"RequiredForAchievements": [
-			"38",
+			"39",
+			"368",
 			"17",
 			"87"
 		]
@@ -471,21 +459,22 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Defeat Mom's Heart 10 times",
 		"RequiredForAchievements": [
-			"113",
-			"114",
-			"196",
-			"257",
-			"160",
-			"73",
-			"252",
-			"256",
-			"254",
-			"48",
-			"174",
-			"34",
 			"29",
-			"183",
-			"209"
+			"48",
+			"114",
+			"300",
+			"160",
+			"279",
+			"73",
+			"196",
+			"209",
+			"286",
+			"34",
+			"342",
+			"174",
+			"254",
+			"113",
+			"252"
 		]
 	},
 	{
@@ -582,17 +571,19 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Don't pick up any Hearts for 2 floors in a row",
 		"RequiredForAchievements": [
-			"44",
-			"53",
-			"111",
-			"169",
-			"255",
-			"76",
-			"157",
-			"112",
 			"184",
 			"197",
-			"210"
+			"210",
+			"288",
+			"44",
+			"53",
+			"76",
+			"112",
+			"302",
+			"157",
+			"111",
+			"169",
+			"255"
 		]
 	},
 	{
@@ -729,21 +720,24 @@
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Isaac 5 times",
 		"RequiredForAchievements": [
-			"68",
+			"77.1",
 			"53",
-			"118",
-			"219",
+			"238",
 			"49",
 			"128",
 			"50",
-			"113",
-			"131",
 			"75",
 			"157",
-			"55",
-			"77.1",
+			"118",
+			"131",
 			"123",
-			"238"
+			"68",
+			"346",
+			"312",
+			"113",
+			"55",
+			"219",
+			"395"
 		]
 	},
 	{
@@ -829,7 +823,9 @@
 		"ImageName": "66.png",
 		"Description": "Unlocked a new boss!",
 		"UnlockMethod": "Take 10 Angel Room items",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"380"
+		]
 	},
 	{
 		"Id": "67",
@@ -839,16 +835,18 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Complete 2 floors in a row without taking damage",
 		"RequiredForAchievements": [
+			"185",
+			"198",
+			"287",
+			"301",
+			"54",
+			"74",
+			"177",
+			"211",
+			"262",
 			"55",
 			"56",
-			"185",
-			"262",
-			"54",
-			"115",
-			"177",
-			"198",
-			"211",
-			"74"
+			"115"
 		]
 	},
 	{
@@ -951,16 +949,18 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Make 3 Deals with the Devil in one run",
 		"RequiredForAchievements": [
-			"9",
 			"47",
-			"173",
-			"186",
-			"212",
-			"259",
 			"127",
-			"128",
+			"186",
+			"199",
+			"259",
+			"290",
+			"9",
 			"126",
-			"199"
+			"173",
+			"212",
+			"304",
+			"128"
 		]
 	},
 	{
@@ -971,15 +971,18 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Have 4 or more Soul Hearts at one time",
 		"RequiredForAchievements": [
-			"200",
-			"213",
-			"105",
-			"118",
 			"119",
-			"187",
+			"172",
+			"257",
+			"105",
 			"116",
 			"117",
-			"172"
+			"213",
+			"291",
+			"305",
+			"118",
+			"187",
+			"200"
 		]
 	},
 	{
@@ -990,30 +993,49 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Complete Chapter 4",
 		"RequiredForAchievements": [
-			"21",
-			"268",
-			"129",
-			"122",
-			"271",
+			"289",
+			"57",
 			"150",
-			"126",
-			"20",
-			"123",
-			"124",
+			"106",
+			"127",
+			"122",
 			"125",
 			"201",
-			"281",
-			"107",
-			"116",
-			"236",
-			"57",
-			"76",
-			"176",
-			"188",
 			"218",
-			"106",
+			"310",
+			"271",
+			"268",
+			"123",
+			"188",
+			"256",
+			"311",
+			"20",
+			"21",
 			"54",
 			"121",
+			"220",
+			"237",
+			"45",
+			"157",
+			"303",
+			"394",
+			"281",
+			"43",
+			"46",
+			"116",
+			"236",
+			"393",
+			"126",
+			"44",
+			"76",
+			"117",
+			"129",
+			"130",
+			"124",
+			"176",
+			"3",
+			"107",
+			"56",
 			"214"
 		]
 	},
@@ -1025,15 +1047,17 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": " It's complicated Die in a Sacrifice Room while holding Missing Poster",
 		"RequiredForAchievements": [
-			"175",
-			"189",
-			"129",
-			"156",
-			"132",
 			"133",
-			"202",
+			"156",
+			"175",
 			"215",
+			"293",
 			"130",
+			"132",
+			"189",
+			"202",
+			"307",
+			"129",
 			"131"
 		]
 	},
@@ -1053,9 +1077,7 @@
 		"ImageName": "84.png",
 		"Description": "111% now stop playing!",
 		"UnlockMethod": "Collect every non-DLC item, and unlock every secret and ending.",
-		"RequiredForAchievements": [
-			"235"
-		]
+		"RequiredForAchievements": null
 	},
 	{
 		"Id": "85",
@@ -1064,7 +1086,9 @@
 		"ImageName": "85.png",
 		"Description": "Destroy 100 rocks.",
 		"UnlockMethod": "Destroy 100 rocks",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"350"
+		]
 	},
 	{
 		"Id": "86",
@@ -1370,7 +1394,9 @@
 		"ImageName": "119.png",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat The Lamb as Lazarus",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"366"
+		]
 	},
 	{
 		"Id": "120",
@@ -1551,7 +1577,9 @@
 		"ImageName": "138.png",
 		"Description": "Unlocked a new item",
 		"UnlockMethod": "Donate 999 Coins to the Donation Machine",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"363"
+		]
 	},
 	{
 		"Id": "139",
@@ -1671,8 +1699,9 @@
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Defeat Mom's Heart 2 times",
 		"RequiredForAchievements": [
-			"8",
-			"159"
+			"159",
+			"382",
+			"8"
 		]
 	},
 	{
@@ -1727,21 +1756,28 @@
 		"Description": "They are waiting.",
 		"UnlockMethod": "Complete Chapter 6",
 		"RequiredForAchievements": [
+			"212",
+			"58",
+			"370",
+			"373",
+			"276",
 			"207",
 			"217",
-			"270",
-			"205",
-			"212",
-			"206",
-			"208",
-			"211",
-			"276",
-			"209",
 			"210",
-			"216",
-			"213",
+			"211",
 			"215",
-			"214"
+			"214",
+			"340",
+			"206",
+			"209",
+			"280",
+			"205",
+			"208",
+			"213",
+			"216",
+			"165",
+			"270",
+			"277"
 		]
 	},
 	{
@@ -1796,7 +1832,8 @@
 		"UnlockMethod": "Defeat Mom's Heart 11 times",
 		"RequiredForAchievements": [
 			"120",
-			"267"
+			"267",
+			"343"
 		]
 	},
 	{
@@ -1864,46 +1901,39 @@
 		"Description": "Unlocked Challenge #20.",
 		"UnlockMethod": "Defeat Mom",
 		"RequiredForAchievements": [
+			"168",
+			"397",
+			"167",
 			"173",
-			"237",
-			"95",
-			"88",
-			"46",
-			"115",
-			"105",
 			"172",
-			"220",
+			"175",
+			"109",
+			"241",
+			"392",
+			"9",
 			"222",
 			"18",
+			"374",
 			"83",
-			"9",
-			"3",
-			"44",
-			"223",
-			"168",
-			"157",
-			"169",
-			"81",
-			"70",
-			"167",
-			"171",
-			"117",
-			"175",
 			"15",
-			"45",
-			"109",
-			"110",
-			"130",
-			"240",
-			"43",
-			"127",
-			"112",
-			"56",
+			"88",
+			"81",
+			"223",
+			"169",
 			"177",
-			"40",
-			"170",
 			"133",
-			"241"
+			"318",
+			"70",
+			"171",
+			"170",
+			"115",
+			"105",
+			"314",
+			"95",
+			"40",
+			"110",
+			"112",
+			"240"
 		]
 	},
 	{
@@ -2202,16 +2232,18 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Defeat Ultra Greed as Azazel",
 		"RequiredForAchievements": [
-			"218",
-			"221",
-			"222",
+			"223",
+			"260",
 			"190",
 			"203",
 			"216",
+			"222",
+			"292",
+			"306",
+			"218",
 			"219",
 			"220",
-			"223",
-			"260"
+			"221"
 		]
 	},
 	{
@@ -2529,18 +2561,23 @@
 		"UnlockMethod": "Defeat Mom's Heart 10 times",
 		"RequiredForAchievements": [
 			"187",
-			"34",
+			"315",
+			"342",
 			"180",
+			"185",
+			"179",
+			"34",
 			"183",
 			"184",
-			"185",
-			"189",
-			"188",
-			"160",
-			"179",
+			"398",
+			"320",
+			"279",
 			"186",
 			"181",
-			"182"
+			"182",
+			"189",
+			"188",
+			"160"
 		]
 	},
 	{
@@ -2680,7 +2717,7 @@
 		"Description": "Unlocked a new starting item.",
 		"UnlockMethod": "Donate 439 Coins to the Greed Donation Machine",
 		"RequiredForAchievements": [
-			"249"
+			"341"
 		]
 	},
 	{
@@ -2713,16 +2750,18 @@
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Donate 1000 Coins to the Greed Donation Machine",
 		"RequiredForAchievements": [
-			"240",
-			"264",
+			"217",
 			"236",
-			"238",
-			"239",
-			"237",
 			"241",
+			"264",
+			"308",
 			"191",
 			"204",
-			"217"
+			"237",
+			"238",
+			"239",
+			"240",
+			"294"
 		]
 	},
 	{
@@ -2980,7 +3019,9 @@
 		"ImageName": "277.png",
 		"Description": "Unlocked a new challenge.",
 		"UnlockMethod": " Defeat ??? or The Lamb Defeat Mega Satan",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"331"
+		]
 	},
 	{
 		"Id": "278",
@@ -2989,7 +3030,9 @@
 		"ImageName": "278.png",
 		"Description": "Unlocked a new challenge.",
 		"UnlockMethod": "Defeat Mom",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"332"
+		]
 	},
 	{
 		"Id": "279",
@@ -2998,7 +3041,10 @@
 		"ImageName": "279.png",
 		"Description": "Unlocked a new challenge.",
 		"UnlockMethod": "Defeat Mom's Heart 11 times",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"333",
+			"343"
+		]
 	},
 	{
 		"Id": "280",
@@ -3007,7 +3053,9 @@
 		"ImageName": "280.png",
 		"Description": "Unlocked a new challenge.",
 		"UnlockMethod": " Defeat ??? or The Lamb. Possession of The Polaroid / The Negative is required, barring getting to Dark Room through a Sacrifice Room. Defeat Mega Satan",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"334"
+		]
 	},
 	{
 		"Id": "281",
@@ -3017,6 +3065,7 @@
 		"Description": "Unlocked a new challenge.",
 		"UnlockMethod": "Defeat Isaac 5 times",
 		"RequiredForAchievements": [
+			"335",
 			"68"
 		]
 	},
@@ -3369,7 +3418,26 @@
 		"ImageName": "320.png",
 		"Description": "Unlocked a new area.",
 		"UnlockMethod": "Defeat Hush",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"290",
+			"284",
+			"293",
+			"292",
+			"294",
+			"295",
+			"349",
+			"283",
+			"357",
+			"287",
+			"401",
+			"338",
+			"285",
+			"286",
+			"288",
+			"291",
+			"289",
+			"282"
+		]
 	},
 	{
 		"Id": "321",
@@ -3378,7 +3446,10 @@
 		"ImageName": "321.png",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete a Victory Lap, defeating The Lamb",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"386",
+			"360"
+		]
 	},
 	{
 		"Id": "322",
@@ -3387,7 +3458,9 @@
 		"ImageName": "322.png",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Get a 3-win streak",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"323"
+		]
 	},
 	{
 		"Id": "323",
@@ -3549,7 +3622,20 @@
 		"ImageName": "340.png",
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "Defeat Mega Satan",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"318",
+			"319",
+			"315",
+			"311",
+			"312",
+			"313",
+			"310",
+			"314",
+			"295",
+			"309",
+			"316",
+			"317"
+		]
 	},
 	{
 		"Id": "341",
@@ -3558,7 +3644,23 @@
 		"ImageName": "341.png",
 		"Description": "New mode unlocked!",
 		"UnlockMethod": "Donate 500 Coins to the Greed Donation Machine",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"309",
+			"296",
+			"305",
+			"306",
+			"298",
+			"301",
+			"307",
+			"304",
+			"297",
+			"302",
+			"303",
+			"400",
+			"249",
+			"299",
+			"300"
+		]
 	},
 	{
 		"Id": "342",
@@ -3567,7 +3669,9 @@
 		"ImageName": "342.png",
 		"Description": "Alt stage to the basement.",
 		"UnlockMethod": "Defeat Mom's Heart 11 times",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"343"
+		]
 	},
 	{
 		"Id": "343",
@@ -3576,7 +3680,9 @@
 		"ImageName": "343.png",
 		"Description": "Alt stage to the caves.",
 		"UnlockMethod": "Defeat It Lives! 16 times",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"344"
+		]
 	},
 	{
 		"Id": "344",
@@ -3585,7 +3691,9 @@
 		"ImageName": "344.png",
 		"Description": "Alt stage to the depths.",
 		"UnlockMethod": "Defeat It Lives! 21 times",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"345"
+		]
 	},
 	{
 		"Id": "345",
@@ -3603,7 +3711,10 @@
 		"ImageName": "346.png",
 		"Description": "Unlocked new bosses!",
 		"UnlockMethod": "Defeat ??? as 3 different Characters",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"347",
+			"356"
+		]
 	},
 	{
 		"Id": "347",
@@ -3622,7 +3733,10 @@
 		"Description": "Unlocked new enemies!",
 		"UnlockMethod": "Defeat The Lamb",
 		"RequiredForAchievements": [
-			"155"
+			"155",
+			"321",
+			"390",
+			"391"
 		]
 	},
 	{
@@ -3722,7 +3836,9 @@
 		"ImageName": "359.png",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Sleep in a bed",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"385"
+		]
 	},
 	{
 		"Id": "360",
@@ -3731,7 +3847,9 @@
 		"ImageName": "360.png",
 		"Description": "Unlocked a new item.",
 		"UnlockMethod": "Complete 2 Victory Laps and start a 3rd",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"337"
+		]
 	},
 	{
 		"Id": "361",
@@ -4003,7 +4121,25 @@
 		"ImageName": "390.png",
 		"Description": "Unlocked a new character.",
 		"UnlockMethod": "It's complicated",
-		"RequiredForAchievements": null
+		"RequiredForAchievements": [
+			"316",
+			"317",
+			"395",
+			"401",
+			"399",
+			"396",
+			"403",
+			"392",
+			"295",
+			"393",
+			"397",
+			"402",
+			"309",
+			"315",
+			"394",
+			"400",
+			"398"
+		]
 	},
 	{
 		"Id": "391",

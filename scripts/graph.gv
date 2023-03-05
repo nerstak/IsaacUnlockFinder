@@ -1,13 +1,25 @@
 digraph G {
-// All nodes of same rank are at the same row (easier for visualization)
-    {rank = "0"; start;}
-subgraph cluster_1 {
+newrank = true;
+
+// minlen=4;
+
+// weight=0.5;
+ // nodesep=2.0;
+    ranksep = 2.0;
+edge [style = "dotted"];
+
+
+start [shape = Mdiamond];
+
+{rank = source; start; }
+
+subgraph cluster_firstmomvictory {
 node [style = filled];
 4;
 5;
 6;
 166;
-265;266;269;272;274
+265; 266; 269; 272; 274; 278;
 label = "First victory against Mom";
 color = blue
 }
@@ -16,9 +28,9 @@ color = blue
  //    SECTION: CHALLENGES
  //
 
-subgraph cluster_16 {
+subgraph cluster_challenges {
 node [style = filled];
-158; 163; 161; 60;165; 62; 164; 63; 89; 90; 91; 92; 93; 94; 120; 95; 96; 97; 98; 99; 100; 101; 102; 103; 104; 224; 225;226;227;228;229;230;231;232;233;273;
+158; 163; 161; 60; 165; 62; 164; 63; 89; 90; 91; 92; 93; 94; 120; 95; 96; 97; 98; 99; 100; 101; 102; 103; 104; 224; 225; 226; 227; 228; 229; 230; 231; 232; 233; 273;331;332;333;334;335;
 label = "Challenges";
 color = blue
 }
@@ -122,49 +134,69 @@ color = blue
   start -> 104;
 
 // "Gold Heart"
-  // Complete 'XXXXXXXXL', Challenge #21
+ // Complete 'XXXXXXXXL', Challenge #21
   265 -> 224;
 
 // "Get out of Jail Free Card"
-  // Complete 'SPEED!', Challenge #22
+ // Complete 'SPEED!', Challenge #22
   266 -> 225;
 
 // "Glod Bomb"
-  // Complete 'Blue Bomber', Challenge #23
+ // Complete 'Blue Bomber', Challenge #23
 267 -> 226;
 
 // "2 new pills"
-// Complete 'PAY TO PLAY', Challenge #24
+ // Complete 'PAY TO PLAY', Challenge #24
 268 -> 227;
 
 // "2 new pills"
-// Complete 'Have a Heart', Challenge #25
+ // Complete 'Have a Heart', Challenge #25
 269 -> 228;
 
 // "Poker Chip"
-// Complete 'I RULE!', Challenge #26
+ // Complete 'I RULE!', Challenge #26
 270 -> 229;
 
 // "Stud Finder"
-// Complete 'BRAINS!', Challenge #27
+ // Complete 'BRAINS!', Challenge #27
 271 -> 230;
 
 // "Onan's Streak"
-// Unlock Judas & It Lives
+ // Unlock Judas & It Lives
 3 -> 273;
 34 -> 273;
 
 // "D8"
-// Complete 'PRIDE DAY!', Challenge #28
+ // Complete 'PRIDE DAY!', Challenge #28
 272 -> 231;
 
 // "Kidney Stone"
-// Complete 'Onan's Streak'
+ // Complete 'Onan's Streak'
 273 -> 232;
 
 // "The Guardian"
-// Complete 'The Guardian', Challenge #30
+ // Complete 'The Guardian', Challenge #30
 274 -> 233;
+
+// "Laz Bleeds More!"
+// Complete 'Backasswards', Challenge #31
+277 -> 331;
+
+// "Maggy Now Holds a Pill!"
+// Complete 'Aprils Fool', Challenge #32
+278 -> 332;
+
+// "Charged Key"
+// Complete 'Pokey Mans', Challenge #33
+279 -> 333;
+
+// "Samson Feels Healthy!"
+// Complete 'Ultra Hard', Challenge #34
+280 -> 334;
+
+// "Greed's Gullet"
+// Complete 'Pong', Challenge #35
+281 -> 335;
 
 //
  //    SECTION: START
@@ -194,17 +226,6 @@ color = blue
  // Use XIII - Death 4 times
   start -> 36;
 
-// "Dad's Key"
- // Collect both Key Pieces from the Angels in one run
-  start -> 58;
-
-// "The Family Man"
- // Collect both Key Pieces from the Angels in one run
-  start -> 165;
-
-// "Filigree Feather"
- // Collect both Key Pieces from the Angels in one run
-  start -> 370;
 
 // "Lucky Toe"
  // Blow up 20 Shopkeepers
@@ -221,6 +242,10 @@ color = blue
 // "A Forgotten Horseman"
  // Take 10 Angel Room items
   start -> 66;
+
+// "Trisagion"
+  // Take 25 Angel Rooms items
+  66 -> 380;
 
 // "The Left Hand"
  // Defeat Ultra Pride
@@ -247,11 +272,123 @@ color = blue
  // Become Beelzebub
   start -> 178;
 
+// "Angry Fly"
+ // Become Beelzebub
+  start -> 352;
+
 // "Lil Spewer"
  // Die of your own projectile explosion (not a bomb)
   start -> 384;
 
-subgraph cluster_2 {
+// "The Marathon"
+  // Get a 5-win streak in Daily Challenges (consecutives days or not)
+  start -> 336;
+
+
+// "Dedication"
+  // Participate in 31 Daily Challenges (consecutively or not)
+  start -> 325;
+
+// "Mr. Resetter!"
+  // Reset 7 times in a row
+  start -> 328;
+
+// "U Broke It!"
+  // Obtain 50 items in a run
+  start -> 330;
+
+// "Black Hole"
+  // Defeat 20 Portals
+  // Note: portals only appears in the void since Rep
+  320 -> 349;
+
+// "Bozo"
+  // Destroy 5 rainbow poops
+  start -> 353;
+
+// "Broken Modem"
+  // Complete 7 Daily Challenges
+  start -> 354;
+
+// "Buddy in a Box"
+  // Pick up 5 familiars in a run
+  start -> 355;
+
+// "Hairpin"
+  // Recharge using Lil' Batteries 20 times
+  start -> 358;
+
+// "Wooden Cross"
+  // Sleep in a bed
+  start -> 359;
+
+// "Blanket"
+  // Sleep in 10 beds
+  359 -> 385;
+
+// "Huge Growth"
+  // Increase in size 5 times in a run
+  start -> 361;
+
+// "Ancient Recall"
+  // Use Cards & Runes 20 times
+  start -> 362;
+
+// "Coupon"
+  // Purchase anything from Shops/Devil Rooms/Black Markets 50 times
+  start -> 364;
+
+// "Moving Box"
+  // Use Pandora's Box in the Dark Room
+  119 -> 366;
+
+// "Jumper Cables"
+  // Pick 2 battery items in a single run
+  start -> 367;
+
+// "Technology Zero"
+  // Pick 2 tech items
+  start -> 369;
+
+// "Mr. ME!"
+  // Open 20 Locked Chests
+  start -> 371;
+
+// "Door Stop"
+  // Blow up doors/secret room walls 50 times
+  start -> 375;
+
+// "Haemolacria"
+  // Pick Blood Clot 10 times
+  start -> 377;
+
+// "Lachryphagy"
+  // Pick 10 "Tears up" items or pills in one run
+  start -> 378;
+
+// "Schoolbag"
+  // Enter every shop from Chapter 1 to 3 in one run
+  start -> 379;
+
+// "Extension Cord"
+  // Have The Battery, 9 Volt, Car Battery in Isaac's collection
+  start -> 381;
+
+// "Mystery Egg"
+  // Spawn 3 charmed enemy in the same room
+  start -> 387;
+
+// "Rotten Penny"
+  // Have 20 Blue Flies at the same time
+  start -> 388;
+
+// "Baby-Bender"
+  // Use The Magicien or Telepathy for Dummies while already having homing tears
+  start -> 389;
+
+
+
+subgraph cluster_shopmachine {
 node [style = filled];
 134;
 151;
@@ -305,15 +442,19 @@ color = blue
 
 // "Stop Watch"
  // Donate 999 coins to the Donation Machine
-  59 -> 138
+  59 -> 138;
+
+// "Era Walk"
+  // Add Broken & Stop Watch to the collection
+  138 -> 363;
 
 //
  //    SECTION: GREED DONATION MACHINE
  //
 
-subgraph cluster_20 {
+subgraph cluster_greedmachine {
 node [style = filled];
-242; 243; 244; 245; 246; 247; 248; 249; 250; 275; 251;
+242; 243; 244; 245; 246; 247; 248; 341; 249; 250; 275; 251;
 label = "Greed Donation Machine";
 color = blue
 }
@@ -346,9 +487,13 @@ color = blue
  // Donate 439 Coins to the Greed Donation Machine
   247 -> 248;
 
+// "Greedier!"
+ // Donate 500 Coins to the Greed Donation Machine
+  248 -> 341;
+
 // "Store Key"
  // Donate 666 Coins to the Greed Donation Machine
-  248 -> 249;
+  341 -> 249;
 
 // "Lost holds Holy Mantle"
  // Donate 879 Coins to the Greed Donation Machine
@@ -367,9 +512,9 @@ color = blue
  //    SECTION: ROCKS
  //
 
-subgraph cluster_23 {
+subgraph cluster_rocks {
 node [style = filled];
-28;12;85;267;
+28; 12; 85; 267;350;
 label = "Rocks";
 color = blue
 }
@@ -386,10 +531,14 @@ color = blue
  // Destroy 100 rocks
   start -> 85;
 
+// "Mystery Gift"
+  // Destroy 500 rocks
+  85 -> 350;
+
 // "Blue Bomber"
-  // Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times
+ // Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times
   28 -> 267;
-34 ->267;
+34 -> 267;
 160 -> 267;
 
 //
@@ -400,9 +549,18 @@ color = blue
  // Beat Chapter 1
   start -> 13;
 
+
+// "Living on the edge"
+// Complete a Chapter (but Basement) with only half a Heart
+13 -> 329;
+
 // "Basement Boy"
  // Beat Chapter 1 without taking any damage
-  start -> 37
+  start -> 37;
+
+// "Sprinkler"
+ // Beat Chapter 1 without taking any damage
+  start -> 351;
 
 // "Lil' Chubby"
  // Beat Chapter 2
@@ -410,11 +568,19 @@ color = blue
 
 // "Spelunker Boy"
  // Beat Chapter 2 without taking any damage
-  13 -> 37;
+  13 -> 38;
+
+// "Telekinesis"
+  // Beat Chapter 2 without taking any damage
+  13 -> 365;
 
 // "Dark Boy"
  // Beat Chapter 3 without taking any damage
-  14 -> 38;
+  14 -> 39;
+
+// "Leprosy"
+ // Beat Chapter 3 without taking any damage
+  14 -> 368;
 
 // "Something From The Future"
  // Beat Basement 40 times
@@ -438,9 +604,32 @@ color = blue
 6 -> 40;
 166 -> 40;
 
+// "Pop!"
+ // Beat Chapter 4 without taking any damage
+  4 -> 374;
+5 -> 374;
+6 -> 374;
+166 -> 374;
+
 // "Angels"
  // Beat Chapter 6
   348 -> 155;
+
+// "Dad's Key"
+ // Collect both Key Pieces from the Angels in one run
+  155 -> 58;
+
+// "The Family Man"
+ // Collect both Key Pieces from the Angels in one run
+  155 -> 165;
+
+// "Filigree Feather"
+ // Collect both Key Pieces from the Angels in one run
+  155 -> 370;
+
+// "Angelic Prism"
+  // Defeat an Angel 10 times
+  155 -> 373;
 
 // "Dead Boy"
  // Beat Chapter 6 without taking any damage
@@ -449,8 +638,9 @@ color = blue
 6 -> 83;
 166 -> 83;
 
+
 // "Blinding Baby"
-// Use Blank Card while holding 'XIX - The Sun'
+ // Use Blank Card while holding 'XIX - The Sun'
 121 -> 258;
 
 //
@@ -476,7 +666,7 @@ color = blue
 6 -> 15;
 166 -> 15;
 
-subgraph cluster_18 {
+subgraph cluster_negative {
 node [style = filled];
 78;
 label = "The Negative";
@@ -487,7 +677,7 @@ color = blue
  // Defeat Satan 5 times
   3 -> 78;
 
-subgraph cluster_17 {
+subgraph cluster_polaroid {
 node [style = filled];
 57;
 label = "The Polaroid";
@@ -499,16 +689,18 @@ color = blue
  // Defeat Isaac 5 times
   81 -> 57;
 
-// "BRAINS!"
- // Defeat Isaac 5 times
-  81 -> 271;
 
-subgraph cluster_15 {
+subgraph cluster_isaacboss {
 node [style = filled];
 271; 281; 68;
 label = "Isaac (Boss)";
 color = blue
 }
+
+// "BRAINS!"
+ // Defeat Isaac 5 times
+  81 -> 271;
+
 // "PONG"
  // Defeat Isaac 5 times
   81 -> 281;
@@ -534,9 +726,34 @@ color = blue
 6 -> 88;
 166 -> 88;
 
-// "The gate is open"
+// "The gate is open!"
  // Defeat the Lamb
   start -> 348;
+
+// "Once More with Feeling!"
+  // Complete a Victory Lap (defeating The Lamb)
+  348 -> 321;
+
+// "Marbles"
+  // Use Gulp! 5 times in one run
+  321 -> 386;
+
+// "Butter!"
+  // Complete 2 Victory Laps and start a 3rd
+  321 -> 360;
+
+// "RERUN"
+  // Complete 3 Victory Laps and start a 4th
+  360 -> 337;
+
+// "ZIP!"
+  // Defeat The Lamb under 20min
+  start -> 326;
+
+// "It's the Key"
+  // Defeat The Lamb without taking Hearts, Coins or Bombs
+  start -> 327;
+
 
 // "Mega"
  // Defeat Mega Satan with every characters (Tainted ones excluded)
@@ -545,6 +762,42 @@ color = blue
 // "I RULE!"
  // Defeat Mega Satan
  155 -> 270;
+
+// "Backasswards"
+ // Defeat Mega Satan
+ 155 -> 277;
+
+// "Apollyon"
+ // Defeat Mega Satan
+ 155 -> 340;
+
+// "Ultra Hard"
+ // Defeat Mega Satan
+ 155 -> 280;
+
+// "New Area"
+ // Defeat Hush
+ 234 -> 320;
+
+// "Delirious"
+ // Defeat Delirium
+ 320 -> 338;
+
+// "Lil Delirium"
+ // Defeat Delirium for the 1st time
+ 320 -> 357;
+
+// "Something wicked this way comes!"
+ // Defeat ??? as 3 different characters
+ 57 -> 346;
+
+// "Something wicked this way comes+!"
+ // Defeat ??? as 6 different characters
+ 346 -> 347;
+
+// "Fast Bombs"
+ // Defeat Little Horn 20 times
+ 346 -> 356;
 
 
 
@@ -569,25 +822,28 @@ color = blue
   start -> 166;
 
 // "XXXXXXXXL"
-  // Defeat Mom
+ // Defeat Mom
   start -> 265;
 
 // "SPEED!"
-  // Defeat Mom
+ // Defeat Mom
   start -> 266;
 
 // "Have a Heart"
-  // Defeat Mom
+ // Defeat Mom
   start -> 269;
 
 // "PRIDE DAY!"
-  // Defeat Mom
+ // Defeat Mom
   start -> 272;
 
 // "The Guardian"
-  // Defeat Mom
+ // Defeat Mom
   start -> 274;
 
+// "Aprils fool"
+ // Defeat Mom
+  start -> 278;
 
 // "A Bandage"
  // Pick 4 Ball of Bandages
@@ -624,9 +880,9 @@ color = blue
  //   SECTION: MOM'S HEART
  //
 
-subgraph cluster_3 {
+subgraph cluster_momsheart {
 node [style = filled];
-81; 150; 8; 159; 139; 33; 140; 141; 10; 11; 162; 32; 234; 34; 160;
+81; 150; 8; 159; 139; 33; 140; 141; 10; 11; 162; 32; 234; 34; 160; 279; 342;
 label = "Mom's Heart";
 color = blue
 }
@@ -638,9 +894,14 @@ color = blue
 6 -> 81;
 166 -> 81;
 
+
 // "Rubber Cement"
  // Defeat Mom's Heart 2 times
   81 -> 150;
+
+// "Flat Stone"
+  // Pick Rubber Cement 5 times
+  150 -> 382;
 
 // "A Noose"
  // Defeat Mom's Heart 3 times
@@ -699,6 +960,41 @@ color = blue
   32 -> 160;
 234 -> 160;
 
+// "Pokeys Mans"
+ // Defeat Mom's Heart 11 times
+32 -> 279;
+234 -> 279;
+
+// "Burning Basement"
+// Defeat Mom's Heart 11 times
+32 -> 342;
+234 -> 342;
+
+//
+ //   SECTION: IT LIVES
+ //
+
+subgraph cluster_itlives {
+node [style = filled];
+343;344;345;
+label = "It Lives!";
+color = blue
+}
+
+// "Flooded Caves"
+// Defeat It Lives! 16 times
+160 -> 343;
+279 -> 343;
+342 -> 343;
+
+// "Dank Depth"
+// Defeat It Lives 21 times
+343 -> 344;
+
+// "Scarred Womb"
+// Defeat It Lives! 30 times
+344 -> 345;
+
 
 //
  //   SECTION: DEVIL ROOMS
@@ -733,19 +1029,16 @@ color = blue
  //   SECTION: ISAAC
  //
 
-subgraph cluster_4 {
+subgraph cluster_isaac {
 node [style = filled];
-43; 49; 70; 149; 106; 167; 179; 192; 205;253;
+43; 49; 70; 149; 106; 167; 179; 192; 205; 253; 282; 296;
 label = "Isaac";
 color = blue
 }
 
 // "Mom's Knife"
  // Defeat Satan as Isaac
-  4 -> 43;
-5 -> 43;
-6 -> 43;
-166 -> 43;
+  81 -> 43;
 
 // "The D20"
  // Defeat ??? as Isaac
@@ -777,6 +1070,7 @@ color = blue
  // Defeat Hush as Isaac
   234 -> 179;
 
+
 // "Lil' Chest"
  // Defeat Ultra Greed as Isaac
   start -> 192;
@@ -786,16 +1080,24 @@ color = blue
   155 -> 205;
 
 // "Buddy Baby"
-// Earn all Hard mode Completion Marks as Isaac
+ // Earn all Hard mode Completion Marks as Isaac
 start -> 253;
+
+// "D Infinity"
+ // Defeat Delirium as Isaac
+  320 -> 282;
+
+// "D1"
+ // Defeat Ultra Greedier as Isaac
+  341 -> 296;
 
 //
  //    SECTION: AZAZEL
  //
 
-subgraph cluster_5 {
+subgraph cluster_azazel {
 node [style = filled];
-79; 9; 47; 126; 127; 128; 173; 186; 199; 212;259;
+79; 9; 47; 126; 127; 128; 173; 186; 199; 212; 259; 290; 304;
 label = "Azazel";
 color = blue
 }
@@ -815,10 +1117,7 @@ color = blue
 // "Daemon's Tail"
  // Defeat Satan as Azazel
   79 -> 127;
-4 -> 127;
-5 -> 127;
-6 -> 127;
-166 -> 127;
+81 -> 127;
 
 // "Abaddon"
  // Defeat ??? as Azazel
@@ -853,16 +1152,27 @@ color = blue
 155 -> 212;
 
 // "Hive Baby"
-// Earn all Hard mode Completion Marks as Azazel
+ // Earn all Hard mode Completion Marks as Azazel
 79 -> 259;
+
+
+// "Dark Prince's Crown"
+ // Defeat Delirium as Azazel
+  79 -> 290;
+320 -> 290;
+
+// "Bat Wing"
+ // Defeat Ultra Greedier as Azazel
+  79 -> 304;
+341 -> 304;
 
 //
  //   SECTION: MAGDALENE
  //
 
-subgraph cluster_6 {
+subgraph cluster_magdalene {
 node [style = filled];
-1; 20; 45; 50; 71; 109; 168; 180; 193; 206;254;
+1; 20; 45; 50; 71; 109; 168; 180; 193; 206; 254; 283; 297;
 label = "Magdalene";
 color = blue
 }
@@ -879,10 +1189,7 @@ color = blue
 // "Guardian Angel"
  // Defeat Satan as Magdalene
   1 -> 45;
-4 -> 45;
-5 -> 45;
-6 -> 45;
-166 -> 45;
+81 -> 45;
 
 // "Celtic Cross"
  // Defeat ??? as Magdalene
@@ -924,16 +1231,26 @@ color = blue
 155 -> 206;
 
 // "Colorful Baby"
-// Earn all Hard mode Completion Marks as Magdalene
+ // Earn all Hard mode Completion Marks as Magdalene
 32 -> 254;
+
+// "Eucharist"
+ // Defeat Delirium as Magdalene
+  1 -> 283;
+320 -> 283;
+
+// "Glyph of Balance"
+ // Defeat Ultra Greedier as Magdalene
+  1 -> 297;
+341 -> 297;
 
 //
  //   SECTION: CAIN
  //
 
-subgraph cluster_7 {
+subgraph cluster_cain {
 node [style = filled];
-2; 21; 46; 51; 75; 110; 171; 181; 194; 207;268;261;
+2; 21; 46; 51; 75; 110; 171; 181; 194; 207; 268; 261; 284; 298;
 label = "Cain";
 color = blue
 }
@@ -948,17 +1265,14 @@ color = blue
 81 -> 21;
 
 // "PAY TO PLAY"
-// Defeat Isaac as Cain
+ // Defeat Isaac as Cain
 2 -> 268;
 81 -> 268;
 
 // "A Bag of Bombs"
  // Defeat Satan as Cain
   2 -> 46;
-4 -> 46;
-5 -> 46;
-6 -> 46;
-166 -> 46;
+81 -> 46;
 
 // "Abel"
  // Defeat The Lamb as Cain
@@ -1000,26 +1314,33 @@ color = blue
 155 -> 207;
 
 // "Picky Baby"
-// Earn all Hard mode Completion Marks as Cain
+ // Earn all Hard mode Completion Marks as Cain
 2 -> 261;
+
+// "Silver Dollar"
+ // Defeat Delirium as Cain
+  2 -> 284;
+320 -> 284;
+
+// "Sack of Sacks"
+ // Defeat Ultra Greedier as Cain
+  2 -> 298;
+341 -> 298;
 
 //
  //   SECTION: JUDAS
  //
 
-subgraph cluster_8 {
+subgraph cluster_judas {
 node [style = filled];
-3; 52; 72; 77.1; 107; 108; 170; 182; 195; 208; 263;
+3; 52; 72; 77.1; 107; 108; 170; 182; 195; 208; 263; 285; 299;
 label = "Judas";
 color = blue
 }
 
 // "Judas"
  // Defeat Satan
-  4 -> 3;
-5 -> 3;
-6 -> 3;
-166 -> 3;
+  81 -> 3;
 
 // "Curved Horn"
  // Defeat The Lamb as Judas
@@ -1065,17 +1386,26 @@ color = blue
 155 -> 208;
 
 // "Belial Baby"
-// Earn all Hard mode Completion Marks as Judas
+ // Earn all Hard mode Completion Marks as Judas
 3 -> 263;
 
+// "Shade"
+ // Defeat Delirium as Judas
+  3 -> 285;
+320 -> 285;
+
+// "Eye of Belial"
+ // Defeat Ultra Greedier as Judas
+  3 -> 299;
+341 -> 299;
 
 //
  //   SECTION: BLUE BABY ???
  //
 
-subgraph cluster_9 {
+subgraph cluster_bluebaby {
 node [style = filled];
-29; 32; 48; 73; 113; 114; 174; 183; 196; 209; 252;
+29; 32; 48; 73; 113; 114; 174; 183; 196; 209; 252; 286; 300;
 label = "???";
 color = blue
 }
@@ -1110,7 +1440,6 @@ color = blue
 
 // "Fate's Reward"
  // Defeat Hush as ???
-  32 -> 183;
 234 -> 183;
 
 // "Cracked Dice"
@@ -1123,16 +1452,26 @@ color = blue
 155 -> 209;
 
 // "Hive Baby"
-// Earn all Hard mode Completion Marks as ???
+ // Earn all Hard mode Completion Marks as ???
 32 -> 252;
+
+// "King Baby"
+ // Defeat Delirium as ???
+  32 -> 286;
+320 -> 286;
+
+// "Meconium"
+ // Defeat Ultra Greedier as ???
+  32 -> 300;
+341 -> 300;
 
 //
  //   SECTION: EVE
  //
 
-subgraph cluster_10 {
+subgraph cluster_eve {
 node [style = filled];
-42; 44; 53; 76; 157; 111; 112; 169; 184; 197; 210;255;
+42; 44; 53; 76; 157; 111; 112; 169; 184; 197; 210; 255; 288; 302;
 label = "Eve";
 color = blue
 }
@@ -1143,11 +1482,8 @@ color = blue
 
 // "The Razor"
  // Defeat Satan as Eve
-  42 -> 44
-4 -> 44;
-5 -> 44;
-6 -> 44;
-166 -> 44;
+  42 -> 44;
+81 -> 44;
 
 // "Sacrificial Dagger"
  // Defeat ??? as Eve
@@ -1159,13 +1495,10 @@ color = blue
   42 -> 76;
 81 -> 76;
 
-// "Darkness Fall"
+// "Darkness Falls"
  // Defeat Satan and ??? as Eve
   42 -> 157
-4 -> 157;
-5 -> 157;
-6 -> 157;
-166 -> 157;
+81 -> 157;
 57 -> 157;
 
 // "Black Lipstick"
@@ -1203,17 +1536,26 @@ color = blue
 155 -> 210;
 
 // "Whore Baby"
-// Earn all Hard mode Completion Marks as Eve
+ // Earn all Hard mode Completion Marks as Eve
 42 -> 255;
 
+// "Dull Razor"
+ // Defeat Delirium as Eve
+  42 -> 288;
+320 -> 288;
+
+// "Crow Heart"
+ // Defeat Ultra Greedier as Eve
+  42 -> 302;
+341 -> 302;
 
 //
  //   SECTION: SAMSON
  //
 
-subgraph cluster_11 {
+subgraph cluster_samson {
 node [style = filled];
-67; 54; 55; 56; 74; 115; 177; 185; 198; 211;262;
+67; 54; 55; 56; 74; 115; 177; 185; 198; 211; 262; 287; 301;
 label = "Samson";
 color = blue
 }
@@ -1234,10 +1576,7 @@ color = blue
 
 // "Blood Rights"
  // Defeat Satan as Samson
-  4 -> 56;
-5 -> 56;
-6 -> 56;
-166 -> 56;
+  81 -> 56;
 67 -> 56;
 
 // "Samson's Lock"
@@ -1275,16 +1614,26 @@ color = blue
 155 -> 211;
 
 // "Revenge Baby"
-// Earn all Hard mode Completion Marks as Samson
+ // Earn all Hard mode Completion Marks as Samson
 67 -> 262;
+
+// "Bloody Crown"
+ // Defeat Delirium as Samson
+  67 -> 287;
+320 -> 287;
+
+// "Stem Cell"
+ // Defeat Ultra Greedier as Samson
+  67 -> 301;
+341 -> 301;
 
 //
  //   SECTION: LAZARUS
  //
 
-subgraph cluster_12 {
+subgraph cluster_lazarus {
 node [style = filled];
-80; 105; 116; 117; 118; 119; 172; 187; 200; 213; 257;
+80; 105; 116; 117; 118; 119; 172; 187; 200; 213; 257; 291; 305;
 label = "Lazarus";
 color = blue
 }
@@ -1309,10 +1658,7 @@ color = blue
 // "Broken Ankh"
  // Defeat Satan as Lazarus
     80 -> 117;
-4 -> 117;
-5 -> 117;
-6 -> 117;
-166 -> 117;
+81 -> 117;
 
 // "Store Credit"
  // Defeat ??? as Lazarus
@@ -1346,16 +1692,26 @@ color = blue
 155 -> 213;
 
 // "Dripping Baby"
-// Earn all Hard mode Completion Marks as Lazarus
-32 -> 257;
+ // Earn all Hard mode Completion Marks as Lazarus
+80 -> 257;
+
+// "Compound Fracture"
+ // Defeat Delirium as Lazarus
+  80 -> 291;
+320 -> 291;
+
+// "Plan C"
+ // Defeat Ultra Greedier as Lazarus
+  80 -> 305;
+341 -> 305;
 
 //
  //   SECTION: THE LOST
  //
 
-subgraph cluster_13 {
+subgraph cluster_thelost {
 node [style = filled];
-82; 129; 130; 131; 132; 133; 156; 175; 189; 202; 215;
+82; 129; 130; 131; 132; 133; 156; 175; 189; 202; 215; 293; 307;
 label = "The Lost";
 color = blue
 }
@@ -1372,10 +1728,7 @@ color = blue
 // "The Mind"
  // Defeat Satan as The Lost
   82 -> 130;
-4 -> 130;
-5 -> 130;
-6 -> 130;
-166 -> 130;
+81 -> 130;
 
 // "The Body"
  // Defeat ??? as The Lost
@@ -1420,14 +1773,24 @@ color = blue
   82 -> 215;
 155 -> 215;
 
+// "Holy Card"
+ // Defeat Delirium as The Lost
+  82 -> 293;
+320 -> 293;
+
+// "Dad's Lost Coin"
+ // Defeat Ultra Greedier as The Lost
+  82 -> 307;
+341 -> 307;
+
 
 //
  //   SECTION: EDEN
  //
 
-subgraph cluster_18 {
+subgraph cluster_eden {
 node [style = filled];
-121; 122; 123; 124; 125; 176; 188; 201; 214;256;
+121; 122; 123; 124;125; 176; 188; 201; 214; 256; 289; 303;
 label = "Eden";
 color = blue
 }
@@ -1472,17 +1835,27 @@ color = blue
 155 -> 214;
 
 // "Cracked Baby"
-// Earn all Hard mode Completion Marks as Eden
-32 -> 256;
+ // Earn all Hard mode Completion Marks as Eden
+81 -> 256;
+
+// "Eden's Soul"
+ // Defeat Delirium as Eden
+  81 -> 289;
+320 -> 289;
+
+// "Metronome"
+ // Defeat Ultra Greedier as Eden
+  81 -> 303;
+341 -> 303;
 
 
 //
  //    SECTION: LILITH
  //
 
-subgraph cluster_19 {
+subgraph cluster_lilith {
 node [style = filled];
-190; 203; 216; 218; 219; 220; 221; 222; 223;260;
+190; 203; 216; 218; 219; 220; 221; 222; 223; 260; 292; 306;
 label = "Lilith";
 color = blue
 }
@@ -1513,10 +1886,7 @@ color = blue
 // "Serpent's Kiss"
  // Defeat Satan as Lilith
     199 -> 220;
-4 -> 220;
-5 -> 220;
-6 -> 220;
-166 -> 220;
+81 -> 220;
 
 // "Succubus"
  // Defeat The Lamb as Lilith
@@ -1539,17 +1909,27 @@ color = blue
 166 -> 223;
 
 // "Dark Baby"
-// Earn all Hard mode Completion Marks as Lilith
+ // Earn all Hard mode Completion Marks as Lilith
 199 -> 260;
+
+// "Euthanasia"
+ // Defeat Delirium as Lilith
+  199 -> 292;
+320 -> 292;
+
+// "Duality"
+ // Defeat Ultra Greedier as Lilith
+  199 -> 306;
+341 -> 306;
 
 
 //
  //    SECTION: KEEPER
  //
 
-subgraph cluster_21 {
+subgraph cluster_keeper {
 node [style = filled];
-191; 204; 217;236;237;238;239;240;241;264;
+191; 204; 217; 236; 237; 238; 239; 240; 241; 264; 294; 308;
 label = "Keeper";
 color = blue
 }
@@ -1575,10 +1955,7 @@ color = blue
 // "Keeper holds Store Key"
  // Defeat Satan as Keeper
   251 -> 237;
-4 -> 237;
-5 -> 237;
-6 -> 237;
-166 -> 237;
+81 -> 237;
 
 // "Deep Pockets"
  // Defeat ??? as Keeper
@@ -1606,22 +1983,215 @@ color = blue
 166 -> 241;
 
 // "Sale Baby"
-// Earn all Hard mode Completion Marks as Keeper
+ // Earn all Hard mode Completion Marks as Keeper
 251 -> 264;
 
-//
-//   SECTION: UNLOCK REWARDS
-//
+// "Crooked Penny"
+ // Defeat Delirium as Keeper
+  251 -> 294;
+320 -> 294;
 
-subgraph cluster_24 {
+// "Eye of Greed"
+ // Defeat Ultra Greedier as Keeper
+  251 -> 308;
+
+
+//
+ //    SECTION: APOLLYON
+ //
+
+subgraph cluster_apollyon {
 node [style = filled];
-69;84;235;
+295; 309;310;311;312;313;314;315;316;317;318;319;
+label = "Apollyon"
+color = blue
+}
+
+// "Void"
+ // Defeat Delirium as Apollyon
+  340 -> 295;
+320 -> 295;
+
+// "Black Rune"
+ // Defeat Ultra Greedier as Apollyon
+  340 -> 309;
+341 -> 309;
+
+
+// "Hushy"
+ // Defeat Hush as Apollyon
+  340 -> 315;
+234 -> 315;
+
+// "Brown Nugget"
+ // Defeat Ultra Greed as Apollyon
+  340 -> 316;
+
+// "Mort Baby"
+ // Defeat Mega Satan as Apollyon
+  340 -> 317;
+
+// "Locust of Wrath"
+ // Defeat Isaac as Apollyon
+  340 -> 310;
+81 -> 310;
+
+// "Locust of Pestilence"
+ // Defeat Satan as Apollyon
+  340 -> 311;
+81 -> 311;
+
+// "Locust of Famine"
+ // Defeat ??? as Apollyon
+  340 -> 312;
+57 -> 312;
+
+// "Locust of Death"
+ // Defeat The Lamb as Apollyon
+  340 -> 313;
+
+// "Locust of Conquest"
+ // Complete Boss Rush as Apollyon
+  340 -> 314;
+4 -> 314;
+5 -> 314;
+6 -> 314;
+166 -> 314;
+
+// "Smelter"
+ // Defeat Mom's Heart/It lives on Hard Mode as Apollyon
+  340 -> 318;
+4 -> 318;
+5 -> 318;
+6 -> 318;
+166 -> 318;
+
+// "Apollyon Baby"
+ // Earn all Hard mode Completion Marks as Apollyon
+340 -> 319;
+
+
+//
+ //   SECTION: THE FORGOTTEN
+ //
+
+subgraph cluster_theforgotten {
+node [style = filled];
+390;392;393;394;395;396;397;398;399;400;401;402;403;
+label = "The Forgotten";
+color = blue
+}
+
+// "The Forgotten"
+// It's Complicated
+348 -> 390;
+
+// "Bone Heart"
+// It's Complicated
+348 -> 391;
+
+// "Marrow"
+ // Defeat Mom's Heart/It lives on Hard Mode as The Forgotten
+  390 -> 392;
+4 -> 392;
+5 -> 392;
+6 -> 392;
+166 -> 392;
+
+// "Void"
+ // Defeat Delirium as The Forgotten
+  390 -> 295;
+320 -> 295;
+
+// "Black Rune"
+ // Defeat Ultra Greedier as The Forgotten
+  390 -> 309;
+341 -> 309;
+
+
+// "Hushy"
+ // Defeat Hush as The Forgotten
+  390 -> 315;
+234 -> 315;
+
+// "Brown Nugget"
+ // Defeat Ultra Greed as The Forgotten
+  390 -> 316;
+
+// "Mort Baby"
+ // Defeat Mega Satan as The Forgotten
+  390 -> 317;
+
+// "Slipped Rib"
+ // Defeat Isaac as The Forgotten
+  390 -> 393;
+81 -> 393;
+
+// "Pointy Rib"
+ // Defeat Satan as The Forgotten
+  390 -> 394;
+81 -> 394;
+
+// "Jaw Bone"
+ // Defeat ??? as The Forgotten
+  390 -> 395;
+57 -> 395;
+
+// "Brittle Bones"
+ // Defeat The Lamb as The Forgotten
+  390 -> 396;
+
+// "Divorce Papers"
+ // Complete Boss Rush as The Forgotten
+  390 -> 397;
+4 -> 397;
+5 -> 397;
+6 -> 397;
+166 -> 397;
+
+// "Book of the Dead"
+ // Defeat Delirium as The Forgotten
+  390 -> 401;
+320 -> 401;
+
+// "Dad's Ring"
+ // Defeat Ultra Greedier as The Forgotten
+  390 -> 400;
+341 -> 400;
+
+
+// "Hallowed Ground"
+ // Defeat Hush as The Forgotten
+  390 -> 398;
+234 -> 398;
+
+// "Finger Bone"
+ // Defeat Ultra Greed as The Forgotten
+  390 -> 399;
+
+// "Bound Baby"
+ // Defeat Mega Satan as The Forgotten
+  390 -> 403;
+
+// "Bone Baby"
+ // Earn all Hard mode Completion Marks as The Forgotten
+390 -> 402;
+
+
+
+//
+ //   SECTION: UNLOCK REWARDS
+ //
+
+subgraph cluster_rewards {
+node [style = filled];
+69; 84; 235;322;323;324;
 label = "Rewards";
 color = blue
 }
 
 // "!Platinium God!"
-// Collect every non-DLC item, secret, ending (expect The Lost)
+ // Collect every non-DLC item, secret, ending (expect The Lost)
 start -> 69;
 
 // "The Real Platinium God"
@@ -1629,10 +2199,33 @@ start -> 69;
   69 -> 84;
 
 // "1001%"
-  // Unlock all secrets, endings, items in the game
-  84 -> 235;
+ // Unlock all secrets, endings, items in the game (actually, DLC only)
+ // This achievement is not dependent on the ones from the original game
+  start -> 235;
+
+// "Hat trick!"
+  // 3 Win streak
+  start -> 322;
+
+// "5 Nights at Mom's"
+  // 5 Win streak (with different characters)
+  322 -> 323;
+
+// "Sin Collector"
+  // Complete the Bestiary
+  start -> 324;
+
+// "1000000%"
+  // Collect every item, secrets, ending and bestiary
+  start -> 339;
 
 
-start [shape = Mdiamond];
+
 //  end [shape=Msquare];
+
+
+// All nodes of same rank are at the same row (easier for visualization)
+
+//   {rank = "same"; 134 142 69 81; }
+
 }
